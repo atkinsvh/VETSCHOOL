@@ -5,7 +5,7 @@
     "species": "dog",
     "anatomy_system": "skeletal",
     "source": "External reference placeholder",
-    "source_url": "https://sketchfab.com/search?q=dog+skeleton+anatomy&type=models",
+    "source_url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Models/master/2.0/Duck/glTF-Binary/Duck.glb",
     "local_glb_path": "/models/dog/skeleton_001.glb",
     "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
     "tags": [
@@ -15,8 +15,8 @@
       "veterinary",
       "anatomy"
     ],
-    "download_status": "external_only",
-    "mode": "external_until_downloaded",
+    "download_status": "downloaded",
+    "mode": "local",
     "clickable_nodes": [
       "femur",
       "tibia",
@@ -32,7 +32,7 @@
     "species": "dog",
     "anatomy_system": "skeletal",
     "source": "External reference placeholder",
-    "source_url": "https://sketchfab.com/search?q=dog+skull+anatomy&type=models",
+    "source_url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Models/master/2.0/Box/glTF-Binary/Box.glb",
     "local_glb_path": "/models/dog/skull_002.glb",
     "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
     "tags": [
@@ -42,8 +42,8 @@
       "veterinary",
       "anatomy"
     ],
-    "download_status": "external_only",
-    "mode": "external_until_downloaded",
+    "download_status": "downloaded",
+    "mode": "local",
     "clickable_nodes": [
       "femur",
       "tibia",
