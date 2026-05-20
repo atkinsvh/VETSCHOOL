@@ -1,0 +1,79 @@
+[
+  {
+    "id": "pig_skeleton_vetanatmunich_external",
+    "model_name": "Skeleton of a Pig",
+    "species": "pig",
+    "anatomy_system": "skeletal",
+    "source": "Sketchfab / vetanatMunich",
+    "source_url": "https://sketchfab.com/3d-models/skeleton-of-a-pig-044c0b61e2e24d04a08b9fbd8de3c163",
+    "local_glb_path": "/models/pig_skeleton.glb",
+    "license_usage_notes": "Download manually from Sketchfab if available to your account, then place as public/models/pig_skeleton.glb.",
+    "tags": [
+      "pig",
+      "skeleton",
+      "skeletal",
+      "vetanatmunich",
+      "sketchfab"
+    ],
+    "download_status": "external_only",
+    "mode": "external_until_downloaded",
+    "clickable_nodes": [
+      "femur",
+      "tibia",
+      "radius",
+      "ulna",
+      "skull",
+      "vertebrae"
+    ]
+  },
+  {
+    "id": "alpaka_skeleton_vetanatmunich_external",
+    "model_name": "Skeleton Alpaka",
+    "species": "alpaka",
+    "anatomy_system": "skeletal",
+    "source": "Sketchfab / vetanatMunich",
+    "source_url": "https://sketchfab.com/vetanatMunich/models",
+    "local_glb_path": "/models/alpaka_skeleton.glb",
+    "license_usage_notes": "Use the vetanatMunich model page to download if available, then place as public/models/alpaka_skeleton.glb.",
+    "tags": [
+      "alpaka",
+      "skeleton",
+      "skeletal",
+      "vetanatmunich",
+      "sketchfab"
+    ],
+    "download_status": "external_only",
+    "mode": "external_until_downloaded",
+    "clickable_nodes": [
+      "femur",
+      "tibia",
+      "radius",
+      "ulna",
+      "skull"
+    ]
+  },
+  {
+    "id": "placeholder_dog_skeleton",
+    "model_name": "Dog Skeleton Placeholder",
+    "species": "dog",
+    "anatomy_system": "skeletal",
+    "source": "Generated placeholder",
+    "source_url": null,
+    "local_glb_path": null,
+    "license_usage_notes": "",
+    "tags": [
+      "dog",
+      "skeleton",
+      "skeletal",
+      "placeholder"
+    ],
+    "download_status": "placeholder",
+    "mode": "placeholder",
+    "clickable_nodes": [
+      "femur",
+      "tibia",
+      "radius",
+      "ulna"
+    ]
+  }
+]

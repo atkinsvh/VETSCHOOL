@@ -19,3 +19,9 @@ In the actual project folder that means:
 ```txt
 public/models/pig_skeleton.glb
 ```
+
+vetanatMunich first-page registry targets live under:
+
+```txt
+public/models/vetanatmunich/
+```
