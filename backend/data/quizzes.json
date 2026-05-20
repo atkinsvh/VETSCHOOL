@@ -1,0 +1,49 @@
+{
+  "pig": {
+    "skeletal": [
+      {
+        "id": "pig_skeletal_1",
+        "type": "single-choice",
+        "question": "Which structure is the major upper hindlimb long bone?",
+        "choices": [
+          "Femur",
+          "Radius",
+          "Ulna",
+          "Mandible"
+        ],
+        "answer": "Femur",
+        "explanation": "The femur is the major long bone of the upper hindlimb."
+      },
+      {
+        "id": "pig_skeletal_2",
+        "type": "single-choice",
+        "question": "Which forelimb bone contributes to the olecranon lever?",
+        "choices": [
+          "Ulna",
+          "Tibia",
+          "Femur",
+          "Rib"
+        ],
+        "answer": "Ulna",
+        "explanation": "The ulna forms the olecranon, which gives leverage to elbow extension."
+      }
+    ]
+  },
+  "dog": {
+    "skeletal": [
+      {
+        "id": "dog_skeletal_1",
+        "type": "single-choice",
+        "question": "Which bone is the major upper hindlimb bone?",
+        "choices": [
+          "Radius",
+          "Femur",
+          "Ulna",
+          "Scapula"
+        ],
+        "answer": "Femur",
+        "explanation": "The femur is the upper hindlimb bone connecting the hip region to the stifle region."
+      }
+    ]
+  }
+}

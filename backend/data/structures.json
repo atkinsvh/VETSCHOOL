@@ -1,0 +1,149 @@
+{
+  "pig": {
+    "skeletal": {
+      "femur": {
+        "id": "femur",
+        "name": "Femur",
+        "system": "Skeletal",
+        "region": "Hind limb",
+        "function": "Major upper hindlimb long bone used in support and propulsion.",
+        "attachments": [
+          "Gluteal group",
+          "Quadriceps femoris",
+          "Adductor group"
+        ],
+        "clinical_notes": [
+          "Fracture relevance",
+          "Locomotion comparison",
+          "Meat science/anatomy relevance"
+        ],
+        "study_prompt": "Describe the femur as a support and leverage structure in the pig."
+      },
+      "tibia": {
+        "id": "tibia",
+        "name": "Tibia",
+        "system": "Skeletal",
+        "region": "Hind limb",
+        "function": "Major lower hindlimb support bone.",
+        "attachments": [
+          "Patellar ligament",
+          "Cranial tibial region",
+          "Hock-associated muscle groups"
+        ],
+        "clinical_notes": [
+          "Stifle-to-hock force transfer",
+          "Fracture relevance"
+        ],
+        "study_prompt": "Explain how the tibia transfers weight through the hindlimb."
+      },
+      "radius": {
+        "id": "radius",
+        "name": "Radius",
+        "system": "Skeletal",
+        "region": "Fore limb",
+        "function": "Forelimb long bone involved in support and stance.",
+        "attachments": [
+          "Forearm extensor/flexor groups",
+          "Elbow/carpal associated structures"
+        ],
+        "clinical_notes": [
+          "Forelimb alignment",
+          "Weight-bearing relevance"
+        ],
+        "study_prompt": "Compare forelimb support to hindlimb propulsion."
+      },
+      "ulna": {
+        "id": "ulna",
+        "name": "Ulna",
+        "system": "Skeletal",
+        "region": "Fore limb",
+        "function": "Forearm bone contributing to elbow leverage and stability.",
+        "attachments": [
+          "Triceps brachii",
+          "Interosseous structures"
+        ],
+        "clinical_notes": [
+          "Olecranon leverage",
+          "Elbow mechanics"
+        ],
+        "study_prompt": "Why is the olecranon important for extension?"
+      }
+    }
+  },
+  "dog": {
+    "skeletal": {
+      "femur": {
+        "id": "femur",
+        "name": "Femur",
+        "system": "Skeletal",
+        "region": "Hind limb",
+        "function": "Primary upper hindlimb bone involved in weight-bearing, hip movement, and stifle mechanics.",
+        "attachments": [
+          "Gluteal muscle group",
+          "Quadriceps femoris",
+          "Adductor group"
+        ],
+        "clinical_notes": [
+          "Fracture relevance",
+          "Hip joint relevance",
+          "Stifle alignment relevance"
+        ],
+        "study_prompt": "Explain why the femur is important for hindlimb locomotion."
+      },
+      "tibia": {
+        "id": "tibia",
+        "name": "Tibia",
+        "system": "Skeletal",
+        "region": "Hind limb",
+        "function": "Major lower hindlimb support bone that transfers force between the stifle and hock.",
+        "attachments": [
+          "Patellar ligament",
+          "Cranial tibial muscle",
+          "Gastrocnemius region"
+        ],
+        "clinical_notes": [
+          "Tibial plateau angle relevance",
+          "Cruciate ligament biomechanics",
+          "Fracture relevance"
+        ],
+        "study_prompt": "Describe how the tibia contributes to stability and forward movement."
+      },
+      "radius": {
+        "id": "radius",
+        "name": "Radius",
+        "system": "Skeletal",
+        "region": "Fore limb",
+        "function": "Primary forelimb weight-bearing bone between the elbow and carpus.",
+        "attachments": [
+          "Biceps brachii insertion",
+          "Extensor muscle origins",
+          "Interosseous connection with ulna"
+        ],
+        "clinical_notes": [
+          "Forelimb fracture relevance",
+          "Carpal alignment",
+          "Elbow mechanics"
+        ],
+        "study_prompt": "Compare forelimb support with hindlimb propulsion."
+      },
+      "ulna": {
+        "id": "ulna",
+        "name": "Ulna",
+        "system": "Skeletal",
+        "region": "Fore limb",
+        "function": "Forms the olecranon and contributes to elbow leverage and forearm stability.",
+        "attachments": [
+          "Triceps brachii",
+          "Anconeus",
+          "Interosseous structures"
+        ],
+        "clinical_notes": [
+          "Olecranon trauma",
+          "Elbow dysplasia context",
+          "Growth plate relevance"
+        ],
+        "study_prompt": "Why does the olecranon matter for elbow extension?"
+      }
+    }
+  }
+}

@@ -1,0 +1,206 @@
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: #efeaf6;
+  color: #21182b;
+}
+
+code {
+  background: rgba(127, 98, 163, 0.14);
+  padding: 0.08rem 0.32rem;
+  border-radius: 0.4rem;
+}
+
+button, select { font: inherit; }
+
+.app-shell {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 390px;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.main-column, .side-column {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.hero, .registry-card, .viewer-card, .panel {
+  background: rgba(255,255,255,0.86);
+  border: 1px solid rgba(60, 45, 80, 0.14);
+  border-radius: 24px;
+  box-shadow: 0 18px 50px rgba(60, 45, 80, 0.12);
+}
+
+.hero {
+  padding: 1.25rem 1.4rem;
+}
+
+.hero h1 {
+  margin: 0.25rem 0;
+  font-size: clamp(1.75rem, 4vw, 3.3rem);
+  letter-spacing: -0.055em;
+}
+
+.hero p { color: #655772; }
+
+.eyebrow {
+  margin: 0;
+  color: #7f62a3;
+  font-size: 0.76rem;
+  font-weight: 900;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+.registry-card, .panel {
+  padding: 1rem;
+}
+
+.registry-card h2, .panel h2 {
+  margin: 0.25rem 0 0.75rem;
+}
+
+.model-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 0.6rem;
+}
+
+.model-button {
+  border: 1px solid #d8cce8;
+  border-radius: 18px;
+  padding: 0.8rem;
+  background: white;
+  text-align: left;
+  cursor: pointer;
+}
+
+.model-button strong, .model-button span {
+  display: block;
+}
+
+.model-button span {
+  color: #655772;
+  font-size: 0.84rem;
+  margin-top: 0.2rem;
+}
+
+.model-button.active {
+  border-color: #7f62a3;
+  outline: 3px solid rgba(127, 98, 163, 0.18);
+}
+
+.source-link {
+  display: inline-block;
+  margin-top: 0.75rem;
+  color: #5a3e86;
+  font-weight: 800;
+}
+
+.viewer-card {
+  min-height: 600px;
+  overflow: hidden;
+  position: relative;
+}
+
+.viewer-card canvas {
+  min-height: 600px;
+}
+
+.viewer-meta {
+  position: absolute;
+  z-index: 2;
+  top: 1rem;
+  left: 1rem;
+  display: flex;
+  gap: 0.65rem;
+  align-items: center;
+  background: rgba(255,255,255,0.92);
+  border-radius: 999px;
+  padding: 0.55rem 0.85rem;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.viewer-meta span {
+  color: #655772;
+  font-size: 0.85rem;
+}
+
+.warning-note {
+  position: absolute;
+  left: 1rem;
+  bottom: 1rem;
+  right: 1rem;
+  background: rgba(255,255,255,0.92);
+  border-radius: 18px;
+  padding: 0.75rem;
+  color: #655772;
+}
+
+.mesh-name, .small {
+  color: #655772;
+  font-size: 0.9rem;
+}
+
+.panel h3 {
+  margin-bottom: 0.25rem;
+}
+
+.panel ul {
+  margin-top: 0.25rem;
+  padding-left: 1.2rem;
+}
+
+.study-prompt, .feedback {
+  margin-top: 1rem;
+  padding: 0.85rem;
+  border-radius: 18px;
+  background: #f4eefb;
+}
+
+.choices {
+  display: grid;
+  gap: 0.55rem;
+}
+
+.choice, .quiz-actions button {
+  border: 1px solid #d8cce8;
+  border-radius: 14px;
+  padding: 0.7rem 0.8rem;
+  background: white;
+  cursor: pointer;
+  text-align: left;
+}
+
+.choice.selected {
+  outline: 3px solid rgba(127, 98, 163, 0.25);
+  border-color: #7f62a3;
+}
+
+.quiz-actions {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.8rem;
+}
+
+.quiz-actions button {
+  text-align: center;
+  font-weight: 800;
+}
+
+.quiz-actions button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.correct { background: #edf8ef; }
+.incorrect { background: #fff0ee; }
+
+@media (max-width: 960px) {
+  .app-shell { grid-template-columns: 1fr; }
+}

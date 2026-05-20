@@ -1,0 +1,55 @@
+[
+  {
+    "id": "pig_skeleton_vetanatmunich_external",
+    "title": "Skeleton of a Pig",
+    "species": "pig",
+    "system": "skeletal",
+    "source": "Sketchfab / vetanatMunich",
+    "source_url": "https://sketchfab.com/3d-models/skeleton-of-a-pig-044c0b61e2e24d04a08b9fbd8de3c163",
+    "local_file": "/models/pig_skeleton.glb",
+    "mode": "external_until_downloaded",
+    "notes": "Download manually from Sketchfab if available to your account, then place as public/models/pig_skeleton.glb.",
+    "clickable_nodes": [
+      "femur",
+      "tibia",
+      "radius",
+      "ulna",
+      "skull",
+      "vertebrae"
+    ]
+  },
+  {
+    "id": "alpaka_skeleton_vetanatmunich_external",
+    "title": "Skeleton Alpaka",
+    "species": "alpaka",
+    "system": "skeletal",
+    "source": "Sketchfab / vetanatMunich",
+    "source_url": "https://sketchfab.com/vetanatMunich/models",
+    "local_file": "/models/alpaka_skeleton.glb",
+    "mode": "external_until_downloaded",
+    "notes": "Use the vetanatMunich model page to download if available, then place as public/models/alpaka_skeleton.glb.",
+    "clickable_nodes": [
+      "femur",
+      "tibia",
+      "radius",
+      "ulna",
+      "skull"
+    ]
+  },
+  {
+    "id": "placeholder_dog_skeleton",
+    "title": "Dog Skeleton Placeholder",
+    "species": "dog",
+    "system": "skeletal",
+    "source": "Generated placeholder",
+    "source_url": null,
+    "local_file": null,
+    "mode": "placeholder",
+    "clickable_nodes": [
+      "femur",
+      "tibia",
+      "radius",
+      "ulna"
+    ]
+  }
+]
