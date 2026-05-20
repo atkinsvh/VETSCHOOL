@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BioAtlas Vet Asset Library</title>
+    <style>
+      body { font-family: Arial, sans-serif; margin: 2rem auto; max-width: 900px; line-height: 1.5; padding: 0 1rem; }
+      h1, h2 { margin-bottom: 0.3rem; }
+      .card { border: 1px solid #ddd; border-radius: 10px; padding: 1rem; margin: 1rem 0; }
+      code { background: #f4f4f4; padding: 0.1rem 0.3rem; border-radius: 4px; }
+    </style>
+  </head>
+  <body>
+    <h1>BioAtlas Vet — Veterinary Anatomy Model Library</h1>
+    <p>
+      This page is a GitHub Pages anchor for navigating the veterinary anatomy asset library,
+      metadata manifests, and app entry points in this repository.
+    </p>
+
+    <div class="card">
+      <h2>Metadata Registry</h2>
+      <ul>
+        <li><a href="./assets/metadata/models.json">assets/metadata/models.json</a> (100 model/data entries)</li>
+        <li><a href="./assets/metadata/species.json">assets/metadata/species.json</a></li>
+        <li><a href="./assets/metadata/systems.json">assets/metadata/systems.json</a></li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Model Library Structure</h2>
+      <ul>
+        <li><a href="./assets/models/README.md">assets/models/README.md</a></li>
+        <li><code>assets/models/dog/</code></li>
+        <li><code>assets/models/cat/</code></li>
+        <li><code>assets/models/horse/</code></li>
+        <li><code>assets/models/pig/</code></li>
+        <li><code>assets/models/cow/</code></li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>GLB Download Workflow</h2>
+      <p>Use the downloader script to import direct <code>.glb</code> URLs and update manifest status:</p>
+      <ul>
+        <li><a href="./scripts/download_glb_assets.py">scripts/download_glb_assets.py</a></li>
+        <li><code>python scripts/download_glb_assets.py --id dog_skeleton_001 --url https://...file.glb</code></li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Application</h2>
+      <p>
+        The interactive frontend app source starts at
+        <a href="./frontend/index.html">frontend/index.html</a> and consumes model registry data from backend APIs.
+      </p>
+    </div>
+  </body>
+</html>

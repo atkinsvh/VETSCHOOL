@@ -59,3 +59,7 @@ GET /api/models/{species}/{system}
 GET /api/structures/{species}/{system}/{structure_id}
 GET /api/quizzes/{species}/{system}
 ```
+
+## GitHub Pages anchor
+
+A repository-root `index.html` is included as a landing page for GitHub Pages, linking to model metadata manifests, asset folders, and the GLB download workflow.
