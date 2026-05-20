@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { api } from "../lib/api.js";
 
-export default function QuizEngine({ species, system }) {
+export default function QuizEngine({ species, system, chapterTitle }) {
   const [questions, setQuestions] = useState([]);
   const [index, setIndex] = useState(0);
   const [selected, setSelected] = useState("");
@@ -20,9 +20,13 @@ export default function QuizEngine({ species, system }) {
   if (!question) {
     return (
       <section className="panel">
-        <p className="eyebrow">Quiz Mode</p>
-        <h2>No quiz loaded</h2>
-        <p>Add questions in backend/data/quizzes.json.</p>
+        <p className="eyebrow">Chapter Quiz</p>
+        <h2>{chapterTitle || "No chapter selected"}</h2>
+        <p>
+          {species && system
+            ? "This chapter does not have quiz prompts yet. You can still explore the model and map structures."
+            : "Choose a chapter to load its quiz prompts."}
+        </p>
       </section>
     );
   }
@@ -31,8 +35,9 @@ export default function QuizEngine({ species, system }) {
 
   return (
     <section className="panel">
-      <p className="eyebrow">Quiz Mode · {index + 1}/{questions.length}</p>
+      <p className="eyebrow">Chapter Quiz · {index + 1}/{questions.length}</p>
       <h2>{question.question}</h2>
+      {chapterTitle && <p className="small">From {chapterTitle}</p>}
 
       <div className="choices">
         {question.choices.map((choice) => (

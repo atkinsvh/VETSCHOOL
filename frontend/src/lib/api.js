@@ -7,6 +7,7 @@ async function request(path) {
 }
 
 export const api = {
+  chapters: () => request("/api/chapters"),
   species: () => request("/api/species"),
   models: () => request("/api/models"),
   model: (species, system) => request(`/api/models/${species}/${system}`),

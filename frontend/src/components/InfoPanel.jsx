@@ -1,12 +1,44 @@
-export default function InfoPanel({ structure, meshName, model }) {
+export default function InfoPanel({ structure, meshName, model, chapter }) {
   if (!structure) {
     return (
       <section className="panel">
-        <p className="eyebrow">Structure Inspector</p>
-        <h2>Click a node or mesh</h2>
-        <p>The app will inspect the selected mesh name and ask the API for matching anatomy metadata.</p>
-        {model?.source_url && (
-          <p className="small">Current source: {model.source}</p>
+        <p className="eyebrow">Study Notes</p>
+        <h2>{model?.title || "Choose a lesson"}</h2>
+        <p>
+          {model
+            ? "Select a node or mesh in the viewer to load anatomy notes. Until then, use this panel as your chapter briefing."
+            : "Pick a chapter and lesson to begin studying."}
+        </p>
+
+        {chapter && (
+          <div className="chapter-brief">
+            <strong>{chapter.title}</strong>
+            <p>{chapter.summary}</p>
+          </div>
+        )}
+
+        {model && (
+          <>
+            <div className="meta-stack">
+              <p className="small">Mode: {model.mode}</p>
+              <p className="small">Status: {model.download_status}</p>
+              {model.notes && <p className="small">{model.notes}</p>}
+            </div>
+
+            {!!model.tags?.length && (
+              <div className="tag-row">
+                {model.tags.map((tag) => (
+                  <span key={tag} className="tag-chip">{tag}</span>
+                ))}
+              </div>
+            )}
+
+            {model.source_url && (
+              <a className="source-link" href={model.source_url} target="_blank" rel="noreferrer">
+                Review the source page for this lesson
+              </a>
+            )}
+          </>
         )}
       </section>
     );
@@ -27,7 +59,7 @@ export default function InfoPanel({ structure, meshName, model }) {
 
       {structure.study_prompt && (
         <div className="study-prompt">
-          <strong>Extended response</strong>
+          <strong>Chapter reflection</strong>
           <p>{structure.study_prompt}</p>
         </div>
       )}

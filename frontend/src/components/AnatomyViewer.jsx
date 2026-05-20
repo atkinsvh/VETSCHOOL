@@ -1,4 +1,4 @@
-import { Suspense, useMemo, useState } from "react";
+import { Suspense, useMemo } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Text, useGLTF } from "@react-three/drei";
 
@@ -29,7 +29,6 @@ function PlaceholderNode({ id, selected, onClick }) {
 
 function GLBModel({ file, onStructureClick }) {
   const gltf = useGLTF(file);
-  const [hovered, setHovered] = useState("");
 
   const scene = useMemo(() => {
     const cloned = gltf.scene.clone(true);
@@ -49,11 +48,9 @@ function GLBModel({ file, onStructureClick }) {
       scale={1}
       onPointerOver={(event) => {
         event.stopPropagation();
-        setHovered(event.object.name);
         document.body.style.cursor = "pointer";
       }}
       onPointerOut={() => {
-        setHovered("");
         document.body.style.cursor = "default";
       }}
       onClick={(event) => {
@@ -66,19 +63,27 @@ function GLBModel({ file, onStructureClick }) {
   );
 }
 
-export default function AnatomyViewer({ model, selectedId, onStructureClick }) {
+function viewerStatus(model, hasLocalGLB) {
+  if (!model) return "Choose a lesson";
+  if (hasLocalGLB) return `Viewing ${model.local_file}`;
+  if (model.mode === "placeholder") return "Placeholder anatomy mode";
+  return "Source-linked study mode";
+}
+
+export default function AnatomyViewer({ model, selectedId, onStructureClick, chapterTitle }) {
   const hasLocalGLB = model?.local_file && model?.mode !== "placeholder";
+  const hasPlaceholderNodes = !!(model?.clickable_nodes || []).length;
 
   return (
     <section className="viewer-card">
       <div className="viewer-meta">
-        <strong>{model?.title || "No model"}</strong>
-        <span>{hasLocalGLB ? `Trying ${model.local_file}` : "Placeholder mode"}</span>
+        <strong>{model?.title || chapterTitle || "No model selected"}</strong>
+        <span>{viewerStatus(model, hasLocalGLB)}</span>
       </div>
 
       <Canvas camera={{ position: [0, 1.8, 5], fov: 50 }} shadows>
-        <ambientLight intensity={0.75} />
-        <directionalLight position={[5, 5, 5]} intensity={1.5} castShadow />
+        <ambientLight intensity={0.8} />
+        <directionalLight position={[5, 5, 5]} intensity={1.55} castShadow />
         <gridHelper args={[7, 7]} />
 
         <Suspense fallback={null}>
@@ -96,18 +101,28 @@ export default function AnatomyViewer({ model, selectedId, onStructureClick }) {
           )}
         </Suspense>
 
-        {!hasLocalGLB && (model?.clickable_nodes || []).length === 0 && (
-          <Text fontSize={0.25}>No model nodes registered.</Text>
+        {!hasLocalGLB && !hasPlaceholderNodes && (
+          <Text fontSize={0.25} color="#4d42bf">
+            Model registered. Add a local GLB to study it in 3D.
+          </Text>
         )}
 
         <OrbitControls />
       </Canvas>
 
-      {hasLocalGLB && (
-        <div className="warning-note">
-          If the GLB is missing, the viewer may show blank. Put the file at <code>public{model.local_file}</code>.
-        </div>
-      )}
+      <div className="warning-note">
+        {hasLocalGLB ? (
+          <span>If the scene appears blank, confirm the file exists at <code>public{model.local_file}</code>.</span>
+        ) : (
+          <span>
+            This lesson is currently source-linked. When you obtain the GLB, place it at
+            {" "}
+            <code>public{model?.local_file || "/models/..."}</code>
+            {" "}
+            to activate the full 3D viewer.
+          </span>
+        )}
+      </div>
     </section>
   );
 }
