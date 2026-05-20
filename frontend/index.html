@@ -1,12 +1,99 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>BioAtlas Vet</title>
+    <title>BioAtlas Vet Chapters</title>
+    <link rel="stylesheet" href="./site.css" />
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <script src="./site-data.js"></script>
+    <script src="./site.js" defer></script>
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <main class="app-shell">
+      <aside class="chapter-column">
+        <section class="brand-card">
+          <p class="eyebrow">BioAtlas Vet Portal</p>
+          <h1>Veterinary anatomy in chapters</h1>
+          <p>
+            Browse the models as course chapters, open each lesson, study structures, and quiz yourself from the same page.
+          </p>
+        </section>
+
+        <section class="chapter-card">
+          <div class="section-heading">
+            <p class="eyebrow">Chapter Map</p>
+            <h2>Study tracks</h2>
+            <p>Choose a species and anatomy system to open its chapter.</p>
+          </div>
+          <div id="chapter-list" class="chapter-list"></div>
+        </section>
+      </aside>
+
+      <section class="main-column">
+        <section class="hero chapter-hero">
+          <div class="hero-copy">
+            <p id="chapter-eyebrow" class="eyebrow">Chapter format</p>
+            <h2 id="chapter-title">Loading chapters</h2>
+            <p id="chapter-summary">Preparing your study map from the local model registry.</p>
+          </div>
+
+          <div id="chapter-stats" class="hero-stats"></div>
+          <div id="chapter-goals" class="chapter-goals"></div>
+        </section>
+
+        <section class="registry-card">
+          <div class="section-heading">
+            <p class="eyebrow">Chapter Models</p>
+            <h2 id="lesson-title">Lesson library</h2>
+            <p>Each lesson opens a model source, local GLB, or reference page for study.</p>
+          </div>
+          <div id="model-list" class="model-list"></div>
+        </section>
+
+        <section class="viewer-card">
+          <div class="viewer-meta">
+            <strong id="viewer-name">No lesson selected</strong>
+            <span id="viewer-status">Choose a chapter to begin.</span>
+          </div>
+
+          <div id="viewer-surface" class="viewer-surface"></div>
+
+          <div class="warning-note">
+            <span id="viewer-note">The portal will use a local GLB when one is available, otherwise it will show a source-based preview or study note.</span>
+          </div>
+        </section>
+      </section>
+
+      <aside class="side-column">
+        <section class="panel">
+          <p class="eyebrow">Study Notes</p>
+          <h2 id="notes-title">Choose a lesson</h2>
+          <p id="notes-copy">Select a chapter and lesson to load the anatomy notes.</p>
+
+          <div id="lesson-tags" class="tag-row"></div>
+          <div id="structure-list" class="structure-list"></div>
+          <div id="structure-panel" class="study-prompt"></div>
+          <a id="source-link" class="source-link hidden" target="_blank" rel="noreferrer">Open source page</a>
+        </section>
+
+        <section class="panel">
+          <p class="eyebrow">Chapter Quiz</p>
+          <h2 id="quiz-title">No chapter selected</h2>
+          <p id="quiz-empty">Choose a chapter to load quiz prompts.</p>
+
+          <div id="quiz-card" class="hidden">
+            <p id="quiz-progress" class="small"></p>
+            <h3 id="quiz-question"></h3>
+            <div id="quiz-choices" class="choices"></div>
+            <div class="quiz-actions">
+              <button id="quiz-check" type="button" disabled>Check</button>
+              <button id="quiz-next" type="button">Next</button>
+            </div>
+            <div id="quiz-feedback" class="feedback hidden"></div>
+          </div>
+        </section>
+      </aside>
+    </main>
   </body>
 </html>

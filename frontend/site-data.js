@@ -1,0 +1,6961 @@
+window.BIOATLAS_DATA = {
+  "generated_from": {
+    "models": "assets/metadata/models.json",
+    "species": "assets/metadata/species.json",
+    "systems": "assets/metadata/systems.json",
+    "quizzes": "backend/data/quizzes.json",
+    "structures": "backend/data/structures.json"
+  },
+  "models": [
+    {
+      "id": "dog_skeleton_001",
+      "model_name": "Dog Skeleton Placeholder 001",
+      "species": "dog",
+      "anatomy_system": "skeletal",
+      "source": "External reference placeholder",
+      "source_url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Models/master/2.0/Duck/glTF-Binary/Duck.glb",
+      "local_glb_path": "/models/dog/skeleton_001.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "dog",
+        "skeleton",
+        "skeletal",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "downloaded",
+      "mode": "local",
+      "clickable_nodes": [
+        "femur",
+        "tibia",
+        "radius",
+        "ulna",
+        "skull",
+        "vertebrae"
+      ]
+    },
+    {
+      "id": "dog_skull_002",
+      "model_name": "Dog Skull Placeholder 002",
+      "species": "dog",
+      "anatomy_system": "skeletal",
+      "source": "External reference placeholder",
+      "source_url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Models/master/2.0/Box/glTF-Binary/Box.glb",
+      "local_glb_path": "/models/dog/skull_002.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "dog",
+        "skull",
+        "skeletal",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "downloaded",
+      "mode": "local",
+      "clickable_nodes": [
+        "femur",
+        "tibia",
+        "radius",
+        "ulna",
+        "skull",
+        "vertebrae"
+      ]
+    },
+    {
+      "id": "dog_forelimb_003",
+      "model_name": "Dog Forelimb Placeholder 003",
+      "species": "dog",
+      "anatomy_system": "skeletal",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=dog+forelimb+anatomy&type=models",
+      "local_glb_path": "/models/dog/forelimb_003.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "dog",
+        "forelimb",
+        "skeletal",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": [
+        "femur",
+        "tibia",
+        "radius",
+        "ulna",
+        "skull",
+        "vertebrae"
+      ]
+    },
+    {
+      "id": "dog_hindlimb_004",
+      "model_name": "Dog Hindlimb Placeholder 004",
+      "species": "dog",
+      "anatomy_system": "skeletal",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=dog+hindlimb+anatomy&type=models",
+      "local_glb_path": "/models/dog/hindlimb_004.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "dog",
+        "hindlimb",
+        "skeletal",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": [
+        "femur",
+        "tibia",
+        "radius",
+        "ulna",
+        "skull",
+        "vertebrae"
+      ]
+    },
+    {
+      "id": "dog_spine_005",
+      "model_name": "Dog Spine Placeholder 005",
+      "species": "dog",
+      "anatomy_system": "skeletal",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=dog+spine+anatomy&type=models",
+      "local_glb_path": "/models/dog/spine_005.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "dog",
+        "spine",
+        "skeletal",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": [
+        "femur",
+        "tibia",
+        "radius",
+        "ulna",
+        "skull",
+        "vertebrae"
+      ]
+    },
+    {
+      "id": "dog_heart_006",
+      "model_name": "Dog Heart Placeholder 006",
+      "species": "dog",
+      "anatomy_system": "cardiovascular",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=dog+heart+anatomy&type=models",
+      "local_glb_path": "/models/dog/heart_006.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "dog",
+        "heart",
+        "cardiovascular",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": []
+    },
+    {
+      "id": "dog_brain_007",
+      "model_name": "Dog Brain Placeholder 007",
+      "species": "dog",
+      "anatomy_system": "nervous",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=dog+brain+anatomy&type=models",
+      "local_glb_path": "/models/dog/brain_007.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "dog",
+        "brain",
+        "nervous",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": []
+    },
+    {
+      "id": "dog_liver_008",
+      "model_name": "Dog Liver Placeholder 008",
+      "species": "dog",
+      "anatomy_system": "digestive",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=dog+liver+anatomy&type=models",
+      "local_glb_path": "/models/dog/liver_008.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "dog",
+        "liver",
+        "digestive",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": []
+    },
+    {
+      "id": "dog_musculature_009",
+      "model_name": "Dog Musculature Placeholder 009",
+      "species": "dog",
+      "anatomy_system": "muscular",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=dog+musculature+anatomy&type=models",
+      "local_glb_path": "/models/dog/musculature_009.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "dog",
+        "musculature",
+        "muscular",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": []
+    },
+    {
+      "id": "dog_thorax_010",
+      "model_name": "Dog Thorax Placeholder 010",
+      "species": "dog",
+      "anatomy_system": "muscular",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=dog+thorax+anatomy&type=models",
+      "local_glb_path": "/models/dog/thorax_010.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "dog",
+        "thorax",
+        "muscular",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": []
+    },
+    {
+      "id": "cat_skeleton_011",
+      "model_name": "Cat Skeleton Placeholder 011",
+      "species": "cat",
+      "anatomy_system": "skeletal",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=cat+skeleton+anatomy&type=models",
+      "local_glb_path": "/models/cat/skeleton_011.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "cat",
+        "skeleton",
+        "skeletal",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": [
+        "femur",
+        "tibia",
+        "radius",
+        "ulna",
+        "skull",
+        "vertebrae"
+      ]
+    },
+    {
+      "id": "cat_skull_012",
+      "model_name": "Cat Skull Placeholder 012",
+      "species": "cat",
+      "anatomy_system": "skeletal",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=cat+skull+anatomy&type=models",
+      "local_glb_path": "/models/cat/skull_012.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "cat",
+        "skull",
+        "skeletal",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": [
+        "femur",
+        "tibia",
+        "radius",
+        "ulna",
+        "skull",
+        "vertebrae"
+      ]
+    },
+    {
+      "id": "cat_forelimb_013",
+      "model_name": "Cat Forelimb Placeholder 013",
+      "species": "cat",
+      "anatomy_system": "skeletal",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=cat+forelimb+anatomy&type=models",
+      "local_glb_path": "/models/cat/forelimb_013.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "cat",
+        "forelimb",
+        "skeletal",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": [
+        "femur",
+        "tibia",
+        "radius",
+        "ulna",
+        "skull",
+        "vertebrae"
+      ]
+    },
+    {
+      "id": "cat_hindlimb_014",
+      "model_name": "Cat Hindlimb Placeholder 014",
+      "species": "cat",
+      "anatomy_system": "skeletal",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=cat+hindlimb+anatomy&type=models",
+      "local_glb_path": "/models/cat/hindlimb_014.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "cat",
+        "hindlimb",
+        "skeletal",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": [
+        "femur",
+        "tibia",
+        "radius",
+        "ulna",
+        "skull",
+        "vertebrae"
+      ]
+    },
+    {
+      "id": "cat_spine_015",
+      "model_name": "Cat Spine Placeholder 015",
+      "species": "cat",
+      "anatomy_system": "skeletal",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=cat+spine+anatomy&type=models",
+      "local_glb_path": "/models/cat/spine_015.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "cat",
+        "spine",
+        "skeletal",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": [
+        "femur",
+        "tibia",
+        "radius",
+        "ulna",
+        "skull",
+        "vertebrae"
+      ]
+    },
+    {
+      "id": "cat_heart_016",
+      "model_name": "Cat Heart Placeholder 016",
+      "species": "cat",
+      "anatomy_system": "cardiovascular",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=cat+heart+anatomy&type=models",
+      "local_glb_path": "/models/cat/heart_016.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "cat",
+        "heart",
+        "cardiovascular",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": []
+    },
+    {
+      "id": "cat_brain_017",
+      "model_name": "Cat Brain Placeholder 017",
+      "species": "cat",
+      "anatomy_system": "nervous",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=cat+brain+anatomy&type=models",
+      "local_glb_path": "/models/cat/brain_017.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "cat",
+        "brain",
+        "nervous",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": []
+    },
+    {
+      "id": "cat_liver_018",
+      "model_name": "Cat Liver Placeholder 018",
+      "species": "cat",
+      "anatomy_system": "digestive",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=cat+liver+anatomy&type=models",
+      "local_glb_path": "/models/cat/liver_018.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "cat",
+        "liver",
+        "digestive",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": []
+    },
+    {
+      "id": "cat_musculature_019",
+      "model_name": "Cat Musculature Placeholder 019",
+      "species": "cat",
+      "anatomy_system": "muscular",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=cat+musculature+anatomy&type=models",
+      "local_glb_path": "/models/cat/musculature_019.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "cat",
+        "musculature",
+        "muscular",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": []
+    },
+    {
+      "id": "cat_thorax_020",
+      "model_name": "Cat Thorax Placeholder 020",
+      "species": "cat",
+      "anatomy_system": "muscular",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=cat+thorax+anatomy&type=models",
+      "local_glb_path": "/models/cat/thorax_020.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "cat",
+        "thorax",
+        "muscular",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": []
+    },
+    {
+      "id": "horse_skeleton_021",
+      "model_name": "Horse Skeleton Placeholder 021",
+      "species": "horse",
+      "anatomy_system": "skeletal",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=horse+skeleton+anatomy&type=models",
+      "local_glb_path": "/models/horse/skeleton_021.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "horse",
+        "skeleton",
+        "skeletal",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": [
+        "femur",
+        "tibia",
+        "radius",
+        "ulna",
+        "skull",
+        "vertebrae"
+      ]
+    },
+    {
+      "id": "horse_skull_022",
+      "model_name": "Horse Skull Placeholder 022",
+      "species": "horse",
+      "anatomy_system": "skeletal",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=horse+skull+anatomy&type=models",
+      "local_glb_path": "/models/horse/skull_022.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "horse",
+        "skull",
+        "skeletal",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": [
+        "femur",
+        "tibia",
+        "radius",
+        "ulna",
+        "skull",
+        "vertebrae"
+      ]
+    },
+    {
+      "id": "horse_forelimb_023",
+      "model_name": "Horse Forelimb Placeholder 023",
+      "species": "horse",
+      "anatomy_system": "skeletal",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=horse+forelimb+anatomy&type=models",
+      "local_glb_path": "/models/horse/forelimb_023.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "horse",
+        "forelimb",
+        "skeletal",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": [
+        "femur",
+        "tibia",
+        "radius",
+        "ulna",
+        "skull",
+        "vertebrae"
+      ]
+    },
+    {
+      "id": "horse_hindlimb_024",
+      "model_name": "Horse Hindlimb Placeholder 024",
+      "species": "horse",
+      "anatomy_system": "skeletal",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=horse+hindlimb+anatomy&type=models",
+      "local_glb_path": "/models/horse/hindlimb_024.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "horse",
+        "hindlimb",
+        "skeletal",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": [
+        "femur",
+        "tibia",
+        "radius",
+        "ulna",
+        "skull",
+        "vertebrae"
+      ]
+    },
+    {
+      "id": "horse_spine_025",
+      "model_name": "Horse Spine Placeholder 025",
+      "species": "horse",
+      "anatomy_system": "skeletal",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=horse+spine+anatomy&type=models",
+      "local_glb_path": "/models/horse/spine_025.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "horse",
+        "spine",
+        "skeletal",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": [
+        "femur",
+        "tibia",
+        "radius",
+        "ulna",
+        "skull",
+        "vertebrae"
+      ]
+    },
+    {
+      "id": "horse_heart_026",
+      "model_name": "Horse Heart Placeholder 026",
+      "species": "horse",
+      "anatomy_system": "cardiovascular",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=horse+heart+anatomy&type=models",
+      "local_glb_path": "/models/horse/heart_026.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "horse",
+        "heart",
+        "cardiovascular",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": []
+    },
+    {
+      "id": "horse_brain_027",
+      "model_name": "Horse Brain Placeholder 027",
+      "species": "horse",
+      "anatomy_system": "nervous",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=horse+brain+anatomy&type=models",
+      "local_glb_path": "/models/horse/brain_027.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "horse",
+        "brain",
+        "nervous",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": []
+    },
+    {
+      "id": "horse_liver_028",
+      "model_name": "Horse Liver Placeholder 028",
+      "species": "horse",
+      "anatomy_system": "digestive",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=horse+liver+anatomy&type=models",
+      "local_glb_path": "/models/horse/liver_028.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "horse",
+        "liver",
+        "digestive",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": []
+    },
+    {
+      "id": "horse_musculature_029",
+      "model_name": "Horse Musculature Placeholder 029",
+      "species": "horse",
+      "anatomy_system": "muscular",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=horse+musculature+anatomy&type=models",
+      "local_glb_path": "/models/horse/musculature_029.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "horse",
+        "musculature",
+        "muscular",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": []
+    },
+    {
+      "id": "horse_thorax_030",
+      "model_name": "Horse Thorax Placeholder 030",
+      "species": "horse",
+      "anatomy_system": "muscular",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=horse+thorax+anatomy&type=models",
+      "local_glb_path": "/models/horse/thorax_030.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "horse",
+        "thorax",
+        "muscular",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": []
+    },
+    {
+      "id": "pig_skeleton_031",
+      "model_name": "Pig Skeleton Placeholder 031",
+      "species": "pig",
+      "anatomy_system": "skeletal",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=pig+skeleton+anatomy&type=models",
+      "local_glb_path": "/models/pig/skeleton_031.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "pig",
+        "skeleton",
+        "skeletal",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": [
+        "femur",
+        "tibia",
+        "radius",
+        "ulna",
+        "skull",
+        "vertebrae"
+      ]
+    },
+    {
+      "id": "pig_skull_032",
+      "model_name": "Pig Skull Placeholder 032",
+      "species": "pig",
+      "anatomy_system": "skeletal",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=pig+skull+anatomy&type=models",
+      "local_glb_path": "/models/pig/skull_032.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "pig",
+        "skull",
+        "skeletal",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": [
+        "femur",
+        "tibia",
+        "radius",
+        "ulna",
+        "skull",
+        "vertebrae"
+      ]
+    },
+    {
+      "id": "pig_forelimb_033",
+      "model_name": "Pig Forelimb Placeholder 033",
+      "species": "pig",
+      "anatomy_system": "skeletal",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=pig+forelimb+anatomy&type=models",
+      "local_glb_path": "/models/pig/forelimb_033.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "pig",
+        "forelimb",
+        "skeletal",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": [
+        "femur",
+        "tibia",
+        "radius",
+        "ulna",
+        "skull",
+        "vertebrae"
+      ]
+    },
+    {
+      "id": "pig_hindlimb_034",
+      "model_name": "Pig Hindlimb Placeholder 034",
+      "species": "pig",
+      "anatomy_system": "skeletal",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=pig+hindlimb+anatomy&type=models",
+      "local_glb_path": "/models/pig/hindlimb_034.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "pig",
+        "hindlimb",
+        "skeletal",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": [
+        "femur",
+        "tibia",
+        "radius",
+        "ulna",
+        "skull",
+        "vertebrae"
+      ]
+    },
+    {
+      "id": "pig_spine_035",
+      "model_name": "Pig Spine Placeholder 035",
+      "species": "pig",
+      "anatomy_system": "skeletal",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=pig+spine+anatomy&type=models",
+      "local_glb_path": "/models/pig/spine_035.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "pig",
+        "spine",
+        "skeletal",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": [
+        "femur",
+        "tibia",
+        "radius",
+        "ulna",
+        "skull",
+        "vertebrae"
+      ]
+    },
+    {
+      "id": "pig_heart_036",
+      "model_name": "Pig Heart Placeholder 036",
+      "species": "pig",
+      "anatomy_system": "cardiovascular",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=pig+heart+anatomy&type=models",
+      "local_glb_path": "/models/pig/heart_036.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "pig",
+        "heart",
+        "cardiovascular",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": []
+    },
+    {
+      "id": "pig_brain_037",
+      "model_name": "Pig Brain Placeholder 037",
+      "species": "pig",
+      "anatomy_system": "nervous",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=pig+brain+anatomy&type=models",
+      "local_glb_path": "/models/pig/brain_037.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "pig",
+        "brain",
+        "nervous",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": []
+    },
+    {
+      "id": "pig_liver_038",
+      "model_name": "Pig Liver Placeholder 038",
+      "species": "pig",
+      "anatomy_system": "digestive",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=pig+liver+anatomy&type=models",
+      "local_glb_path": "/models/pig/liver_038.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "pig",
+        "liver",
+        "digestive",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": []
+    },
+    {
+      "id": "pig_musculature_039",
+      "model_name": "Pig Musculature Placeholder 039",
+      "species": "pig",
+      "anatomy_system": "muscular",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=pig+musculature+anatomy&type=models",
+      "local_glb_path": "/models/pig/musculature_039.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "pig",
+        "musculature",
+        "muscular",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": []
+    },
+    {
+      "id": "pig_thorax_040",
+      "model_name": "Pig Thorax Placeholder 040",
+      "species": "pig",
+      "anatomy_system": "muscular",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=pig+thorax+anatomy&type=models",
+      "local_glb_path": "/models/pig/thorax_040.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "pig",
+        "thorax",
+        "muscular",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": []
+    },
+    {
+      "id": "cow_skeleton_041",
+      "model_name": "Cow Skeleton Placeholder 041",
+      "species": "cow",
+      "anatomy_system": "skeletal",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=cow+skeleton+anatomy&type=models",
+      "local_glb_path": "/models/cow/skeleton_041.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "cow",
+        "skeleton",
+        "skeletal",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": [
+        "femur",
+        "tibia",
+        "radius",
+        "ulna",
+        "skull",
+        "vertebrae"
+      ]
+    },
+    {
+      "id": "cow_skull_042",
+      "model_name": "Cow Skull Placeholder 042",
+      "species": "cow",
+      "anatomy_system": "skeletal",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=cow+skull+anatomy&type=models",
+      "local_glb_path": "/models/cow/skull_042.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "cow",
+        "skull",
+        "skeletal",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": [
+        "femur",
+        "tibia",
+        "radius",
+        "ulna",
+        "skull",
+        "vertebrae"
+      ]
+    },
+    {
+      "id": "cow_forelimb_043",
+      "model_name": "Cow Forelimb Placeholder 043",
+      "species": "cow",
+      "anatomy_system": "skeletal",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=cow+forelimb+anatomy&type=models",
+      "local_glb_path": "/models/cow/forelimb_043.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "cow",
+        "forelimb",
+        "skeletal",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": [
+        "femur",
+        "tibia",
+        "radius",
+        "ulna",
+        "skull",
+        "vertebrae"
+      ]
+    },
+    {
+      "id": "cow_hindlimb_044",
+      "model_name": "Cow Hindlimb Placeholder 044",
+      "species": "cow",
+      "anatomy_system": "skeletal",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=cow+hindlimb+anatomy&type=models",
+      "local_glb_path": "/models/cow/hindlimb_044.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "cow",
+        "hindlimb",
+        "skeletal",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": [
+        "femur",
+        "tibia",
+        "radius",
+        "ulna",
+        "skull",
+        "vertebrae"
+      ]
+    },
+    {
+      "id": "cow_spine_045",
+      "model_name": "Cow Spine Placeholder 045",
+      "species": "cow",
+      "anatomy_system": "skeletal",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=cow+spine+anatomy&type=models",
+      "local_glb_path": "/models/cow/spine_045.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "cow",
+        "spine",
+        "skeletal",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": [
+        "femur",
+        "tibia",
+        "radius",
+        "ulna",
+        "skull",
+        "vertebrae"
+      ]
+    },
+    {
+      "id": "cow_heart_046",
+      "model_name": "Cow Heart Placeholder 046",
+      "species": "cow",
+      "anatomy_system": "cardiovascular",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=cow+heart+anatomy&type=models",
+      "local_glb_path": "/models/cow/heart_046.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "cow",
+        "heart",
+        "cardiovascular",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": []
+    },
+    {
+      "id": "cow_brain_047",
+      "model_name": "Cow Brain Placeholder 047",
+      "species": "cow",
+      "anatomy_system": "nervous",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=cow+brain+anatomy&type=models",
+      "local_glb_path": "/models/cow/brain_047.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "cow",
+        "brain",
+        "nervous",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": []
+    },
+    {
+      "id": "cow_liver_048",
+      "model_name": "Cow Liver Placeholder 048",
+      "species": "cow",
+      "anatomy_system": "digestive",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=cow+liver+anatomy&type=models",
+      "local_glb_path": "/models/cow/liver_048.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "cow",
+        "liver",
+        "digestive",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": []
+    },
+    {
+      "id": "cow_musculature_049",
+      "model_name": "Cow Musculature Placeholder 049",
+      "species": "cow",
+      "anatomy_system": "muscular",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=cow+musculature+anatomy&type=models",
+      "local_glb_path": "/models/cow/musculature_049.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "cow",
+        "musculature",
+        "muscular",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": []
+    },
+    {
+      "id": "cow_thorax_050",
+      "model_name": "Cow Thorax Placeholder 050",
+      "species": "cow",
+      "anatomy_system": "muscular",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=cow+thorax+anatomy&type=models",
+      "local_glb_path": "/models/cow/thorax_050.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "cow",
+        "thorax",
+        "muscular",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": []
+    },
+    {
+      "id": "dog_skeleton_051",
+      "model_name": "Dog Skeleton Placeholder 051",
+      "species": "dog",
+      "anatomy_system": "skeletal",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=dog+skeleton+anatomy&type=models",
+      "local_glb_path": "/models/dog/skeleton_051.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "dog",
+        "skeleton",
+        "skeletal",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": []
+    },
+    {
+      "id": "cat_skull_052",
+      "model_name": "Cat Skull Placeholder 052",
+      "species": "cat",
+      "anatomy_system": "skeletal",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=cat+skull+anatomy&type=models",
+      "local_glb_path": "/models/cat/skull_052.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "cat",
+        "skull",
+        "skeletal",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": []
+    },
+    {
+      "id": "horse_forelimb_053",
+      "model_name": "Horse Forelimb Placeholder 053",
+      "species": "horse",
+      "anatomy_system": "skeletal",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=horse+forelimb+anatomy&type=models",
+      "local_glb_path": "/models/horse/forelimb_053.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "horse",
+        "forelimb",
+        "skeletal",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": []
+    },
+    {
+      "id": "pig_hindlimb_054",
+      "model_name": "Pig Hindlimb Placeholder 054",
+      "species": "pig",
+      "anatomy_system": "skeletal",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=pig+hindlimb+anatomy&type=models",
+      "local_glb_path": "/models/pig/hindlimb_054.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "pig",
+        "hindlimb",
+        "skeletal",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": []
+    },
+    {
+      "id": "cow_spine_055",
+      "model_name": "Cow Spine Placeholder 055",
+      "species": "cow",
+      "anatomy_system": "skeletal",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=cow+spine+anatomy&type=models",
+      "local_glb_path": "/models/cow/spine_055.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "cow",
+        "spine",
+        "skeletal",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": []
+    },
+    {
+      "id": "dog_heart_056",
+      "model_name": "Dog Heart Placeholder 056",
+      "species": "dog",
+      "anatomy_system": "cardiovascular",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=dog+heart+anatomy&type=models",
+      "local_glb_path": "/models/dog/heart_056.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "dog",
+        "heart",
+        "cardiovascular",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": []
+    },
+    {
+      "id": "cat_brain_057",
+      "model_name": "Cat Brain Placeholder 057",
+      "species": "cat",
+      "anatomy_system": "nervous",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=cat+brain+anatomy&type=models",
+      "local_glb_path": "/models/cat/brain_057.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "cat",
+        "brain",
+        "nervous",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": []
+    },
+    {
+      "id": "horse_liver_058",
+      "model_name": "Horse Liver Placeholder 058",
+      "species": "horse",
+      "anatomy_system": "digestive",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=horse+liver+anatomy&type=models",
+      "local_glb_path": "/models/horse/liver_058.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "horse",
+        "liver",
+        "digestive",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": []
+    },
+    {
+      "id": "pig_musculature_059",
+      "model_name": "Pig Musculature Placeholder 059",
+      "species": "pig",
+      "anatomy_system": "muscular",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=pig+musculature+anatomy&type=models",
+      "local_glb_path": "/models/pig/musculature_059.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "pig",
+        "musculature",
+        "muscular",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": []
+    },
+    {
+      "id": "cow_thorax_060",
+      "model_name": "Cow Thorax Placeholder 060",
+      "species": "cow",
+      "anatomy_system": "muscular",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=cow+thorax+anatomy&type=models",
+      "local_glb_path": "/models/cow/thorax_060.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "cow",
+        "thorax",
+        "muscular",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": []
+    },
+    {
+      "id": "dog_skeleton_061",
+      "model_name": "Dog Skeleton Placeholder 061",
+      "species": "dog",
+      "anatomy_system": "skeletal",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=dog+skeleton+anatomy&type=models",
+      "local_glb_path": "/models/dog/skeleton_061.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "dog",
+        "skeleton",
+        "skeletal",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": []
+    },
+    {
+      "id": "cat_skull_062",
+      "model_name": "Cat Skull Placeholder 062",
+      "species": "cat",
+      "anatomy_system": "skeletal",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=cat+skull+anatomy&type=models",
+      "local_glb_path": "/models/cat/skull_062.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "cat",
+        "skull",
+        "skeletal",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": []
+    },
+    {
+      "id": "horse_forelimb_063",
+      "model_name": "Horse Forelimb Placeholder 063",
+      "species": "horse",
+      "anatomy_system": "skeletal",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=horse+forelimb+anatomy&type=models",
+      "local_glb_path": "/models/horse/forelimb_063.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "horse",
+        "forelimb",
+        "skeletal",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": []
+    },
+    {
+      "id": "pig_hindlimb_064",
+      "model_name": "Pig Hindlimb Placeholder 064",
+      "species": "pig",
+      "anatomy_system": "skeletal",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=pig+hindlimb+anatomy&type=models",
+      "local_glb_path": "/models/pig/hindlimb_064.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "pig",
+        "hindlimb",
+        "skeletal",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": []
+    },
+    {
+      "id": "cow_spine_065",
+      "model_name": "Cow Spine Placeholder 065",
+      "species": "cow",
+      "anatomy_system": "skeletal",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=cow+spine+anatomy&type=models",
+      "local_glb_path": "/models/cow/spine_065.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "cow",
+        "spine",
+        "skeletal",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": []
+    },
+    {
+      "id": "dog_heart_066",
+      "model_name": "Dog Heart Placeholder 066",
+      "species": "dog",
+      "anatomy_system": "cardiovascular",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=dog+heart+anatomy&type=models",
+      "local_glb_path": "/models/dog/heart_066.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "dog",
+        "heart",
+        "cardiovascular",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": []
+    },
+    {
+      "id": "cat_brain_067",
+      "model_name": "Cat Brain Placeholder 067",
+      "species": "cat",
+      "anatomy_system": "nervous",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=cat+brain+anatomy&type=models",
+      "local_glb_path": "/models/cat/brain_067.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "cat",
+        "brain",
+        "nervous",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": []
+    },
+    {
+      "id": "horse_liver_068",
+      "model_name": "Horse Liver Placeholder 068",
+      "species": "horse",
+      "anatomy_system": "digestive",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=horse+liver+anatomy&type=models",
+      "local_glb_path": "/models/horse/liver_068.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "horse",
+        "liver",
+        "digestive",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": []
+    },
+    {
+      "id": "pig_musculature_069",
+      "model_name": "Pig Musculature Placeholder 069",
+      "species": "pig",
+      "anatomy_system": "muscular",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=pig+musculature+anatomy&type=models",
+      "local_glb_path": "/models/pig/musculature_069.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "pig",
+        "musculature",
+        "muscular",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": []
+    },
+    {
+      "id": "cow_thorax_070",
+      "model_name": "Cow Thorax Placeholder 070",
+      "species": "cow",
+      "anatomy_system": "muscular",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=cow+thorax+anatomy&type=models",
+      "local_glb_path": "/models/cow/thorax_070.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "cow",
+        "thorax",
+        "muscular",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": []
+    },
+    {
+      "id": "dog_skeleton_071",
+      "model_name": "Dog Skeleton Placeholder 071",
+      "species": "dog",
+      "anatomy_system": "skeletal",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=dog+skeleton+anatomy&type=models",
+      "local_glb_path": "/models/dog/skeleton_071.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "dog",
+        "skeleton",
+        "skeletal",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": []
+    },
+    {
+      "id": "cat_skull_072",
+      "model_name": "Cat Skull Placeholder 072",
+      "species": "cat",
+      "anatomy_system": "skeletal",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=cat+skull+anatomy&type=models",
+      "local_glb_path": "/models/cat/skull_072.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "cat",
+        "skull",
+        "skeletal",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": []
+    },
+    {
+      "id": "horse_forelimb_073",
+      "model_name": "Horse Forelimb Placeholder 073",
+      "species": "horse",
+      "anatomy_system": "skeletal",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=horse+forelimb+anatomy&type=models",
+      "local_glb_path": "/models/horse/forelimb_073.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "horse",
+        "forelimb",
+        "skeletal",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": []
+    },
+    {
+      "id": "pig_hindlimb_074",
+      "model_name": "Pig Hindlimb Placeholder 074",
+      "species": "pig",
+      "anatomy_system": "skeletal",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=pig+hindlimb+anatomy&type=models",
+      "local_glb_path": "/models/pig/hindlimb_074.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "pig",
+        "hindlimb",
+        "skeletal",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": []
+    },
+    {
+      "id": "cow_spine_075",
+      "model_name": "Cow Spine Placeholder 075",
+      "species": "cow",
+      "anatomy_system": "skeletal",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=cow+spine+anatomy&type=models",
+      "local_glb_path": "/models/cow/spine_075.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "cow",
+        "spine",
+        "skeletal",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": []
+    },
+    {
+      "id": "dog_heart_076",
+      "model_name": "Dog Heart Placeholder 076",
+      "species": "dog",
+      "anatomy_system": "cardiovascular",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=dog+heart+anatomy&type=models",
+      "local_glb_path": "/models/dog/heart_076.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "dog",
+        "heart",
+        "cardiovascular",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": []
+    },
+    {
+      "id": "cat_brain_077",
+      "model_name": "Cat Brain Placeholder 077",
+      "species": "cat",
+      "anatomy_system": "nervous",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=cat+brain+anatomy&type=models",
+      "local_glb_path": "/models/cat/brain_077.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "cat",
+        "brain",
+        "nervous",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": []
+    },
+    {
+      "id": "horse_liver_078",
+      "model_name": "Horse Liver Placeholder 078",
+      "species": "horse",
+      "anatomy_system": "digestive",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=horse+liver+anatomy&type=models",
+      "local_glb_path": "/models/horse/liver_078.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "horse",
+        "liver",
+        "digestive",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": []
+    },
+    {
+      "id": "pig_musculature_079",
+      "model_name": "Pig Musculature Placeholder 079",
+      "species": "pig",
+      "anatomy_system": "muscular",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=pig+musculature+anatomy&type=models",
+      "local_glb_path": "/models/pig/musculature_079.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "pig",
+        "musculature",
+        "muscular",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": []
+    },
+    {
+      "id": "cow_thorax_080",
+      "model_name": "Cow Thorax Placeholder 080",
+      "species": "cow",
+      "anatomy_system": "muscular",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=cow+thorax+anatomy&type=models",
+      "local_glb_path": "/models/cow/thorax_080.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "cow",
+        "thorax",
+        "muscular",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": []
+    },
+    {
+      "id": "dog_skeleton_081",
+      "model_name": "Dog Skeleton Placeholder 081",
+      "species": "dog",
+      "anatomy_system": "skeletal",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=dog+skeleton+anatomy&type=models",
+      "local_glb_path": "/models/dog/skeleton_081.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "dog",
+        "skeleton",
+        "skeletal",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": []
+    },
+    {
+      "id": "cat_skull_082",
+      "model_name": "Cat Skull Placeholder 082",
+      "species": "cat",
+      "anatomy_system": "skeletal",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=cat+skull+anatomy&type=models",
+      "local_glb_path": "/models/cat/skull_082.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "cat",
+        "skull",
+        "skeletal",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": []
+    },
+    {
+      "id": "horse_forelimb_083",
+      "model_name": "Horse Forelimb Placeholder 083",
+      "species": "horse",
+      "anatomy_system": "skeletal",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=horse+forelimb+anatomy&type=models",
+      "local_glb_path": "/models/horse/forelimb_083.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "horse",
+        "forelimb",
+        "skeletal",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": []
+    },
+    {
+      "id": "pig_hindlimb_084",
+      "model_name": "Pig Hindlimb Placeholder 084",
+      "species": "pig",
+      "anatomy_system": "skeletal",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=pig+hindlimb+anatomy&type=models",
+      "local_glb_path": "/models/pig/hindlimb_084.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "pig",
+        "hindlimb",
+        "skeletal",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": []
+    },
+    {
+      "id": "cow_spine_085",
+      "model_name": "Cow Spine Placeholder 085",
+      "species": "cow",
+      "anatomy_system": "skeletal",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=cow+spine+anatomy&type=models",
+      "local_glb_path": "/models/cow/spine_085.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "cow",
+        "spine",
+        "skeletal",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": []
+    },
+    {
+      "id": "dog_heart_086",
+      "model_name": "Dog Heart Placeholder 086",
+      "species": "dog",
+      "anatomy_system": "cardiovascular",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=dog+heart+anatomy&type=models",
+      "local_glb_path": "/models/dog/heart_086.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "dog",
+        "heart",
+        "cardiovascular",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": []
+    },
+    {
+      "id": "cat_brain_087",
+      "model_name": "Cat Brain Placeholder 087",
+      "species": "cat",
+      "anatomy_system": "nervous",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=cat+brain+anatomy&type=models",
+      "local_glb_path": "/models/cat/brain_087.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "cat",
+        "brain",
+        "nervous",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": []
+    },
+    {
+      "id": "horse_liver_088",
+      "model_name": "Horse Liver Placeholder 088",
+      "species": "horse",
+      "anatomy_system": "digestive",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=horse+liver+anatomy&type=models",
+      "local_glb_path": "/models/horse/liver_088.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "horse",
+        "liver",
+        "digestive",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": []
+    },
+    {
+      "id": "pig_musculature_089",
+      "model_name": "Pig Musculature Placeholder 089",
+      "species": "pig",
+      "anatomy_system": "muscular",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=pig+musculature+anatomy&type=models",
+      "local_glb_path": "/models/pig/musculature_089.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "pig",
+        "musculature",
+        "muscular",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": []
+    },
+    {
+      "id": "cow_thorax_090",
+      "model_name": "Cow Thorax Placeholder 090",
+      "species": "cow",
+      "anatomy_system": "muscular",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=cow+thorax+anatomy&type=models",
+      "local_glb_path": "/models/cow/thorax_090.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "cow",
+        "thorax",
+        "muscular",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": []
+    },
+    {
+      "id": "dog_skeleton_091",
+      "model_name": "Dog Skeleton Placeholder 091",
+      "species": "dog",
+      "anatomy_system": "skeletal",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=dog+skeleton+anatomy&type=models",
+      "local_glb_path": "/models/dog/skeleton_091.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "dog",
+        "skeleton",
+        "skeletal",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": []
+    },
+    {
+      "id": "cat_skull_092",
+      "model_name": "Cat Skull Placeholder 092",
+      "species": "cat",
+      "anatomy_system": "skeletal",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=cat+skull+anatomy&type=models",
+      "local_glb_path": "/models/cat/skull_092.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "cat",
+        "skull",
+        "skeletal",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": []
+    },
+    {
+      "id": "horse_forelimb_093",
+      "model_name": "Horse Forelimb Placeholder 093",
+      "species": "horse",
+      "anatomy_system": "skeletal",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=horse+forelimb+anatomy&type=models",
+      "local_glb_path": "/models/horse/forelimb_093.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "horse",
+        "forelimb",
+        "skeletal",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": []
+    },
+    {
+      "id": "pig_hindlimb_094",
+      "model_name": "Pig Hindlimb Placeholder 094",
+      "species": "pig",
+      "anatomy_system": "skeletal",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=pig+hindlimb+anatomy&type=models",
+      "local_glb_path": "/models/pig/hindlimb_094.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "pig",
+        "hindlimb",
+        "skeletal",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": []
+    },
+    {
+      "id": "cow_spine_095",
+      "model_name": "Cow Spine Placeholder 095",
+      "species": "cow",
+      "anatomy_system": "skeletal",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=cow+spine+anatomy&type=models",
+      "local_glb_path": "/models/cow/spine_095.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "cow",
+        "spine",
+        "skeletal",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": []
+    },
+    {
+      "id": "dog_heart_096",
+      "model_name": "Dog Heart Placeholder 096",
+      "species": "dog",
+      "anatomy_system": "cardiovascular",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=dog+heart+anatomy&type=models",
+      "local_glb_path": "/models/dog/heart_096.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "dog",
+        "heart",
+        "cardiovascular",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": []
+    },
+    {
+      "id": "cat_brain_097",
+      "model_name": "Cat Brain Placeholder 097",
+      "species": "cat",
+      "anatomy_system": "nervous",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=cat+brain+anatomy&type=models",
+      "local_glb_path": "/models/cat/brain_097.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "cat",
+        "brain",
+        "nervous",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": []
+    },
+    {
+      "id": "horse_liver_098",
+      "model_name": "Horse Liver Placeholder 098",
+      "species": "horse",
+      "anatomy_system": "digestive",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=horse+liver+anatomy&type=models",
+      "local_glb_path": "/models/horse/liver_098.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "horse",
+        "liver",
+        "digestive",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": []
+    },
+    {
+      "id": "pig_musculature_099",
+      "model_name": "Pig Musculature Placeholder 099",
+      "species": "pig",
+      "anatomy_system": "muscular",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=pig+musculature+anatomy&type=models",
+      "local_glb_path": "/models/pig/musculature_099.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "pig",
+        "musculature",
+        "muscular",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": []
+    },
+    {
+      "id": "cow_thorax_100",
+      "model_name": "Cow Thorax Placeholder 100",
+      "species": "cow",
+      "anatomy_system": "muscular",
+      "source": "External reference placeholder",
+      "source_url": "https://sketchfab.com/search?q=cow+thorax+anatomy&type=models",
+      "local_glb_path": "/models/cow/thorax_100.glb",
+      "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+      "tags": [
+        "cow",
+        "thorax",
+        "muscular",
+        "veterinary",
+        "anatomy"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": []
+    },
+    {
+      "id": "vetanatmunich_001_osteophytes_cat",
+      "model_name": "osteophytes cat",
+      "species": "cat",
+      "anatomy_system": "pathology",
+      "source": "Sketchfab / vetanatMunich",
+      "source_url": "https://sketchfab.com/3d-models/osteophytes-cat-335fcc9bc1fa4ec8a246f875e1239113",
+      "embed_url": "https://sketchfab.com/models/335fcc9bc1fa4ec8a246f875e1239113/embed",
+      "sketchfab_uid": "335fcc9bc1fa4ec8a246f875e1239113",
+      "local_glb_path": "/models/vetanatmunich/osteophytes_cat.glb",
+      "license_usage_notes": "Sketchfab API metadata is available, but this model is not downloadable with the current access. If you obtain it manually, save it as /models/vetanatmunich/osteophytes_cat.glb.",
+      "tags": [
+        "cat",
+        "pathology",
+        "veterinary_anatomy",
+        "vetanatmunich"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": [],
+      "api_is_downloadable": false,
+      "api_face_count": 999720,
+      "api_vertex_count": 500389,
+      "api_animation_count": 0,
+      "api_created_at": "2025-12-09T09:44:58.589098",
+      "api_published_at": "2025-12-09T10:51:29.448316",
+      "api_license": null,
+      "registry_notes": "Registry entry only. GLB is not bundled."
+    },
+    {
+      "id": "vetanatmunich_002_bovine_actinomycosis_mandibula",
+      "model_name": "bovine actinomycosis mandibula",
+      "species": "bovine",
+      "anatomy_system": "skeletal",
+      "source": "Sketchfab / vetanatMunich",
+      "source_url": "https://sketchfab.com/3d-models/bovine-actinomycosis-mandibula-c45de5c78b6a462ca7ff152afd2ab3e9",
+      "embed_url": "https://sketchfab.com/models/c45de5c78b6a462ca7ff152afd2ab3e9/embed",
+      "sketchfab_uid": "c45de5c78b6a462ca7ff152afd2ab3e9",
+      "local_glb_path": "/models/vetanatmunich/bovine_actinomycosis_mandibula.glb",
+      "license_usage_notes": "Sketchfab API metadata is available, but this model is not downloadable with the current access. If you obtain it manually, save it as /models/vetanatmunich/bovine_actinomycosis_mandibula.glb.",
+      "tags": [
+        "bovine",
+        "skeletal",
+        "veterinary_anatomy",
+        "vetanatmunich"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": [],
+      "api_is_downloadable": false,
+      "api_face_count": 59826,
+      "api_vertex_count": 29717,
+      "api_animation_count": 0,
+      "api_created_at": "2025-12-09T09:27:04.794191",
+      "api_published_at": "2025-12-09T09:35:44.891076",
+      "api_license": null,
+      "registry_notes": "Registry entry only. GLB is not bundled."
+    },
+    {
+      "id": "vetanatmunich_003_cranioschisis_calf",
+      "model_name": "cranioschisis calf",
+      "species": "bovine",
+      "anatomy_system": "skeletal",
+      "source": "Sketchfab / vetanatMunich",
+      "source_url": "https://sketchfab.com/3d-models/cranioschisis-calf-e6dafd32105649209ff403ee3f13980d",
+      "embed_url": "https://sketchfab.com/models/e6dafd32105649209ff403ee3f13980d/embed",
+      "sketchfab_uid": "e6dafd32105649209ff403ee3f13980d",
+      "local_glb_path": "/models/vetanatmunich/cranioschisis_calf.glb",
+      "license_usage_notes": "Sketchfab API metadata is available, but this model is not downloadable with the current access. If you obtain it manually, save it as /models/vetanatmunich/cranioschisis_calf.glb.",
+      "tags": [
+        "bovine",
+        "skeletal",
+        "veterinary_anatomy",
+        "vetanatmunich"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": [],
+      "api_is_downloadable": false,
+      "api_face_count": 59824,
+      "api_vertex_count": 30306,
+      "api_animation_count": 0,
+      "api_created_at": "2025-11-06T10:15:05.109717",
+      "api_published_at": "2025-11-06T10:44:09.957123",
+      "api_license": null,
+      "registry_notes": "Registry entry only. GLB is not bundled."
+    },
+    {
+      "id": "vetanatmunich_004_campylognathia_lateralis_foal",
+      "model_name": "campylognathia lateralis foal",
+      "species": "horse",
+      "anatomy_system": "anatomy",
+      "source": "Sketchfab / vetanatMunich",
+      "source_url": "https://sketchfab.com/3d-models/campylognathia-lateralis-foal-9be115f8d5ca46f0a4f1f8e8addf93dc",
+      "embed_url": "https://sketchfab.com/models/9be115f8d5ca46f0a4f1f8e8addf93dc/embed",
+      "sketchfab_uid": "9be115f8d5ca46f0a4f1f8e8addf93dc",
+      "local_glb_path": "/models/vetanatmunich/campylognathia_lateralis_foal.glb",
+      "license_usage_notes": "Sketchfab API metadata is available, but this model is not downloadable with the current access. If you obtain it manually, save it as /models/vetanatmunich/campylognathia_lateralis_foal.glb.",
+      "tags": [
+        "horse",
+        "anatomy",
+        "veterinary_anatomy",
+        "vetanatmunich"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": [],
+      "api_is_downloadable": false,
+      "api_face_count": 79865,
+      "api_vertex_count": 40133,
+      "api_animation_count": 0,
+      "api_created_at": "2025-11-04T14:31:05.466222",
+      "api_published_at": "2025-11-04T14:39:19.507332",
+      "api_license": null,
+      "registry_notes": "Registry entry only. GLB is not bundled."
+    },
+    {
+      "id": "vetanatmunich_005_congenital_joint_malformations_pig",
+      "model_name": "congenital joint malformations pig",
+      "species": "pig",
+      "anatomy_system": "joint_kinematics",
+      "source": "Sketchfab / vetanatMunich",
+      "source_url": "https://sketchfab.com/3d-models/congenital-joint-malformations-pig-11e4cb5f18d14394ac9c9021e0b6309d",
+      "embed_url": "https://sketchfab.com/models/11e4cb5f18d14394ac9c9021e0b6309d/embed",
+      "sketchfab_uid": "11e4cb5f18d14394ac9c9021e0b6309d",
+      "local_glb_path": "/models/vetanatmunich/congenital_joint_malformations_pig.glb",
+      "license_usage_notes": "Sketchfab API metadata is available, but this model is not downloadable with the current access. If you obtain it manually, save it as /models/vetanatmunich/congenital_joint_malformations_pig.glb.",
+      "tags": [
+        "pig",
+        "joint_kinematics",
+        "veterinary_anatomy",
+        "vetanatmunich"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": [],
+      "api_is_downloadable": false,
+      "api_face_count": 39194,
+      "api_vertex_count": 19592,
+      "api_animation_count": 0,
+      "api_created_at": "2025-11-04T12:21:18.107610",
+      "api_published_at": "2025-11-04T12:28:20.469310",
+      "api_license": null,
+      "registry_notes": "Registry entry only. GLB is not bundled."
+    },
+    {
+      "id": "vetanatmunich_006_left_femur_tiger",
+      "model_name": "left femur tiger",
+      "species": "tiger",
+      "anatomy_system": "skeletal",
+      "source": "Sketchfab / vetanatMunich",
+      "source_url": "https://sketchfab.com/3d-models/left-femur-tiger-3e080855457c4bf5b9f60333f553301c",
+      "embed_url": "https://sketchfab.com/models/3e080855457c4bf5b9f60333f553301c/embed",
+      "sketchfab_uid": "3e080855457c4bf5b9f60333f553301c",
+      "local_glb_path": "/models/vetanatmunich/left_femur_tiger.glb",
+      "license_usage_notes": "Sketchfab API metadata is available, but this model is not downloadable with the current access. If you obtain it manually, save it as /models/vetanatmunich/left_femur_tiger.glb.",
+      "tags": [
+        "tiger",
+        "skeletal",
+        "veterinary_anatomy",
+        "vetanatmunich"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": [],
+      "api_is_downloadable": false,
+      "api_face_count": 39804,
+      "api_vertex_count": 19878,
+      "api_animation_count": 0,
+      "api_created_at": "2025-10-28T08:05:02.406427",
+      "api_published_at": "2025-10-28T08:26:57.367643",
+      "api_license": null,
+      "registry_notes": "Registry entry only. GLB is not bundled."
+    },
+    {
+      "id": "vetanatmunich_007_skeleton_alpaka",
+      "model_name": "skeleton alpaka",
+      "species": "alpaka",
+      "anatomy_system": "skeletal",
+      "source": "Sketchfab / vetanatMunich",
+      "source_url": "https://sketchfab.com/3d-models/skeleton-alpaka-b978333edf0946c7883d12abdcfc6a11",
+      "embed_url": "https://sketchfab.com/models/b978333edf0946c7883d12abdcfc6a11/embed",
+      "sketchfab_uid": "b978333edf0946c7883d12abdcfc6a11",
+      "local_glb_path": "/models/vetanatmunich/skeleton_alpaka.glb",
+      "license_usage_notes": "Sketchfab API metadata is available, but this model is not downloadable with the current access. If you obtain it manually, save it as /models/vetanatmunich/skeleton_alpaka.glb.",
+      "tags": [
+        "alpaka",
+        "skeletal",
+        "veterinary_anatomy",
+        "vetanatmunich"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": [],
+      "api_is_downloadable": false,
+      "api_face_count": 4908074,
+      "api_vertex_count": 2454009,
+      "api_animation_count": 0,
+      "api_created_at": "2025-10-09T08:15:07.813106",
+      "api_published_at": "2025-10-09T08:28:14.307514",
+      "api_license": null,
+      "registry_notes": "Registry entry only. GLB is not bundled."
+    },
+    {
+      "id": "vetanatmunich_008_foreign_body_wire_horse",
+      "model_name": "foreign body (wire) horse",
+      "species": "horse",
+      "anatomy_system": "pathology",
+      "source": "Sketchfab / vetanatMunich",
+      "source_url": "https://sketchfab.com/3d-models/foreign-body-wire-horse-027e978342124a64be7a8fb3a686ad77",
+      "embed_url": "https://sketchfab.com/models/027e978342124a64be7a8fb3a686ad77/embed",
+      "sketchfab_uid": "027e978342124a64be7a8fb3a686ad77",
+      "local_glb_path": "/models/vetanatmunich/foreign_body_wire_horse.glb",
+      "license_usage_notes": "Sketchfab API metadata is available, but this model is not downloadable with the current access. If you obtain it manually, save it as /models/vetanatmunich/foreign_body_wire_horse.glb.",
+      "tags": [
+        "horse",
+        "pathology",
+        "veterinary_anatomy",
+        "vetanatmunich"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": [],
+      "api_is_downloadable": false,
+      "api_face_count": 932395,
+      "api_vertex_count": 467120,
+      "api_animation_count": 0,
+      "api_created_at": "2025-08-12T12:28:32.912293",
+      "api_published_at": "2025-08-12T13:24:13.917321",
+      "api_license": null,
+      "registry_notes": "Registry entry only. GLB is not bundled."
+    },
+    {
+      "id": "vetanatmunich_009_hydronephrosis_pig",
+      "model_name": "hydronephrosis pig",
+      "species": "pig",
+      "anatomy_system": "organ_pathology",
+      "source": "Sketchfab / vetanatMunich",
+      "source_url": "https://sketchfab.com/3d-models/hydronephrosis-pig-48414046f8ad4c8ebff7f9e377691b21",
+      "embed_url": "https://sketchfab.com/models/48414046f8ad4c8ebff7f9e377691b21/embed",
+      "sketchfab_uid": "48414046f8ad4c8ebff7f9e377691b21",
+      "local_glb_path": "/models/vetanatmunich/hydronephrosis_pig.glb",
+      "license_usage_notes": "Sketchfab API metadata is available, but this model is not downloadable with the current access. If you obtain it manually, save it as /models/vetanatmunich/hydronephrosis_pig.glb.",
+      "tags": [
+        "pig",
+        "organ_pathology",
+        "veterinary_anatomy",
+        "vetanatmunich"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": [],
+      "api_is_downloadable": false,
+      "api_face_count": 2498036,
+      "api_vertex_count": 1248139,
+      "api_animation_count": 0,
+      "api_created_at": "2025-08-05T06:41:53.058635",
+      "api_published_at": "2025-08-05T08:10:38.462621",
+      "api_license": null,
+      "registry_notes": "Registry entry only. GLB is not bundled."
+    },
+    {
+      "id": "vetanatmunich_010_skeleton_of_a_pig",
+      "model_name": "skeleton of a pig",
+      "species": "pig",
+      "anatomy_system": "skeletal",
+      "source": "Sketchfab / vetanatMunich",
+      "source_url": "https://sketchfab.com/3d-models/skeleton-of-a-pig-044c0b61e2e24d04a08b9fbd8de3c163",
+      "embed_url": "https://sketchfab.com/models/044c0b61e2e24d04a08b9fbd8de3c163/embed",
+      "sketchfab_uid": "044c0b61e2e24d04a08b9fbd8de3c163",
+      "local_glb_path": "/models/vetanatmunich/skeleton_of_a_pig.glb",
+      "license_usage_notes": "Sketchfab API metadata is available, but this model is not downloadable with the current access. If you obtain it manually, save it as /models/vetanatmunich/skeleton_of_a_pig.glb.",
+      "tags": [
+        "pig",
+        "skeletal",
+        "veterinary_anatomy",
+        "vetanatmunich"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": [],
+      "api_is_downloadable": false,
+      "api_face_count": 1532135,
+      "api_vertex_count": 766835,
+      "api_animation_count": 0,
+      "api_created_at": "2025-07-03T10:08:09.455116",
+      "api_published_at": "2025-07-03T10:16:19.106450",
+      "api_license": null,
+      "registry_notes": "Registry entry only. GLB is not bundled."
+    },
+    {
+      "id": "vetanatmunich_011_mast_cell_leukemia_cat",
+      "model_name": "mast cell leukemia cat",
+      "species": "cat",
+      "anatomy_system": "pathology",
+      "source": "Sketchfab / vetanatMunich",
+      "source_url": "https://sketchfab.com/3d-models/mast-cell-leukemia-cat-6470bcc63aae4b0ba87ee8a64e5cc567",
+      "embed_url": "https://sketchfab.com/models/6470bcc63aae4b0ba87ee8a64e5cc567/embed",
+      "sketchfab_uid": "6470bcc63aae4b0ba87ee8a64e5cc567",
+      "local_glb_path": "/models/vetanatmunich/mast_cell_leukemia_cat.glb",
+      "license_usage_notes": "Sketchfab API metadata is available, but this model is not downloadable with the current access. If you obtain it manually, save it as /models/vetanatmunich/mast_cell_leukemia_cat.glb.",
+      "tags": [
+        "cat",
+        "pathology",
+        "veterinary_anatomy",
+        "vetanatmunich"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": [],
+      "api_is_downloadable": false,
+      "api_face_count": 997170,
+      "api_vertex_count": 498575,
+      "api_animation_count": 0,
+      "api_created_at": "2025-07-03T08:06:25.579968",
+      "api_published_at": "2025-07-03T08:10:00.442147",
+      "api_license": null,
+      "registry_notes": "Registry entry only. GLB is not bundled."
+    },
+    {
+      "id": "vetanatmunich_012_lymphadenopathy_in_a_dog",
+      "model_name": "lymphadenopathy in a dog",
+      "species": "dog",
+      "anatomy_system": "pathology",
+      "source": "Sketchfab / vetanatMunich",
+      "source_url": "https://sketchfab.com/3d-models/lymphadenopathy-in-a-dog-171adadc742c4310928c425a1cb64aa3",
+      "embed_url": "https://sketchfab.com/models/171adadc742c4310928c425a1cb64aa3/embed",
+      "sketchfab_uid": "171adadc742c4310928c425a1cb64aa3",
+      "local_glb_path": "/models/vetanatmunich/lymphadenopathy_in_a_dog.glb",
+      "license_usage_notes": "Sketchfab API metadata is available, but this model is not downloadable with the current access. If you obtain it manually, save it as /models/vetanatmunich/lymphadenopathy_in_a_dog.glb.",
+      "tags": [
+        "dog",
+        "pathology",
+        "veterinary_anatomy",
+        "vetanatmunich"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": [],
+      "api_is_downloadable": false,
+      "api_face_count": 998953,
+      "api_vertex_count": 499056,
+      "api_animation_count": 0,
+      "api_created_at": "2025-07-01T10:10:54.545101",
+      "api_published_at": "2025-07-03T07:53:59.681030",
+      "api_license": null,
+      "registry_notes": "Registry entry only. GLB is not bundled."
+    },
+    {
+      "id": "vetanatmunich_013_nodular_and_miliary_tuberculosis_fox",
+      "model_name": "nodular and miliary tuberculosis fox",
+      "species": "fox",
+      "anatomy_system": "pathology",
+      "source": "Sketchfab / vetanatMunich",
+      "source_url": "https://sketchfab.com/3d-models/nodular-and-miliary-tuberculosis-fox-dceec695325648ed9dd091a6d5d98e35",
+      "embed_url": "https://sketchfab.com/models/dceec695325648ed9dd091a6d5d98e35/embed",
+      "sketchfab_uid": "dceec695325648ed9dd091a6d5d98e35",
+      "local_glb_path": "/models/vetanatmunich/nodular_and_miliary_tuberculosis_fox.glb",
+      "license_usage_notes": "Sketchfab API metadata is available, but this model is not downloadable with the current access. If you obtain it manually, save it as /models/vetanatmunich/nodular_and_miliary_tuberculosis_fox.glb.",
+      "tags": [
+        "fox",
+        "pathology",
+        "veterinary_anatomy",
+        "vetanatmunich"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": [],
+      "api_is_downloadable": false,
+      "api_face_count": 994326,
+      "api_vertex_count": 497155,
+      "api_animation_count": 0,
+      "api_created_at": "2025-07-01T10:01:32.620053",
+      "api_published_at": "2025-07-01T10:04:30.029066",
+      "api_license": null,
+      "registry_notes": "Registry entry only. GLB is not bundled."
+    },
+    {
+      "id": "vetanatmunich_014_generalized_tuberculosis_chicken",
+      "model_name": "generalized tuberculosis chicken",
+      "species": "chicken",
+      "anatomy_system": "pathology",
+      "source": "Sketchfab / vetanatMunich",
+      "source_url": "https://sketchfab.com/3d-models/generalized-tuberculosis-chicken-1f5903bd3bb0480ea901056bf6978208",
+      "embed_url": "https://sketchfab.com/models/1f5903bd3bb0480ea901056bf6978208/embed",
+      "sketchfab_uid": "1f5903bd3bb0480ea901056bf6978208",
+      "local_glb_path": "/models/vetanatmunich/generalized_tuberculosis_chicken.glb",
+      "license_usage_notes": "Sketchfab API metadata is available, but this model is not downloadable with the current access. If you obtain it manually, save it as /models/vetanatmunich/generalized_tuberculosis_chicken.glb.",
+      "tags": [
+        "chicken",
+        "pathology",
+        "veterinary_anatomy",
+        "vetanatmunich"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": [],
+      "api_is_downloadable": false,
+      "api_face_count": 996870,
+      "api_vertex_count": 498205,
+      "api_animation_count": 0,
+      "api_created_at": "2025-07-01T09:49:08.355565",
+      "api_published_at": "2025-07-01T09:52:49.823376",
+      "api_license": null,
+      "registry_notes": "Registry entry only. GLB is not bundled."
+    },
+    {
+      "id": "vetanatmunich_015_foot_and_mouth_disease_in_a_bovine_tongue",
+      "model_name": "foot-and-mouth disease in a bovine tongue",
+      "species": "bovine",
+      "anatomy_system": "organ_pathology",
+      "source": "Sketchfab / vetanatMunich",
+      "source_url": "https://sketchfab.com/3d-models/foot-and-mouth-disease-in-a-bovine-tongue-963c86c26a794f12ad2894504ab240f9",
+      "embed_url": "https://sketchfab.com/models/963c86c26a794f12ad2894504ab240f9/embed",
+      "sketchfab_uid": "963c86c26a794f12ad2894504ab240f9",
+      "local_glb_path": "/models/vetanatmunich/foot_and_mouth_disease_in_a_bovine_tongue.glb",
+      "license_usage_notes": "Sketchfab API metadata is available, but this model is not downloadable with the current access. If you obtain it manually, save it as /models/vetanatmunich/foot_and_mouth_disease_in_a_bovine_tongue.glb.",
+      "tags": [
+        "bovine",
+        "organ_pathology",
+        "veterinary_anatomy",
+        "vetanatmunich"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": [],
+      "api_is_downloadable": false,
+      "api_face_count": 999602,
+      "api_vertex_count": 499801,
+      "api_animation_count": 0,
+      "api_created_at": "2025-07-01T08:37:25.189200",
+      "api_published_at": "2025-07-01T08:42:52.640725",
+      "api_license": null,
+      "registry_notes": "Registry entry only. GLB is not bundled."
+    },
+    {
+      "id": "vetanatmunich_016_primary_syphilitic_lesion_ape",
+      "model_name": "primary syphilitic lesion ape",
+      "species": "ape",
+      "anatomy_system": "pathology",
+      "source": "Sketchfab / vetanatMunich",
+      "source_url": "https://sketchfab.com/3d-models/primary-syphilitic-lesion-ape-1b7371febcc442ca8ff5e0a60cec7bff",
+      "embed_url": "https://sketchfab.com/models/1b7371febcc442ca8ff5e0a60cec7bff/embed",
+      "sketchfab_uid": "1b7371febcc442ca8ff5e0a60cec7bff",
+      "local_glb_path": "/models/vetanatmunich/primary_syphilitic_lesion_ape.glb",
+      "license_usage_notes": "Sketchfab API metadata is available, but this model is not downloadable with the current access. If you obtain it manually, save it as /models/vetanatmunich/primary_syphilitic_lesion_ape.glb.",
+      "tags": [
+        "ape",
+        "pathology",
+        "veterinary_anatomy",
+        "vetanatmunich"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": [],
+      "api_is_downloadable": false,
+      "api_face_count": 995664,
+      "api_vertex_count": 497816,
+      "api_animation_count": 0,
+      "api_created_at": "2025-06-26T08:30:52.349771",
+      "api_published_at": "2025-06-26T08:38:40.189109",
+      "api_license": null,
+      "registry_notes": "Registry entry only. GLB is not bundled."
+    },
+    {
+      "id": "vetanatmunich_017_tuberculosis_cutis_verrucosa_in_a_human",
+      "model_name": "Tuberculosis cutis verrucosa in a human",
+      "species": "human",
+      "anatomy_system": "pathology",
+      "source": "Sketchfab / vetanatMunich",
+      "source_url": "https://sketchfab.com/3d-models/tuberculosis-cutis-verrucosa-in-a-human-d6948d75b0264d67848ac9635107d3bc",
+      "embed_url": "https://sketchfab.com/models/d6948d75b0264d67848ac9635107d3bc/embed",
+      "sketchfab_uid": "d6948d75b0264d67848ac9635107d3bc",
+      "local_glb_path": "/models/vetanatmunich/tuberculosis_cutis_verrucosa_in_a_human.glb",
+      "license_usage_notes": "Sketchfab API metadata is available, but this model is not downloadable with the current access. If you obtain it manually, save it as /models/vetanatmunich/tuberculosis_cutis_verrucosa_in_a_human.glb.",
+      "tags": [
+        "human",
+        "pathology",
+        "veterinary_anatomy",
+        "vetanatmunich"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": [],
+      "api_is_downloadable": false,
+      "api_face_count": 997143,
+      "api_vertex_count": 498067,
+      "api_animation_count": 0,
+      "api_created_at": "2025-06-26T06:20:00.430825",
+      "api_published_at": "2025-06-26T06:53:21.513858",
+      "api_license": null,
+      "registry_notes": "Registry entry only. GLB is not bundled."
+    },
+    {
+      "id": "vetanatmunich_018_spheroid_joint_ball_and_socket_joint",
+      "model_name": "Spheroid joint, ball-and-socket joint",
+      "species": "general",
+      "anatomy_system": "joint_kinematics",
+      "source": "Sketchfab / vetanatMunich",
+      "source_url": "https://sketchfab.com/3d-models/spheroid-joint-ball-and-socket-joint-7920f5cca0a544ac9172730c5335148d",
+      "embed_url": "https://sketchfab.com/models/7920f5cca0a544ac9172730c5335148d/embed",
+      "sketchfab_uid": "7920f5cca0a544ac9172730c5335148d",
+      "local_glb_path": "/models/vetanatmunich/spheroid_joint_ball_and_socket_joint.glb",
+      "license_usage_notes": "Sketchfab API metadata is available, but this model is not downloadable with the current access. If you obtain it manually, save it as /models/vetanatmunich/spheroid_joint_ball_and_socket_joint.glb.",
+      "tags": [
+        "general",
+        "joint_kinematics",
+        "veterinary_anatomy",
+        "vetanatmunich"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": [],
+      "api_is_downloadable": false,
+      "api_face_count": 9818,
+      "api_vertex_count": 6876,
+      "api_animation_count": 1,
+      "api_created_at": "2025-03-30T10:48:49.376414",
+      "api_published_at": "2025-04-01T17:30:23.818470",
+      "api_license": null,
+      "registry_notes": "Registry entry only. GLB is not bundled."
+    },
+    {
+      "id": "vetanatmunich_019_condular_joint",
+      "model_name": "Condular joint",
+      "species": "general",
+      "anatomy_system": "joint_kinematics",
+      "source": "Sketchfab / vetanatMunich",
+      "source_url": "https://sketchfab.com/3d-models/condular-joint-d3207b53e1e246749b04137882b7f25d",
+      "embed_url": "https://sketchfab.com/models/d3207b53e1e246749b04137882b7f25d/embed",
+      "sketchfab_uid": "d3207b53e1e246749b04137882b7f25d",
+      "local_glb_path": "/models/vetanatmunich/condular_joint.glb",
+      "license_usage_notes": "Sketchfab API metadata is available, but this model is not downloadable with the current access. If you obtain it manually, save it as /models/vetanatmunich/condular_joint.glb.",
+      "tags": [
+        "general",
+        "joint_kinematics",
+        "veterinary_anatomy",
+        "vetanatmunich"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": [],
+      "api_is_downloadable": false,
+      "api_face_count": 6082,
+      "api_vertex_count": 4984,
+      "api_animation_count": 1,
+      "api_created_at": "2025-03-28T14:53:54.750637",
+      "api_published_at": "2025-04-01T17:30:18.953950",
+      "api_license": null,
+      "registry_notes": "Registry entry only. GLB is not bundled."
+    },
+    {
+      "id": "vetanatmunich_020_ellipsoid_joint",
+      "model_name": "Ellipsoid joint",
+      "species": "general",
+      "anatomy_system": "joint_kinematics",
+      "source": "Sketchfab / vetanatMunich",
+      "source_url": "https://sketchfab.com/3d-models/ellipsoid-joint-1eca7d7679874774822234f702b11e17",
+      "embed_url": "https://sketchfab.com/models/1eca7d7679874774822234f702b11e17/embed",
+      "sketchfab_uid": "1eca7d7679874774822234f702b11e17",
+      "local_glb_path": "/models/vetanatmunich/ellipsoid_joint.glb",
+      "license_usage_notes": "Sketchfab API metadata is available, but this model is not downloadable with the current access. If you obtain it manually, save it as /models/vetanatmunich/ellipsoid_joint.glb.",
+      "tags": [
+        "general",
+        "joint_kinematics",
+        "veterinary_anatomy",
+        "vetanatmunich"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": [],
+      "api_is_downloadable": false,
+      "api_face_count": 8820,
+      "api_vertex_count": 6366,
+      "api_animation_count": 1,
+      "api_created_at": "2025-03-30T17:13:02.413280",
+      "api_published_at": "2025-04-01T17:30:13.771764",
+      "api_license": null,
+      "registry_notes": "Registry entry only. GLB is not bundled."
+    },
+    {
+      "id": "vetanatmunich_021_saddle_joint",
+      "model_name": "Saddle joint",
+      "species": "general",
+      "anatomy_system": "joint_kinematics",
+      "source": "Sketchfab / vetanatMunich",
+      "source_url": "https://sketchfab.com/3d-models/saddle-joint-6c6b892a677243e1b664741d5b25482a",
+      "embed_url": "https://sketchfab.com/models/6c6b892a677243e1b664741d5b25482a/embed",
+      "sketchfab_uid": "6c6b892a677243e1b664741d5b25482a",
+      "local_glb_path": "/models/vetanatmunich/saddle_joint.glb",
+      "license_usage_notes": "Sketchfab API metadata is available, but this model is not downloadable with the current access. If you obtain it manually, save it as /models/vetanatmunich/saddle_joint.glb.",
+      "tags": [
+        "general",
+        "joint_kinematics",
+        "veterinary_anatomy",
+        "vetanatmunich"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": [],
+      "api_is_downloadable": false,
+      "api_face_count": 8744,
+      "api_vertex_count": 6326,
+      "api_animation_count": 1,
+      "api_created_at": "2025-03-30T18:21:25.858219",
+      "api_published_at": "2025-04-01T17:30:09.296516",
+      "api_license": null,
+      "registry_notes": "Registry entry only. GLB is not bundled."
+    },
+    {
+      "id": "vetanatmunich_022_pivot_joint",
+      "model_name": "Pivot joint",
+      "species": "general",
+      "anatomy_system": "joint_kinematics",
+      "source": "Sketchfab / vetanatMunich",
+      "source_url": "https://sketchfab.com/3d-models/pivot-joint-9bd1999c628b4411abc85de32ed52583",
+      "embed_url": "https://sketchfab.com/models/9bd1999c628b4411abc85de32ed52583/embed",
+      "sketchfab_uid": "9bd1999c628b4411abc85de32ed52583",
+      "local_glb_path": "/models/vetanatmunich/pivot_joint.glb",
+      "license_usage_notes": "Sketchfab API metadata is available, but this model is not downloadable with the current access. If you obtain it manually, save it as /models/vetanatmunich/pivot_joint.glb.",
+      "tags": [
+        "general",
+        "joint_kinematics",
+        "veterinary_anatomy",
+        "vetanatmunich"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": [],
+      "api_is_downloadable": false,
+      "api_face_count": 6400,
+      "api_vertex_count": 5147,
+      "api_animation_count": 1,
+      "api_created_at": "2025-03-31T06:44:45.392069",
+      "api_published_at": "2025-04-01T17:30:00.919397",
+      "api_license": null,
+      "registry_notes": "Registry entry only. GLB is not bundled."
+    },
+    {
+      "id": "vetanatmunich_023_equine_reciprocal_apparatus_animation",
+      "model_name": "Equine reciprocal apparatus - animation",
+      "species": "horse",
+      "anatomy_system": "joint_kinematics",
+      "source": "Sketchfab / vetanatMunich",
+      "source_url": "https://sketchfab.com/3d-models/equine-reciprocal-apparatus-animation-a46d36e702ba4f2d859f97bc2e76083f",
+      "embed_url": "https://sketchfab.com/models/a46d36e702ba4f2d859f97bc2e76083f/embed",
+      "sketchfab_uid": "a46d36e702ba4f2d859f97bc2e76083f",
+      "local_glb_path": "/models/vetanatmunich/equine_reciprocal_apparatus_animation.glb",
+      "license_usage_notes": "Sketchfab API metadata is available, but this model is not downloadable with the current access. If you obtain it manually, save it as /models/vetanatmunich/equine_reciprocal_apparatus_animation.glb.",
+      "tags": [
+        "horse",
+        "joint_kinematics",
+        "veterinary_anatomy",
+        "vetanatmunich"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": [],
+      "api_is_downloadable": false,
+      "api_face_count": 32480,
+      "api_vertex_count": 13616,
+      "api_animation_count": 1,
+      "api_created_at": "2025-03-27T13:59:39.522146",
+      "api_published_at": "2025-04-01T17:29:53.106555",
+      "api_license": null,
+      "registry_notes": "Registry entry only. GLB is not bundled."
+    },
+    {
+      "id": "vetanatmunich_024_skeleton_of_a_billy_goat_annotation_of_trunk",
+      "model_name": "skeleton of a billy-goat - annotation of trunk",
+      "species": "goat",
+      "anatomy_system": "skeletal",
+      "source": "Sketchfab / vetanatMunich",
+      "source_url": "https://sketchfab.com/3d-models/skeleton-of-a-billy-goat-annotation-of-trunk-db5f72277d0a48209629348b3a826340",
+      "embed_url": "https://sketchfab.com/models/db5f72277d0a48209629348b3a826340/embed",
+      "sketchfab_uid": "db5f72277d0a48209629348b3a826340",
+      "local_glb_path": "/models/vetanatmunich/skeleton_of_a_billy_goat_annotation_of_trunk.glb",
+      "license_usage_notes": "Sketchfab API metadata is available, but this model is not downloadable with the current access. If you obtain it manually, save it as /models/vetanatmunich/skeleton_of_a_billy_goat_annotation_of_trunk.glb.",
+      "tags": [
+        "goat",
+        "skeletal",
+        "veterinary_anatomy",
+        "vetanatmunich"
+      ],
+      "download_status": "external_only",
+      "mode": "external_until_downloaded",
+      "clickable_nodes": [],
+      "api_is_downloadable": false,
+      "api_face_count": 1158901,
+      "api_vertex_count": 587668,
+      "api_animation_count": 0,
+      "api_created_at": "2025-02-05T10:11:46.116296",
+      "api_published_at": "2025-02-08T12:02:04.681546",
+      "api_license": null,
+      "registry_notes": "Registry entry only. GLB is not bundled."
+    }
+  ],
+  "quizzes": {
+    "pig": {
+      "skeletal": [
+        {
+          "id": "pig_skeletal_1",
+          "type": "single-choice",
+          "question": "Which structure is the major upper hindlimb long bone?",
+          "choices": [
+            "Femur",
+            "Radius",
+            "Ulna",
+            "Mandible"
+          ],
+          "answer": "Femur",
+          "explanation": "The femur is the major long bone of the upper hindlimb."
+        },
+        {
+          "id": "pig_skeletal_2",
+          "type": "single-choice",
+          "question": "Which forelimb bone contributes to the olecranon lever?",
+          "choices": [
+            "Ulna",
+            "Tibia",
+            "Femur",
+            "Rib"
+          ],
+          "answer": "Ulna",
+          "explanation": "The ulna forms the olecranon, which gives leverage to elbow extension."
+        }
+      ]
+    },
+    "dog": {
+      "skeletal": [
+        {
+          "id": "dog_skeletal_1",
+          "type": "single-choice",
+          "question": "Which bone is the major upper hindlimb bone?",
+          "choices": [
+            "Radius",
+            "Femur",
+            "Ulna",
+            "Scapula"
+          ],
+          "answer": "Femur",
+          "explanation": "The femur is the upper hindlimb bone connecting the hip region to the stifle region."
+        }
+      ]
+    }
+  },
+  "structures": {
+    "pig": {
+      "skeletal": {
+        "femur": {
+          "id": "femur",
+          "name": "Femur",
+          "system": "Skeletal",
+          "region": "Hind limb",
+          "function": "Major upper hindlimb long bone used in support and propulsion.",
+          "attachments": [
+            "Gluteal group",
+            "Quadriceps femoris",
+            "Adductor group"
+          ],
+          "clinical_notes": [
+            "Fracture relevance",
+            "Locomotion comparison",
+            "Meat science/anatomy relevance"
+          ],
+          "study_prompt": "Describe the femur as a support and leverage structure in the pig."
+        },
+        "tibia": {
+          "id": "tibia",
+          "name": "Tibia",
+          "system": "Skeletal",
+          "region": "Hind limb",
+          "function": "Major lower hindlimb support bone.",
+          "attachments": [
+            "Patellar ligament",
+            "Cranial tibial region",
+            "Hock-associated muscle groups"
+          ],
+          "clinical_notes": [
+            "Stifle-to-hock force transfer",
+            "Fracture relevance"
+          ],
+          "study_prompt": "Explain how the tibia transfers weight through the hindlimb."
+        },
+        "radius": {
+          "id": "radius",
+          "name": "Radius",
+          "system": "Skeletal",
+          "region": "Fore limb",
+          "function": "Forelimb long bone involved in support and stance.",
+          "attachments": [
+            "Forearm extensor/flexor groups",
+            "Elbow/carpal associated structures"
+          ],
+          "clinical_notes": [
+            "Forelimb alignment",
+            "Weight-bearing relevance"
+          ],
+          "study_prompt": "Compare forelimb support to hindlimb propulsion."
+        },
+        "ulna": {
+          "id": "ulna",
+          "name": "Ulna",
+          "system": "Skeletal",
+          "region": "Fore limb",
+          "function": "Forearm bone contributing to elbow leverage and stability.",
+          "attachments": [
+            "Triceps brachii",
+            "Interosseous structures"
+          ],
+          "clinical_notes": [
+            "Olecranon leverage",
+            "Elbow mechanics"
+          ],
+          "study_prompt": "Why is the olecranon important for extension?"
+        }
+      }
+    },
+    "dog": {
+      "skeletal": {
+        "femur": {
+          "id": "femur",
+          "name": "Femur",
+          "system": "Skeletal",
+          "region": "Hind limb",
+          "function": "Primary upper hindlimb bone involved in weight-bearing, hip movement, and stifle mechanics.",
+          "attachments": [
+            "Gluteal muscle group",
+            "Quadriceps femoris",
+            "Adductor group"
+          ],
+          "clinical_notes": [
+            "Fracture relevance",
+            "Hip joint relevance",
+            "Stifle alignment relevance"
+          ],
+          "study_prompt": "Explain why the femur is important for hindlimb locomotion."
+        },
+        "tibia": {
+          "id": "tibia",
+          "name": "Tibia",
+          "system": "Skeletal",
+          "region": "Hind limb",
+          "function": "Major lower hindlimb support bone that transfers force between the stifle and hock.",
+          "attachments": [
+            "Patellar ligament",
+            "Cranial tibial muscle",
+            "Gastrocnemius region"
+          ],
+          "clinical_notes": [
+            "Tibial plateau angle relevance",
+            "Cruciate ligament biomechanics",
+            "Fracture relevance"
+          ],
+          "study_prompt": "Describe how the tibia contributes to stability and forward movement."
+        },
+        "radius": {
+          "id": "radius",
+          "name": "Radius",
+          "system": "Skeletal",
+          "region": "Fore limb",
+          "function": "Primary forelimb weight-bearing bone between the elbow and carpus.",
+          "attachments": [
+            "Biceps brachii insertion",
+            "Extensor muscle origins",
+            "Interosseous connection with ulna"
+          ],
+          "clinical_notes": [
+            "Forelimb fracture relevance",
+            "Carpal alignment",
+            "Elbow mechanics"
+          ],
+          "study_prompt": "Compare forelimb support with hindlimb propulsion."
+        },
+        "ulna": {
+          "id": "ulna",
+          "name": "Ulna",
+          "system": "Skeletal",
+          "region": "Fore limb",
+          "function": "Forms the olecranon and contributes to elbow leverage and forearm stability.",
+          "attachments": [
+            "Triceps brachii",
+            "Anconeus",
+            "Interosseous structures"
+          ],
+          "clinical_notes": [
+            "Olecranon trauma",
+            "Elbow dysplasia context",
+            "Growth plate relevance"
+          ],
+          "study_prompt": "Why does the olecranon matter for elbow extension?"
+        }
+      }
+    }
+  },
+  "chapters": [
+    {
+      "id": "dog--skeletal",
+      "chapter_number": 1,
+      "eyebrow": "Chapter 01",
+      "title": "Dog Skeletal",
+      "species": "dog",
+      "species_label": "Dog",
+      "system": "skeletal",
+      "system_label": "Skeletal",
+      "summary": "Study 10 lesson models, review 4 mapped structures, and work through 1 quiz prompt.",
+      "goals": [
+        "Learn the skeletal story for dog.",
+        "Compare available models and open one as the active lesson.",
+        "Use the study notes and quiz prompts to turn the chapter into revision material."
+      ],
+      "stats": {
+        "model_count": 10,
+        "local_model_count": 2,
+        "quiz_count": 1,
+        "structure_count": 4
+      },
+      "models": [
+        {
+          "id": "dog_skeleton_001",
+          "model_name": "Dog Skeleton Placeholder 001",
+          "species": "dog",
+          "anatomy_system": "skeletal",
+          "source": "External reference placeholder",
+          "source_url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Models/master/2.0/Duck/glTF-Binary/Duck.glb",
+          "local_glb_path": "/models/dog/skeleton_001.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "dog",
+            "skeleton",
+            "skeletal",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "downloaded",
+          "mode": "local",
+          "clickable_nodes": [
+            "femur",
+            "tibia",
+            "radius",
+            "ulna",
+            "skull",
+            "vertebrae"
+          ]
+        },
+        {
+          "id": "dog_skull_002",
+          "model_name": "Dog Skull Placeholder 002",
+          "species": "dog",
+          "anatomy_system": "skeletal",
+          "source": "External reference placeholder",
+          "source_url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Models/master/2.0/Box/glTF-Binary/Box.glb",
+          "local_glb_path": "/models/dog/skull_002.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "dog",
+            "skull",
+            "skeletal",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "downloaded",
+          "mode": "local",
+          "clickable_nodes": [
+            "femur",
+            "tibia",
+            "radius",
+            "ulna",
+            "skull",
+            "vertebrae"
+          ]
+        },
+        {
+          "id": "dog_forelimb_003",
+          "model_name": "Dog Forelimb Placeholder 003",
+          "species": "dog",
+          "anatomy_system": "skeletal",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=dog+forelimb+anatomy&type=models",
+          "local_glb_path": "/models/dog/forelimb_003.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "dog",
+            "forelimb",
+            "skeletal",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": [
+            "femur",
+            "tibia",
+            "radius",
+            "ulna",
+            "skull",
+            "vertebrae"
+          ]
+        },
+        {
+          "id": "dog_hindlimb_004",
+          "model_name": "Dog Hindlimb Placeholder 004",
+          "species": "dog",
+          "anatomy_system": "skeletal",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=dog+hindlimb+anatomy&type=models",
+          "local_glb_path": "/models/dog/hindlimb_004.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "dog",
+            "hindlimb",
+            "skeletal",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": [
+            "femur",
+            "tibia",
+            "radius",
+            "ulna",
+            "skull",
+            "vertebrae"
+          ]
+        },
+        {
+          "id": "dog_spine_005",
+          "model_name": "Dog Spine Placeholder 005",
+          "species": "dog",
+          "anatomy_system": "skeletal",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=dog+spine+anatomy&type=models",
+          "local_glb_path": "/models/dog/spine_005.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "dog",
+            "spine",
+            "skeletal",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": [
+            "femur",
+            "tibia",
+            "radius",
+            "ulna",
+            "skull",
+            "vertebrae"
+          ]
+        },
+        {
+          "id": "dog_skeleton_051",
+          "model_name": "Dog Skeleton Placeholder 051",
+          "species": "dog",
+          "anatomy_system": "skeletal",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=dog+skeleton+anatomy&type=models",
+          "local_glb_path": "/models/dog/skeleton_051.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "dog",
+            "skeleton",
+            "skeletal",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": []
+        },
+        {
+          "id": "dog_skeleton_061",
+          "model_name": "Dog Skeleton Placeholder 061",
+          "species": "dog",
+          "anatomy_system": "skeletal",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=dog+skeleton+anatomy&type=models",
+          "local_glb_path": "/models/dog/skeleton_061.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "dog",
+            "skeleton",
+            "skeletal",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": []
+        },
+        {
+          "id": "dog_skeleton_071",
+          "model_name": "Dog Skeleton Placeholder 071",
+          "species": "dog",
+          "anatomy_system": "skeletal",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=dog+skeleton+anatomy&type=models",
+          "local_glb_path": "/models/dog/skeleton_071.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "dog",
+            "skeleton",
+            "skeletal",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": []
+        },
+        {
+          "id": "dog_skeleton_081",
+          "model_name": "Dog Skeleton Placeholder 081",
+          "species": "dog",
+          "anatomy_system": "skeletal",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=dog+skeleton+anatomy&type=models",
+          "local_glb_path": "/models/dog/skeleton_081.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "dog",
+            "skeleton",
+            "skeletal",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": []
+        },
+        {
+          "id": "dog_skeleton_091",
+          "model_name": "Dog Skeleton Placeholder 091",
+          "species": "dog",
+          "anatomy_system": "skeletal",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=dog+skeleton+anatomy&type=models",
+          "local_glb_path": "/models/dog/skeleton_091.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "dog",
+            "skeleton",
+            "skeletal",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": []
+        }
+      ]
+    },
+    {
+      "id": "dog--cardiovascular",
+      "chapter_number": 2,
+      "eyebrow": "Chapter 02",
+      "title": "Dog Cardiovascular",
+      "species": "dog",
+      "species_label": "Dog",
+      "system": "cardiovascular",
+      "system_label": "Cardiovascular",
+      "summary": "Study 6 lesson models, review 0 mapped structures, and work through 0 quiz prompts.",
+      "goals": [
+        "Learn the cardiovascular story for dog.",
+        "Compare available models and open one as the active lesson.",
+        "Use the study notes and quiz prompts to turn the chapter into revision material."
+      ],
+      "stats": {
+        "model_count": 6,
+        "local_model_count": 0,
+        "quiz_count": 0,
+        "structure_count": 0
+      },
+      "models": [
+        {
+          "id": "dog_heart_006",
+          "model_name": "Dog Heart Placeholder 006",
+          "species": "dog",
+          "anatomy_system": "cardiovascular",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=dog+heart+anatomy&type=models",
+          "local_glb_path": "/models/dog/heart_006.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "dog",
+            "heart",
+            "cardiovascular",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": []
+        },
+        {
+          "id": "dog_heart_056",
+          "model_name": "Dog Heart Placeholder 056",
+          "species": "dog",
+          "anatomy_system": "cardiovascular",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=dog+heart+anatomy&type=models",
+          "local_glb_path": "/models/dog/heart_056.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "dog",
+            "heart",
+            "cardiovascular",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": []
+        },
+        {
+          "id": "dog_heart_066",
+          "model_name": "Dog Heart Placeholder 066",
+          "species": "dog",
+          "anatomy_system": "cardiovascular",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=dog+heart+anatomy&type=models",
+          "local_glb_path": "/models/dog/heart_066.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "dog",
+            "heart",
+            "cardiovascular",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": []
+        },
+        {
+          "id": "dog_heart_076",
+          "model_name": "Dog Heart Placeholder 076",
+          "species": "dog",
+          "anatomy_system": "cardiovascular",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=dog+heart+anatomy&type=models",
+          "local_glb_path": "/models/dog/heart_076.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "dog",
+            "heart",
+            "cardiovascular",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": []
+        },
+        {
+          "id": "dog_heart_086",
+          "model_name": "Dog Heart Placeholder 086",
+          "species": "dog",
+          "anatomy_system": "cardiovascular",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=dog+heart+anatomy&type=models",
+          "local_glb_path": "/models/dog/heart_086.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "dog",
+            "heart",
+            "cardiovascular",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": []
+        },
+        {
+          "id": "dog_heart_096",
+          "model_name": "Dog Heart Placeholder 096",
+          "species": "dog",
+          "anatomy_system": "cardiovascular",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=dog+heart+anatomy&type=models",
+          "local_glb_path": "/models/dog/heart_096.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "dog",
+            "heart",
+            "cardiovascular",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": []
+        }
+      ]
+    },
+    {
+      "id": "dog--nervous",
+      "chapter_number": 3,
+      "eyebrow": "Chapter 03",
+      "title": "Dog Nervous",
+      "species": "dog",
+      "species_label": "Dog",
+      "system": "nervous",
+      "system_label": "Nervous",
+      "summary": "Study 1 lesson model, review 0 mapped structures, and work through 0 quiz prompts.",
+      "goals": [
+        "Learn the nervous story for dog.",
+        "Compare available models and open one as the active lesson.",
+        "Use the study notes and quiz prompts to turn the chapter into revision material."
+      ],
+      "stats": {
+        "model_count": 1,
+        "local_model_count": 0,
+        "quiz_count": 0,
+        "structure_count": 0
+      },
+      "models": [
+        {
+          "id": "dog_brain_007",
+          "model_name": "Dog Brain Placeholder 007",
+          "species": "dog",
+          "anatomy_system": "nervous",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=dog+brain+anatomy&type=models",
+          "local_glb_path": "/models/dog/brain_007.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "dog",
+            "brain",
+            "nervous",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": []
+        }
+      ]
+    },
+    {
+      "id": "dog--digestive",
+      "chapter_number": 4,
+      "eyebrow": "Chapter 04",
+      "title": "Dog Digestive",
+      "species": "dog",
+      "species_label": "Dog",
+      "system": "digestive",
+      "system_label": "Digestive",
+      "summary": "Study 1 lesson model, review 0 mapped structures, and work through 0 quiz prompts.",
+      "goals": [
+        "Learn the digestive story for dog.",
+        "Compare available models and open one as the active lesson.",
+        "Use the study notes and quiz prompts to turn the chapter into revision material."
+      ],
+      "stats": {
+        "model_count": 1,
+        "local_model_count": 0,
+        "quiz_count": 0,
+        "structure_count": 0
+      },
+      "models": [
+        {
+          "id": "dog_liver_008",
+          "model_name": "Dog Liver Placeholder 008",
+          "species": "dog",
+          "anatomy_system": "digestive",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=dog+liver+anatomy&type=models",
+          "local_glb_path": "/models/dog/liver_008.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "dog",
+            "liver",
+            "digestive",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": []
+        }
+      ]
+    },
+    {
+      "id": "dog--muscular",
+      "chapter_number": 5,
+      "eyebrow": "Chapter 05",
+      "title": "Dog Muscular",
+      "species": "dog",
+      "species_label": "Dog",
+      "system": "muscular",
+      "system_label": "Muscular",
+      "summary": "Study 2 lesson models, review 0 mapped structures, and work through 0 quiz prompts.",
+      "goals": [
+        "Learn the muscular story for dog.",
+        "Compare available models and open one as the active lesson.",
+        "Use the study notes and quiz prompts to turn the chapter into revision material."
+      ],
+      "stats": {
+        "model_count": 2,
+        "local_model_count": 0,
+        "quiz_count": 0,
+        "structure_count": 0
+      },
+      "models": [
+        {
+          "id": "dog_musculature_009",
+          "model_name": "Dog Musculature Placeholder 009",
+          "species": "dog",
+          "anatomy_system": "muscular",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=dog+musculature+anatomy&type=models",
+          "local_glb_path": "/models/dog/musculature_009.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "dog",
+            "musculature",
+            "muscular",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": []
+        },
+        {
+          "id": "dog_thorax_010",
+          "model_name": "Dog Thorax Placeholder 010",
+          "species": "dog",
+          "anatomy_system": "muscular",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=dog+thorax+anatomy&type=models",
+          "local_glb_path": "/models/dog/thorax_010.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "dog",
+            "thorax",
+            "muscular",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": []
+        }
+      ]
+    },
+    {
+      "id": "cat--skeletal",
+      "chapter_number": 6,
+      "eyebrow": "Chapter 06",
+      "title": "Cat Skeletal",
+      "species": "cat",
+      "species_label": "Cat",
+      "system": "skeletal",
+      "system_label": "Skeletal",
+      "summary": "Study 10 lesson models, review 0 mapped structures, and work through 0 quiz prompts.",
+      "goals": [
+        "Learn the skeletal story for cat.",
+        "Compare available models and open one as the active lesson.",
+        "Use the study notes and quiz prompts to turn the chapter into revision material."
+      ],
+      "stats": {
+        "model_count": 10,
+        "local_model_count": 0,
+        "quiz_count": 0,
+        "structure_count": 0
+      },
+      "models": [
+        {
+          "id": "cat_skeleton_011",
+          "model_name": "Cat Skeleton Placeholder 011",
+          "species": "cat",
+          "anatomy_system": "skeletal",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=cat+skeleton+anatomy&type=models",
+          "local_glb_path": "/models/cat/skeleton_011.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "cat",
+            "skeleton",
+            "skeletal",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": [
+            "femur",
+            "tibia",
+            "radius",
+            "ulna",
+            "skull",
+            "vertebrae"
+          ]
+        },
+        {
+          "id": "cat_skull_012",
+          "model_name": "Cat Skull Placeholder 012",
+          "species": "cat",
+          "anatomy_system": "skeletal",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=cat+skull+anatomy&type=models",
+          "local_glb_path": "/models/cat/skull_012.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "cat",
+            "skull",
+            "skeletal",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": [
+            "femur",
+            "tibia",
+            "radius",
+            "ulna",
+            "skull",
+            "vertebrae"
+          ]
+        },
+        {
+          "id": "cat_forelimb_013",
+          "model_name": "Cat Forelimb Placeholder 013",
+          "species": "cat",
+          "anatomy_system": "skeletal",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=cat+forelimb+anatomy&type=models",
+          "local_glb_path": "/models/cat/forelimb_013.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "cat",
+            "forelimb",
+            "skeletal",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": [
+            "femur",
+            "tibia",
+            "radius",
+            "ulna",
+            "skull",
+            "vertebrae"
+          ]
+        },
+        {
+          "id": "cat_hindlimb_014",
+          "model_name": "Cat Hindlimb Placeholder 014",
+          "species": "cat",
+          "anatomy_system": "skeletal",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=cat+hindlimb+anatomy&type=models",
+          "local_glb_path": "/models/cat/hindlimb_014.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "cat",
+            "hindlimb",
+            "skeletal",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": [
+            "femur",
+            "tibia",
+            "radius",
+            "ulna",
+            "skull",
+            "vertebrae"
+          ]
+        },
+        {
+          "id": "cat_spine_015",
+          "model_name": "Cat Spine Placeholder 015",
+          "species": "cat",
+          "anatomy_system": "skeletal",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=cat+spine+anatomy&type=models",
+          "local_glb_path": "/models/cat/spine_015.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "cat",
+            "spine",
+            "skeletal",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": [
+            "femur",
+            "tibia",
+            "radius",
+            "ulna",
+            "skull",
+            "vertebrae"
+          ]
+        },
+        {
+          "id": "cat_skull_052",
+          "model_name": "Cat Skull Placeholder 052",
+          "species": "cat",
+          "anatomy_system": "skeletal",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=cat+skull+anatomy&type=models",
+          "local_glb_path": "/models/cat/skull_052.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "cat",
+            "skull",
+            "skeletal",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": []
+        },
+        {
+          "id": "cat_skull_062",
+          "model_name": "Cat Skull Placeholder 062",
+          "species": "cat",
+          "anatomy_system": "skeletal",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=cat+skull+anatomy&type=models",
+          "local_glb_path": "/models/cat/skull_062.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "cat",
+            "skull",
+            "skeletal",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": []
+        },
+        {
+          "id": "cat_skull_072",
+          "model_name": "Cat Skull Placeholder 072",
+          "species": "cat",
+          "anatomy_system": "skeletal",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=cat+skull+anatomy&type=models",
+          "local_glb_path": "/models/cat/skull_072.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "cat",
+            "skull",
+            "skeletal",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": []
+        },
+        {
+          "id": "cat_skull_082",
+          "model_name": "Cat Skull Placeholder 082",
+          "species": "cat",
+          "anatomy_system": "skeletal",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=cat+skull+anatomy&type=models",
+          "local_glb_path": "/models/cat/skull_082.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "cat",
+            "skull",
+            "skeletal",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": []
+        },
+        {
+          "id": "cat_skull_092",
+          "model_name": "Cat Skull Placeholder 092",
+          "species": "cat",
+          "anatomy_system": "skeletal",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=cat+skull+anatomy&type=models",
+          "local_glb_path": "/models/cat/skull_092.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "cat",
+            "skull",
+            "skeletal",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": []
+        }
+      ]
+    },
+    {
+      "id": "cat--cardiovascular",
+      "chapter_number": 7,
+      "eyebrow": "Chapter 07",
+      "title": "Cat Cardiovascular",
+      "species": "cat",
+      "species_label": "Cat",
+      "system": "cardiovascular",
+      "system_label": "Cardiovascular",
+      "summary": "Study 1 lesson model, review 0 mapped structures, and work through 0 quiz prompts.",
+      "goals": [
+        "Learn the cardiovascular story for cat.",
+        "Compare available models and open one as the active lesson.",
+        "Use the study notes and quiz prompts to turn the chapter into revision material."
+      ],
+      "stats": {
+        "model_count": 1,
+        "local_model_count": 0,
+        "quiz_count": 0,
+        "structure_count": 0
+      },
+      "models": [
+        {
+          "id": "cat_heart_016",
+          "model_name": "Cat Heart Placeholder 016",
+          "species": "cat",
+          "anatomy_system": "cardiovascular",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=cat+heart+anatomy&type=models",
+          "local_glb_path": "/models/cat/heart_016.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "cat",
+            "heart",
+            "cardiovascular",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": []
+        }
+      ]
+    },
+    {
+      "id": "cat--nervous",
+      "chapter_number": 8,
+      "eyebrow": "Chapter 08",
+      "title": "Cat Nervous",
+      "species": "cat",
+      "species_label": "Cat",
+      "system": "nervous",
+      "system_label": "Nervous",
+      "summary": "Study 6 lesson models, review 0 mapped structures, and work through 0 quiz prompts.",
+      "goals": [
+        "Learn the nervous story for cat.",
+        "Compare available models and open one as the active lesson.",
+        "Use the study notes and quiz prompts to turn the chapter into revision material."
+      ],
+      "stats": {
+        "model_count": 6,
+        "local_model_count": 0,
+        "quiz_count": 0,
+        "structure_count": 0
+      },
+      "models": [
+        {
+          "id": "cat_brain_017",
+          "model_name": "Cat Brain Placeholder 017",
+          "species": "cat",
+          "anatomy_system": "nervous",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=cat+brain+anatomy&type=models",
+          "local_glb_path": "/models/cat/brain_017.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "cat",
+            "brain",
+            "nervous",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": []
+        },
+        {
+          "id": "cat_brain_057",
+          "model_name": "Cat Brain Placeholder 057",
+          "species": "cat",
+          "anatomy_system": "nervous",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=cat+brain+anatomy&type=models",
+          "local_glb_path": "/models/cat/brain_057.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "cat",
+            "brain",
+            "nervous",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": []
+        },
+        {
+          "id": "cat_brain_067",
+          "model_name": "Cat Brain Placeholder 067",
+          "species": "cat",
+          "anatomy_system": "nervous",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=cat+brain+anatomy&type=models",
+          "local_glb_path": "/models/cat/brain_067.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "cat",
+            "brain",
+            "nervous",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": []
+        },
+        {
+          "id": "cat_brain_077",
+          "model_name": "Cat Brain Placeholder 077",
+          "species": "cat",
+          "anatomy_system": "nervous",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=cat+brain+anatomy&type=models",
+          "local_glb_path": "/models/cat/brain_077.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "cat",
+            "brain",
+            "nervous",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": []
+        },
+        {
+          "id": "cat_brain_087",
+          "model_name": "Cat Brain Placeholder 087",
+          "species": "cat",
+          "anatomy_system": "nervous",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=cat+brain+anatomy&type=models",
+          "local_glb_path": "/models/cat/brain_087.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "cat",
+            "brain",
+            "nervous",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": []
+        },
+        {
+          "id": "cat_brain_097",
+          "model_name": "Cat Brain Placeholder 097",
+          "species": "cat",
+          "anatomy_system": "nervous",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=cat+brain+anatomy&type=models",
+          "local_glb_path": "/models/cat/brain_097.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "cat",
+            "brain",
+            "nervous",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": []
+        }
+      ]
+    },
+    {
+      "id": "cat--digestive",
+      "chapter_number": 9,
+      "eyebrow": "Chapter 09",
+      "title": "Cat Digestive",
+      "species": "cat",
+      "species_label": "Cat",
+      "system": "digestive",
+      "system_label": "Digestive",
+      "summary": "Study 1 lesson model, review 0 mapped structures, and work through 0 quiz prompts.",
+      "goals": [
+        "Learn the digestive story for cat.",
+        "Compare available models and open one as the active lesson.",
+        "Use the study notes and quiz prompts to turn the chapter into revision material."
+      ],
+      "stats": {
+        "model_count": 1,
+        "local_model_count": 0,
+        "quiz_count": 0,
+        "structure_count": 0
+      },
+      "models": [
+        {
+          "id": "cat_liver_018",
+          "model_name": "Cat Liver Placeholder 018",
+          "species": "cat",
+          "anatomy_system": "digestive",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=cat+liver+anatomy&type=models",
+          "local_glb_path": "/models/cat/liver_018.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "cat",
+            "liver",
+            "digestive",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": []
+        }
+      ]
+    },
+    {
+      "id": "cat--muscular",
+      "chapter_number": 10,
+      "eyebrow": "Chapter 10",
+      "title": "Cat Muscular",
+      "species": "cat",
+      "species_label": "Cat",
+      "system": "muscular",
+      "system_label": "Muscular",
+      "summary": "Study 2 lesson models, review 0 mapped structures, and work through 0 quiz prompts.",
+      "goals": [
+        "Learn the muscular story for cat.",
+        "Compare available models and open one as the active lesson.",
+        "Use the study notes and quiz prompts to turn the chapter into revision material."
+      ],
+      "stats": {
+        "model_count": 2,
+        "local_model_count": 0,
+        "quiz_count": 0,
+        "structure_count": 0
+      },
+      "models": [
+        {
+          "id": "cat_musculature_019",
+          "model_name": "Cat Musculature Placeholder 019",
+          "species": "cat",
+          "anatomy_system": "muscular",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=cat+musculature+anatomy&type=models",
+          "local_glb_path": "/models/cat/musculature_019.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "cat",
+            "musculature",
+            "muscular",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": []
+        },
+        {
+          "id": "cat_thorax_020",
+          "model_name": "Cat Thorax Placeholder 020",
+          "species": "cat",
+          "anatomy_system": "muscular",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=cat+thorax+anatomy&type=models",
+          "local_glb_path": "/models/cat/thorax_020.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "cat",
+            "thorax",
+            "muscular",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": []
+        }
+      ]
+    },
+    {
+      "id": "horse--skeletal",
+      "chapter_number": 11,
+      "eyebrow": "Chapter 11",
+      "title": "Horse Skeletal",
+      "species": "horse",
+      "species_label": "Horse",
+      "system": "skeletal",
+      "system_label": "Skeletal",
+      "summary": "Study 10 lesson models, review 0 mapped structures, and work through 0 quiz prompts.",
+      "goals": [
+        "Learn the skeletal story for horse.",
+        "Compare available models and open one as the active lesson.",
+        "Use the study notes and quiz prompts to turn the chapter into revision material."
+      ],
+      "stats": {
+        "model_count": 10,
+        "local_model_count": 0,
+        "quiz_count": 0,
+        "structure_count": 0
+      },
+      "models": [
+        {
+          "id": "horse_skeleton_021",
+          "model_name": "Horse Skeleton Placeholder 021",
+          "species": "horse",
+          "anatomy_system": "skeletal",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=horse+skeleton+anatomy&type=models",
+          "local_glb_path": "/models/horse/skeleton_021.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "horse",
+            "skeleton",
+            "skeletal",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": [
+            "femur",
+            "tibia",
+            "radius",
+            "ulna",
+            "skull",
+            "vertebrae"
+          ]
+        },
+        {
+          "id": "horse_skull_022",
+          "model_name": "Horse Skull Placeholder 022",
+          "species": "horse",
+          "anatomy_system": "skeletal",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=horse+skull+anatomy&type=models",
+          "local_glb_path": "/models/horse/skull_022.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "horse",
+            "skull",
+            "skeletal",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": [
+            "femur",
+            "tibia",
+            "radius",
+            "ulna",
+            "skull",
+            "vertebrae"
+          ]
+        },
+        {
+          "id": "horse_forelimb_023",
+          "model_name": "Horse Forelimb Placeholder 023",
+          "species": "horse",
+          "anatomy_system": "skeletal",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=horse+forelimb+anatomy&type=models",
+          "local_glb_path": "/models/horse/forelimb_023.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "horse",
+            "forelimb",
+            "skeletal",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": [
+            "femur",
+            "tibia",
+            "radius",
+            "ulna",
+            "skull",
+            "vertebrae"
+          ]
+        },
+        {
+          "id": "horse_hindlimb_024",
+          "model_name": "Horse Hindlimb Placeholder 024",
+          "species": "horse",
+          "anatomy_system": "skeletal",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=horse+hindlimb+anatomy&type=models",
+          "local_glb_path": "/models/horse/hindlimb_024.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "horse",
+            "hindlimb",
+            "skeletal",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": [
+            "femur",
+            "tibia",
+            "radius",
+            "ulna",
+            "skull",
+            "vertebrae"
+          ]
+        },
+        {
+          "id": "horse_spine_025",
+          "model_name": "Horse Spine Placeholder 025",
+          "species": "horse",
+          "anatomy_system": "skeletal",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=horse+spine+anatomy&type=models",
+          "local_glb_path": "/models/horse/spine_025.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "horse",
+            "spine",
+            "skeletal",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": [
+            "femur",
+            "tibia",
+            "radius",
+            "ulna",
+            "skull",
+            "vertebrae"
+          ]
+        },
+        {
+          "id": "horse_forelimb_053",
+          "model_name": "Horse Forelimb Placeholder 053",
+          "species": "horse",
+          "anatomy_system": "skeletal",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=horse+forelimb+anatomy&type=models",
+          "local_glb_path": "/models/horse/forelimb_053.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "horse",
+            "forelimb",
+            "skeletal",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": []
+        },
+        {
+          "id": "horse_forelimb_063",
+          "model_name": "Horse Forelimb Placeholder 063",
+          "species": "horse",
+          "anatomy_system": "skeletal",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=horse+forelimb+anatomy&type=models",
+          "local_glb_path": "/models/horse/forelimb_063.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "horse",
+            "forelimb",
+            "skeletal",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": []
+        },
+        {
+          "id": "horse_forelimb_073",
+          "model_name": "Horse Forelimb Placeholder 073",
+          "species": "horse",
+          "anatomy_system": "skeletal",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=horse+forelimb+anatomy&type=models",
+          "local_glb_path": "/models/horse/forelimb_073.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "horse",
+            "forelimb",
+            "skeletal",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": []
+        },
+        {
+          "id": "horse_forelimb_083",
+          "model_name": "Horse Forelimb Placeholder 083",
+          "species": "horse",
+          "anatomy_system": "skeletal",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=horse+forelimb+anatomy&type=models",
+          "local_glb_path": "/models/horse/forelimb_083.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "horse",
+            "forelimb",
+            "skeletal",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": []
+        },
+        {
+          "id": "horse_forelimb_093",
+          "model_name": "Horse Forelimb Placeholder 093",
+          "species": "horse",
+          "anatomy_system": "skeletal",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=horse+forelimb+anatomy&type=models",
+          "local_glb_path": "/models/horse/forelimb_093.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "horse",
+            "forelimb",
+            "skeletal",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": []
+        }
+      ]
+    },
+    {
+      "id": "horse--cardiovascular",
+      "chapter_number": 12,
+      "eyebrow": "Chapter 12",
+      "title": "Horse Cardiovascular",
+      "species": "horse",
+      "species_label": "Horse",
+      "system": "cardiovascular",
+      "system_label": "Cardiovascular",
+      "summary": "Study 1 lesson model, review 0 mapped structures, and work through 0 quiz prompts.",
+      "goals": [
+        "Learn the cardiovascular story for horse.",
+        "Compare available models and open one as the active lesson.",
+        "Use the study notes and quiz prompts to turn the chapter into revision material."
+      ],
+      "stats": {
+        "model_count": 1,
+        "local_model_count": 0,
+        "quiz_count": 0,
+        "structure_count": 0
+      },
+      "models": [
+        {
+          "id": "horse_heart_026",
+          "model_name": "Horse Heart Placeholder 026",
+          "species": "horse",
+          "anatomy_system": "cardiovascular",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=horse+heart+anatomy&type=models",
+          "local_glb_path": "/models/horse/heart_026.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "horse",
+            "heart",
+            "cardiovascular",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": []
+        }
+      ]
+    },
+    {
+      "id": "horse--nervous",
+      "chapter_number": 13,
+      "eyebrow": "Chapter 13",
+      "title": "Horse Nervous",
+      "species": "horse",
+      "species_label": "Horse",
+      "system": "nervous",
+      "system_label": "Nervous",
+      "summary": "Study 1 lesson model, review 0 mapped structures, and work through 0 quiz prompts.",
+      "goals": [
+        "Learn the nervous story for horse.",
+        "Compare available models and open one as the active lesson.",
+        "Use the study notes and quiz prompts to turn the chapter into revision material."
+      ],
+      "stats": {
+        "model_count": 1,
+        "local_model_count": 0,
+        "quiz_count": 0,
+        "structure_count": 0
+      },
+      "models": [
+        {
+          "id": "horse_brain_027",
+          "model_name": "Horse Brain Placeholder 027",
+          "species": "horse",
+          "anatomy_system": "nervous",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=horse+brain+anatomy&type=models",
+          "local_glb_path": "/models/horse/brain_027.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "horse",
+            "brain",
+            "nervous",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": []
+        }
+      ]
+    },
+    {
+      "id": "horse--digestive",
+      "chapter_number": 14,
+      "eyebrow": "Chapter 14",
+      "title": "Horse Digestive",
+      "species": "horse",
+      "species_label": "Horse",
+      "system": "digestive",
+      "system_label": "Digestive",
+      "summary": "Study 6 lesson models, review 0 mapped structures, and work through 0 quiz prompts.",
+      "goals": [
+        "Learn the digestive story for horse.",
+        "Compare available models and open one as the active lesson.",
+        "Use the study notes and quiz prompts to turn the chapter into revision material."
+      ],
+      "stats": {
+        "model_count": 6,
+        "local_model_count": 0,
+        "quiz_count": 0,
+        "structure_count": 0
+      },
+      "models": [
+        {
+          "id": "horse_liver_028",
+          "model_name": "Horse Liver Placeholder 028",
+          "species": "horse",
+          "anatomy_system": "digestive",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=horse+liver+anatomy&type=models",
+          "local_glb_path": "/models/horse/liver_028.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "horse",
+            "liver",
+            "digestive",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": []
+        },
+        {
+          "id": "horse_liver_058",
+          "model_name": "Horse Liver Placeholder 058",
+          "species": "horse",
+          "anatomy_system": "digestive",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=horse+liver+anatomy&type=models",
+          "local_glb_path": "/models/horse/liver_058.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "horse",
+            "liver",
+            "digestive",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": []
+        },
+        {
+          "id": "horse_liver_068",
+          "model_name": "Horse Liver Placeholder 068",
+          "species": "horse",
+          "anatomy_system": "digestive",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=horse+liver+anatomy&type=models",
+          "local_glb_path": "/models/horse/liver_068.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "horse",
+            "liver",
+            "digestive",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": []
+        },
+        {
+          "id": "horse_liver_078",
+          "model_name": "Horse Liver Placeholder 078",
+          "species": "horse",
+          "anatomy_system": "digestive",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=horse+liver+anatomy&type=models",
+          "local_glb_path": "/models/horse/liver_078.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "horse",
+            "liver",
+            "digestive",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": []
+        },
+        {
+          "id": "horse_liver_088",
+          "model_name": "Horse Liver Placeholder 088",
+          "species": "horse",
+          "anatomy_system": "digestive",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=horse+liver+anatomy&type=models",
+          "local_glb_path": "/models/horse/liver_088.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "horse",
+            "liver",
+            "digestive",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": []
+        },
+        {
+          "id": "horse_liver_098",
+          "model_name": "Horse Liver Placeholder 098",
+          "species": "horse",
+          "anatomy_system": "digestive",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=horse+liver+anatomy&type=models",
+          "local_glb_path": "/models/horse/liver_098.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "horse",
+            "liver",
+            "digestive",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": []
+        }
+      ]
+    },
+    {
+      "id": "horse--muscular",
+      "chapter_number": 15,
+      "eyebrow": "Chapter 15",
+      "title": "Horse Muscular",
+      "species": "horse",
+      "species_label": "Horse",
+      "system": "muscular",
+      "system_label": "Muscular",
+      "summary": "Study 2 lesson models, review 0 mapped structures, and work through 0 quiz prompts.",
+      "goals": [
+        "Learn the muscular story for horse.",
+        "Compare available models and open one as the active lesson.",
+        "Use the study notes and quiz prompts to turn the chapter into revision material."
+      ],
+      "stats": {
+        "model_count": 2,
+        "local_model_count": 0,
+        "quiz_count": 0,
+        "structure_count": 0
+      },
+      "models": [
+        {
+          "id": "horse_musculature_029",
+          "model_name": "Horse Musculature Placeholder 029",
+          "species": "horse",
+          "anatomy_system": "muscular",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=horse+musculature+anatomy&type=models",
+          "local_glb_path": "/models/horse/musculature_029.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "horse",
+            "musculature",
+            "muscular",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": []
+        },
+        {
+          "id": "horse_thorax_030",
+          "model_name": "Horse Thorax Placeholder 030",
+          "species": "horse",
+          "anatomy_system": "muscular",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=horse+thorax+anatomy&type=models",
+          "local_glb_path": "/models/horse/thorax_030.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "horse",
+            "thorax",
+            "muscular",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": []
+        }
+      ]
+    },
+    {
+      "id": "pig--skeletal",
+      "chapter_number": 16,
+      "eyebrow": "Chapter 16",
+      "title": "Pig Skeletal",
+      "species": "pig",
+      "species_label": "Pig",
+      "system": "skeletal",
+      "system_label": "Skeletal",
+      "summary": "Study 11 lesson models, review 4 mapped structures, and work through 2 quiz prompts.",
+      "goals": [
+        "Learn the skeletal story for pig.",
+        "Compare available models and open one as the active lesson.",
+        "Use the study notes and quiz prompts to turn the chapter into revision material."
+      ],
+      "stats": {
+        "model_count": 11,
+        "local_model_count": 0,
+        "quiz_count": 2,
+        "structure_count": 4
+      },
+      "models": [
+        {
+          "id": "pig_skeleton_031",
+          "model_name": "Pig Skeleton Placeholder 031",
+          "species": "pig",
+          "anatomy_system": "skeletal",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=pig+skeleton+anatomy&type=models",
+          "local_glb_path": "/models/pig/skeleton_031.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "pig",
+            "skeleton",
+            "skeletal",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": [
+            "femur",
+            "tibia",
+            "radius",
+            "ulna",
+            "skull",
+            "vertebrae"
+          ]
+        },
+        {
+          "id": "pig_skull_032",
+          "model_name": "Pig Skull Placeholder 032",
+          "species": "pig",
+          "anatomy_system": "skeletal",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=pig+skull+anatomy&type=models",
+          "local_glb_path": "/models/pig/skull_032.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "pig",
+            "skull",
+            "skeletal",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": [
+            "femur",
+            "tibia",
+            "radius",
+            "ulna",
+            "skull",
+            "vertebrae"
+          ]
+        },
+        {
+          "id": "pig_forelimb_033",
+          "model_name": "Pig Forelimb Placeholder 033",
+          "species": "pig",
+          "anatomy_system": "skeletal",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=pig+forelimb+anatomy&type=models",
+          "local_glb_path": "/models/pig/forelimb_033.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "pig",
+            "forelimb",
+            "skeletal",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": [
+            "femur",
+            "tibia",
+            "radius",
+            "ulna",
+            "skull",
+            "vertebrae"
+          ]
+        },
+        {
+          "id": "pig_hindlimb_034",
+          "model_name": "Pig Hindlimb Placeholder 034",
+          "species": "pig",
+          "anatomy_system": "skeletal",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=pig+hindlimb+anatomy&type=models",
+          "local_glb_path": "/models/pig/hindlimb_034.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "pig",
+            "hindlimb",
+            "skeletal",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": [
+            "femur",
+            "tibia",
+            "radius",
+            "ulna",
+            "skull",
+            "vertebrae"
+          ]
+        },
+        {
+          "id": "pig_spine_035",
+          "model_name": "Pig Spine Placeholder 035",
+          "species": "pig",
+          "anatomy_system": "skeletal",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=pig+spine+anatomy&type=models",
+          "local_glb_path": "/models/pig/spine_035.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "pig",
+            "spine",
+            "skeletal",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": [
+            "femur",
+            "tibia",
+            "radius",
+            "ulna",
+            "skull",
+            "vertebrae"
+          ]
+        },
+        {
+          "id": "pig_hindlimb_054",
+          "model_name": "Pig Hindlimb Placeholder 054",
+          "species": "pig",
+          "anatomy_system": "skeletal",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=pig+hindlimb+anatomy&type=models",
+          "local_glb_path": "/models/pig/hindlimb_054.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "pig",
+            "hindlimb",
+            "skeletal",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": []
+        },
+        {
+          "id": "pig_hindlimb_064",
+          "model_name": "Pig Hindlimb Placeholder 064",
+          "species": "pig",
+          "anatomy_system": "skeletal",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=pig+hindlimb+anatomy&type=models",
+          "local_glb_path": "/models/pig/hindlimb_064.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "pig",
+            "hindlimb",
+            "skeletal",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": []
+        },
+        {
+          "id": "pig_hindlimb_074",
+          "model_name": "Pig Hindlimb Placeholder 074",
+          "species": "pig",
+          "anatomy_system": "skeletal",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=pig+hindlimb+anatomy&type=models",
+          "local_glb_path": "/models/pig/hindlimb_074.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "pig",
+            "hindlimb",
+            "skeletal",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": []
+        },
+        {
+          "id": "pig_hindlimb_084",
+          "model_name": "Pig Hindlimb Placeholder 084",
+          "species": "pig",
+          "anatomy_system": "skeletal",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=pig+hindlimb+anatomy&type=models",
+          "local_glb_path": "/models/pig/hindlimb_084.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "pig",
+            "hindlimb",
+            "skeletal",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": []
+        },
+        {
+          "id": "pig_hindlimb_094",
+          "model_name": "Pig Hindlimb Placeholder 094",
+          "species": "pig",
+          "anatomy_system": "skeletal",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=pig+hindlimb+anatomy&type=models",
+          "local_glb_path": "/models/pig/hindlimb_094.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "pig",
+            "hindlimb",
+            "skeletal",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": []
+        },
+        {
+          "id": "vetanatmunich_010_skeleton_of_a_pig",
+          "model_name": "skeleton of a pig",
+          "species": "pig",
+          "anatomy_system": "skeletal",
+          "source": "Sketchfab / vetanatMunich",
+          "source_url": "https://sketchfab.com/3d-models/skeleton-of-a-pig-044c0b61e2e24d04a08b9fbd8de3c163",
+          "embed_url": "https://sketchfab.com/models/044c0b61e2e24d04a08b9fbd8de3c163/embed",
+          "sketchfab_uid": "044c0b61e2e24d04a08b9fbd8de3c163",
+          "local_glb_path": "/models/vetanatmunich/skeleton_of_a_pig.glb",
+          "license_usage_notes": "Sketchfab API metadata is available, but this model is not downloadable with the current access. If you obtain it manually, save it as /models/vetanatmunich/skeleton_of_a_pig.glb.",
+          "tags": [
+            "pig",
+            "skeletal",
+            "veterinary_anatomy",
+            "vetanatmunich"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": [],
+          "api_is_downloadable": false,
+          "api_face_count": 1532135,
+          "api_vertex_count": 766835,
+          "api_animation_count": 0,
+          "api_created_at": "2025-07-03T10:08:09.455116",
+          "api_published_at": "2025-07-03T10:16:19.106450",
+          "api_license": null,
+          "registry_notes": "Registry entry only. GLB is not bundled."
+        }
+      ]
+    },
+    {
+      "id": "pig--cardiovascular",
+      "chapter_number": 17,
+      "eyebrow": "Chapter 17",
+      "title": "Pig Cardiovascular",
+      "species": "pig",
+      "species_label": "Pig",
+      "system": "cardiovascular",
+      "system_label": "Cardiovascular",
+      "summary": "Study 1 lesson model, review 0 mapped structures, and work through 0 quiz prompts.",
+      "goals": [
+        "Learn the cardiovascular story for pig.",
+        "Compare available models and open one as the active lesson.",
+        "Use the study notes and quiz prompts to turn the chapter into revision material."
+      ],
+      "stats": {
+        "model_count": 1,
+        "local_model_count": 0,
+        "quiz_count": 0,
+        "structure_count": 0
+      },
+      "models": [
+        {
+          "id": "pig_heart_036",
+          "model_name": "Pig Heart Placeholder 036",
+          "species": "pig",
+          "anatomy_system": "cardiovascular",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=pig+heart+anatomy&type=models",
+          "local_glb_path": "/models/pig/heart_036.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "pig",
+            "heart",
+            "cardiovascular",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": []
+        }
+      ]
+    },
+    {
+      "id": "pig--nervous",
+      "chapter_number": 18,
+      "eyebrow": "Chapter 18",
+      "title": "Pig Nervous",
+      "species": "pig",
+      "species_label": "Pig",
+      "system": "nervous",
+      "system_label": "Nervous",
+      "summary": "Study 1 lesson model, review 0 mapped structures, and work through 0 quiz prompts.",
+      "goals": [
+        "Learn the nervous story for pig.",
+        "Compare available models and open one as the active lesson.",
+        "Use the study notes and quiz prompts to turn the chapter into revision material."
+      ],
+      "stats": {
+        "model_count": 1,
+        "local_model_count": 0,
+        "quiz_count": 0,
+        "structure_count": 0
+      },
+      "models": [
+        {
+          "id": "pig_brain_037",
+          "model_name": "Pig Brain Placeholder 037",
+          "species": "pig",
+          "anatomy_system": "nervous",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=pig+brain+anatomy&type=models",
+          "local_glb_path": "/models/pig/brain_037.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "pig",
+            "brain",
+            "nervous",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": []
+        }
+      ]
+    },
+    {
+      "id": "pig--digestive",
+      "chapter_number": 19,
+      "eyebrow": "Chapter 19",
+      "title": "Pig Digestive",
+      "species": "pig",
+      "species_label": "Pig",
+      "system": "digestive",
+      "system_label": "Digestive",
+      "summary": "Study 1 lesson model, review 0 mapped structures, and work through 0 quiz prompts.",
+      "goals": [
+        "Learn the digestive story for pig.",
+        "Compare available models and open one as the active lesson.",
+        "Use the study notes and quiz prompts to turn the chapter into revision material."
+      ],
+      "stats": {
+        "model_count": 1,
+        "local_model_count": 0,
+        "quiz_count": 0,
+        "structure_count": 0
+      },
+      "models": [
+        {
+          "id": "pig_liver_038",
+          "model_name": "Pig Liver Placeholder 038",
+          "species": "pig",
+          "anatomy_system": "digestive",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=pig+liver+anatomy&type=models",
+          "local_glb_path": "/models/pig/liver_038.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "pig",
+            "liver",
+            "digestive",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": []
+        }
+      ]
+    },
+    {
+      "id": "pig--muscular",
+      "chapter_number": 20,
+      "eyebrow": "Chapter 20",
+      "title": "Pig Muscular",
+      "species": "pig",
+      "species_label": "Pig",
+      "system": "muscular",
+      "system_label": "Muscular",
+      "summary": "Study 7 lesson models, review 0 mapped structures, and work through 0 quiz prompts.",
+      "goals": [
+        "Learn the muscular story for pig.",
+        "Compare available models and open one as the active lesson.",
+        "Use the study notes and quiz prompts to turn the chapter into revision material."
+      ],
+      "stats": {
+        "model_count": 7,
+        "local_model_count": 0,
+        "quiz_count": 0,
+        "structure_count": 0
+      },
+      "models": [
+        {
+          "id": "pig_musculature_039",
+          "model_name": "Pig Musculature Placeholder 039",
+          "species": "pig",
+          "anatomy_system": "muscular",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=pig+musculature+anatomy&type=models",
+          "local_glb_path": "/models/pig/musculature_039.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "pig",
+            "musculature",
+            "muscular",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": []
+        },
+        {
+          "id": "pig_thorax_040",
+          "model_name": "Pig Thorax Placeholder 040",
+          "species": "pig",
+          "anatomy_system": "muscular",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=pig+thorax+anatomy&type=models",
+          "local_glb_path": "/models/pig/thorax_040.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "pig",
+            "thorax",
+            "muscular",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": []
+        },
+        {
+          "id": "pig_musculature_059",
+          "model_name": "Pig Musculature Placeholder 059",
+          "species": "pig",
+          "anatomy_system": "muscular",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=pig+musculature+anatomy&type=models",
+          "local_glb_path": "/models/pig/musculature_059.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "pig",
+            "musculature",
+            "muscular",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": []
+        },
+        {
+          "id": "pig_musculature_069",
+          "model_name": "Pig Musculature Placeholder 069",
+          "species": "pig",
+          "anatomy_system": "muscular",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=pig+musculature+anatomy&type=models",
+          "local_glb_path": "/models/pig/musculature_069.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "pig",
+            "musculature",
+            "muscular",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": []
+        },
+        {
+          "id": "pig_musculature_079",
+          "model_name": "Pig Musculature Placeholder 079",
+          "species": "pig",
+          "anatomy_system": "muscular",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=pig+musculature+anatomy&type=models",
+          "local_glb_path": "/models/pig/musculature_079.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "pig",
+            "musculature",
+            "muscular",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": []
+        },
+        {
+          "id": "pig_musculature_089",
+          "model_name": "Pig Musculature Placeholder 089",
+          "species": "pig",
+          "anatomy_system": "muscular",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=pig+musculature+anatomy&type=models",
+          "local_glb_path": "/models/pig/musculature_089.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "pig",
+            "musculature",
+            "muscular",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": []
+        },
+        {
+          "id": "pig_musculature_099",
+          "model_name": "Pig Musculature Placeholder 099",
+          "species": "pig",
+          "anatomy_system": "muscular",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=pig+musculature+anatomy&type=models",
+          "local_glb_path": "/models/pig/musculature_099.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "pig",
+            "musculature",
+            "muscular",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": []
+        }
+      ]
+    },
+    {
+      "id": "cow--skeletal",
+      "chapter_number": 21,
+      "eyebrow": "Chapter 21",
+      "title": "Cow Skeletal",
+      "species": "cow",
+      "species_label": "Cow",
+      "system": "skeletal",
+      "system_label": "Skeletal",
+      "summary": "Study 10 lesson models, review 0 mapped structures, and work through 0 quiz prompts.",
+      "goals": [
+        "Learn the skeletal story for cow.",
+        "Compare available models and open one as the active lesson.",
+        "Use the study notes and quiz prompts to turn the chapter into revision material."
+      ],
+      "stats": {
+        "model_count": 10,
+        "local_model_count": 0,
+        "quiz_count": 0,
+        "structure_count": 0
+      },
+      "models": [
+        {
+          "id": "cow_skeleton_041",
+          "model_name": "Cow Skeleton Placeholder 041",
+          "species": "cow",
+          "anatomy_system": "skeletal",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=cow+skeleton+anatomy&type=models",
+          "local_glb_path": "/models/cow/skeleton_041.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "cow",
+            "skeleton",
+            "skeletal",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": [
+            "femur",
+            "tibia",
+            "radius",
+            "ulna",
+            "skull",
+            "vertebrae"
+          ]
+        },
+        {
+          "id": "cow_skull_042",
+          "model_name": "Cow Skull Placeholder 042",
+          "species": "cow",
+          "anatomy_system": "skeletal",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=cow+skull+anatomy&type=models",
+          "local_glb_path": "/models/cow/skull_042.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "cow",
+            "skull",
+            "skeletal",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": [
+            "femur",
+            "tibia",
+            "radius",
+            "ulna",
+            "skull",
+            "vertebrae"
+          ]
+        },
+        {
+          "id": "cow_forelimb_043",
+          "model_name": "Cow Forelimb Placeholder 043",
+          "species": "cow",
+          "anatomy_system": "skeletal",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=cow+forelimb+anatomy&type=models",
+          "local_glb_path": "/models/cow/forelimb_043.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "cow",
+            "forelimb",
+            "skeletal",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": [
+            "femur",
+            "tibia",
+            "radius",
+            "ulna",
+            "skull",
+            "vertebrae"
+          ]
+        },
+        {
+          "id": "cow_hindlimb_044",
+          "model_name": "Cow Hindlimb Placeholder 044",
+          "species": "cow",
+          "anatomy_system": "skeletal",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=cow+hindlimb+anatomy&type=models",
+          "local_glb_path": "/models/cow/hindlimb_044.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "cow",
+            "hindlimb",
+            "skeletal",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": [
+            "femur",
+            "tibia",
+            "radius",
+            "ulna",
+            "skull",
+            "vertebrae"
+          ]
+        },
+        {
+          "id": "cow_spine_045",
+          "model_name": "Cow Spine Placeholder 045",
+          "species": "cow",
+          "anatomy_system": "skeletal",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=cow+spine+anatomy&type=models",
+          "local_glb_path": "/models/cow/spine_045.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "cow",
+            "spine",
+            "skeletal",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": [
+            "femur",
+            "tibia",
+            "radius",
+            "ulna",
+            "skull",
+            "vertebrae"
+          ]
+        },
+        {
+          "id": "cow_spine_055",
+          "model_name": "Cow Spine Placeholder 055",
+          "species": "cow",
+          "anatomy_system": "skeletal",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=cow+spine+anatomy&type=models",
+          "local_glb_path": "/models/cow/spine_055.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "cow",
+            "spine",
+            "skeletal",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": []
+        },
+        {
+          "id": "cow_spine_065",
+          "model_name": "Cow Spine Placeholder 065",
+          "species": "cow",
+          "anatomy_system": "skeletal",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=cow+spine+anatomy&type=models",
+          "local_glb_path": "/models/cow/spine_065.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "cow",
+            "spine",
+            "skeletal",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": []
+        },
+        {
+          "id": "cow_spine_075",
+          "model_name": "Cow Spine Placeholder 075",
+          "species": "cow",
+          "anatomy_system": "skeletal",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=cow+spine+anatomy&type=models",
+          "local_glb_path": "/models/cow/spine_075.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "cow",
+            "spine",
+            "skeletal",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": []
+        },
+        {
+          "id": "cow_spine_085",
+          "model_name": "Cow Spine Placeholder 085",
+          "species": "cow",
+          "anatomy_system": "skeletal",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=cow+spine+anatomy&type=models",
+          "local_glb_path": "/models/cow/spine_085.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "cow",
+            "spine",
+            "skeletal",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": []
+        },
+        {
+          "id": "cow_spine_095",
+          "model_name": "Cow Spine Placeholder 095",
+          "species": "cow",
+          "anatomy_system": "skeletal",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=cow+spine+anatomy&type=models",
+          "local_glb_path": "/models/cow/spine_095.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "cow",
+            "spine",
+            "skeletal",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": []
+        }
+      ]
+    },
+    {
+      "id": "cow--cardiovascular",
+      "chapter_number": 22,
+      "eyebrow": "Chapter 22",
+      "title": "Cow Cardiovascular",
+      "species": "cow",
+      "species_label": "Cow",
+      "system": "cardiovascular",
+      "system_label": "Cardiovascular",
+      "summary": "Study 1 lesson model, review 0 mapped structures, and work through 0 quiz prompts.",
+      "goals": [
+        "Learn the cardiovascular story for cow.",
+        "Compare available models and open one as the active lesson.",
+        "Use the study notes and quiz prompts to turn the chapter into revision material."
+      ],
+      "stats": {
+        "model_count": 1,
+        "local_model_count": 0,
+        "quiz_count": 0,
+        "structure_count": 0
+      },
+      "models": [
+        {
+          "id": "cow_heart_046",
+          "model_name": "Cow Heart Placeholder 046",
+          "species": "cow",
+          "anatomy_system": "cardiovascular",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=cow+heart+anatomy&type=models",
+          "local_glb_path": "/models/cow/heart_046.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "cow",
+            "heart",
+            "cardiovascular",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": []
+        }
+      ]
+    },
+    {
+      "id": "cow--nervous",
+      "chapter_number": 23,
+      "eyebrow": "Chapter 23",
+      "title": "Cow Nervous",
+      "species": "cow",
+      "species_label": "Cow",
+      "system": "nervous",
+      "system_label": "Nervous",
+      "summary": "Study 1 lesson model, review 0 mapped structures, and work through 0 quiz prompts.",
+      "goals": [
+        "Learn the nervous story for cow.",
+        "Compare available models and open one as the active lesson.",
+        "Use the study notes and quiz prompts to turn the chapter into revision material."
+      ],
+      "stats": {
+        "model_count": 1,
+        "local_model_count": 0,
+        "quiz_count": 0,
+        "structure_count": 0
+      },
+      "models": [
+        {
+          "id": "cow_brain_047",
+          "model_name": "Cow Brain Placeholder 047",
+          "species": "cow",
+          "anatomy_system": "nervous",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=cow+brain+anatomy&type=models",
+          "local_glb_path": "/models/cow/brain_047.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "cow",
+            "brain",
+            "nervous",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": []
+        }
+      ]
+    },
+    {
+      "id": "cow--digestive",
+      "chapter_number": 24,
+      "eyebrow": "Chapter 24",
+      "title": "Cow Digestive",
+      "species": "cow",
+      "species_label": "Cow",
+      "system": "digestive",
+      "system_label": "Digestive",
+      "summary": "Study 1 lesson model, review 0 mapped structures, and work through 0 quiz prompts.",
+      "goals": [
+        "Learn the digestive story for cow.",
+        "Compare available models and open one as the active lesson.",
+        "Use the study notes and quiz prompts to turn the chapter into revision material."
+      ],
+      "stats": {
+        "model_count": 1,
+        "local_model_count": 0,
+        "quiz_count": 0,
+        "structure_count": 0
+      },
+      "models": [
+        {
+          "id": "cow_liver_048",
+          "model_name": "Cow Liver Placeholder 048",
+          "species": "cow",
+          "anatomy_system": "digestive",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=cow+liver+anatomy&type=models",
+          "local_glb_path": "/models/cow/liver_048.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "cow",
+            "liver",
+            "digestive",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": []
+        }
+      ]
+    },
+    {
+      "id": "cow--muscular",
+      "chapter_number": 25,
+      "eyebrow": "Chapter 25",
+      "title": "Cow Muscular",
+      "species": "cow",
+      "species_label": "Cow",
+      "system": "muscular",
+      "system_label": "Muscular",
+      "summary": "Study 7 lesson models, review 0 mapped structures, and work through 0 quiz prompts.",
+      "goals": [
+        "Learn the muscular story for cow.",
+        "Compare available models and open one as the active lesson.",
+        "Use the study notes and quiz prompts to turn the chapter into revision material."
+      ],
+      "stats": {
+        "model_count": 7,
+        "local_model_count": 0,
+        "quiz_count": 0,
+        "structure_count": 0
+      },
+      "models": [
+        {
+          "id": "cow_musculature_049",
+          "model_name": "Cow Musculature Placeholder 049",
+          "species": "cow",
+          "anatomy_system": "muscular",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=cow+musculature+anatomy&type=models",
+          "local_glb_path": "/models/cow/musculature_049.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "cow",
+            "musculature",
+            "muscular",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": []
+        },
+        {
+          "id": "cow_thorax_050",
+          "model_name": "Cow Thorax Placeholder 050",
+          "species": "cow",
+          "anatomy_system": "muscular",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=cow+thorax+anatomy&type=models",
+          "local_glb_path": "/models/cow/thorax_050.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "cow",
+            "thorax",
+            "muscular",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": []
+        },
+        {
+          "id": "cow_thorax_060",
+          "model_name": "Cow Thorax Placeholder 060",
+          "species": "cow",
+          "anatomy_system": "muscular",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=cow+thorax+anatomy&type=models",
+          "local_glb_path": "/models/cow/thorax_060.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "cow",
+            "thorax",
+            "muscular",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": []
+        },
+        {
+          "id": "cow_thorax_070",
+          "model_name": "Cow Thorax Placeholder 070",
+          "species": "cow",
+          "anatomy_system": "muscular",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=cow+thorax+anatomy&type=models",
+          "local_glb_path": "/models/cow/thorax_070.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "cow",
+            "thorax",
+            "muscular",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": []
+        },
+        {
+          "id": "cow_thorax_080",
+          "model_name": "Cow Thorax Placeholder 080",
+          "species": "cow",
+          "anatomy_system": "muscular",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=cow+thorax+anatomy&type=models",
+          "local_glb_path": "/models/cow/thorax_080.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "cow",
+            "thorax",
+            "muscular",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": []
+        },
+        {
+          "id": "cow_thorax_090",
+          "model_name": "Cow Thorax Placeholder 090",
+          "species": "cow",
+          "anatomy_system": "muscular",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=cow+thorax+anatomy&type=models",
+          "local_glb_path": "/models/cow/thorax_090.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "cow",
+            "thorax",
+            "muscular",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": []
+        },
+        {
+          "id": "cow_thorax_100",
+          "model_name": "Cow Thorax Placeholder 100",
+          "species": "cow",
+          "anatomy_system": "muscular",
+          "source": "External reference placeholder",
+          "source_url": "https://sketchfab.com/search?q=cow+thorax+anatomy&type=models",
+          "local_glb_path": "/models/cow/thorax_100.glb",
+          "license_usage_notes": "Verify license and attribution before downloading/distributing any third-party model.",
+          "tags": [
+            "cow",
+            "thorax",
+            "muscular",
+            "veterinary",
+            "anatomy"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": []
+        }
+      ]
+    },
+    {
+      "id": "cat--pathology",
+      "chapter_number": 26,
+      "eyebrow": "Chapter 26",
+      "title": "Cat Pathology",
+      "species": "cat",
+      "species_label": "Cat",
+      "system": "pathology",
+      "system_label": "Pathology",
+      "summary": "Study 2 lesson models, review 0 mapped structures, and work through 0 quiz prompts.",
+      "goals": [
+        "Learn the pathology story for cat.",
+        "Compare available models and open one as the active lesson.",
+        "Use the study notes and quiz prompts to turn the chapter into revision material."
+      ],
+      "stats": {
+        "model_count": 2,
+        "local_model_count": 0,
+        "quiz_count": 0,
+        "structure_count": 0
+      },
+      "models": [
+        {
+          "id": "vetanatmunich_001_osteophytes_cat",
+          "model_name": "osteophytes cat",
+          "species": "cat",
+          "anatomy_system": "pathology",
+          "source": "Sketchfab / vetanatMunich",
+          "source_url": "https://sketchfab.com/3d-models/osteophytes-cat-335fcc9bc1fa4ec8a246f875e1239113",
+          "embed_url": "https://sketchfab.com/models/335fcc9bc1fa4ec8a246f875e1239113/embed",
+          "sketchfab_uid": "335fcc9bc1fa4ec8a246f875e1239113",
+          "local_glb_path": "/models/vetanatmunich/osteophytes_cat.glb",
+          "license_usage_notes": "Sketchfab API metadata is available, but this model is not downloadable with the current access. If you obtain it manually, save it as /models/vetanatmunich/osteophytes_cat.glb.",
+          "tags": [
+            "cat",
+            "pathology",
+            "veterinary_anatomy",
+            "vetanatmunich"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": [],
+          "api_is_downloadable": false,
+          "api_face_count": 999720,
+          "api_vertex_count": 500389,
+          "api_animation_count": 0,
+          "api_created_at": "2025-12-09T09:44:58.589098",
+          "api_published_at": "2025-12-09T10:51:29.448316",
+          "api_license": null,
+          "registry_notes": "Registry entry only. GLB is not bundled."
+        },
+        {
+          "id": "vetanatmunich_011_mast_cell_leukemia_cat",
+          "model_name": "mast cell leukemia cat",
+          "species": "cat",
+          "anatomy_system": "pathology",
+          "source": "Sketchfab / vetanatMunich",
+          "source_url": "https://sketchfab.com/3d-models/mast-cell-leukemia-cat-6470bcc63aae4b0ba87ee8a64e5cc567",
+          "embed_url": "https://sketchfab.com/models/6470bcc63aae4b0ba87ee8a64e5cc567/embed",
+          "sketchfab_uid": "6470bcc63aae4b0ba87ee8a64e5cc567",
+          "local_glb_path": "/models/vetanatmunich/mast_cell_leukemia_cat.glb",
+          "license_usage_notes": "Sketchfab API metadata is available, but this model is not downloadable with the current access. If you obtain it manually, save it as /models/vetanatmunich/mast_cell_leukemia_cat.glb.",
+          "tags": [
+            "cat",
+            "pathology",
+            "veterinary_anatomy",
+            "vetanatmunich"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": [],
+          "api_is_downloadable": false,
+          "api_face_count": 997170,
+          "api_vertex_count": 498575,
+          "api_animation_count": 0,
+          "api_created_at": "2025-07-03T08:06:25.579968",
+          "api_published_at": "2025-07-03T08:10:00.442147",
+          "api_license": null,
+          "registry_notes": "Registry entry only. GLB is not bundled."
+        }
+      ]
+    },
+    {
+      "id": "bovine--skeletal",
+      "chapter_number": 27,
+      "eyebrow": "Chapter 27",
+      "title": "Bovine Skeletal",
+      "species": "bovine",
+      "species_label": "Bovine",
+      "system": "skeletal",
+      "system_label": "Skeletal",
+      "summary": "Study 2 lesson models, review 0 mapped structures, and work through 0 quiz prompts.",
+      "goals": [
+        "Learn the skeletal story for bovine.",
+        "Compare available models and open one as the active lesson.",
+        "Use the study notes and quiz prompts to turn the chapter into revision material."
+      ],
+      "stats": {
+        "model_count": 2,
+        "local_model_count": 0,
+        "quiz_count": 0,
+        "structure_count": 0
+      },
+      "models": [
+        {
+          "id": "vetanatmunich_002_bovine_actinomycosis_mandibula",
+          "model_name": "bovine actinomycosis mandibula",
+          "species": "bovine",
+          "anatomy_system": "skeletal",
+          "source": "Sketchfab / vetanatMunich",
+          "source_url": "https://sketchfab.com/3d-models/bovine-actinomycosis-mandibula-c45de5c78b6a462ca7ff152afd2ab3e9",
+          "embed_url": "https://sketchfab.com/models/c45de5c78b6a462ca7ff152afd2ab3e9/embed",
+          "sketchfab_uid": "c45de5c78b6a462ca7ff152afd2ab3e9",
+          "local_glb_path": "/models/vetanatmunich/bovine_actinomycosis_mandibula.glb",
+          "license_usage_notes": "Sketchfab API metadata is available, but this model is not downloadable with the current access. If you obtain it manually, save it as /models/vetanatmunich/bovine_actinomycosis_mandibula.glb.",
+          "tags": [
+            "bovine",
+            "skeletal",
+            "veterinary_anatomy",
+            "vetanatmunich"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": [],
+          "api_is_downloadable": false,
+          "api_face_count": 59826,
+          "api_vertex_count": 29717,
+          "api_animation_count": 0,
+          "api_created_at": "2025-12-09T09:27:04.794191",
+          "api_published_at": "2025-12-09T09:35:44.891076",
+          "api_license": null,
+          "registry_notes": "Registry entry only. GLB is not bundled."
+        },
+        {
+          "id": "vetanatmunich_003_cranioschisis_calf",
+          "model_name": "cranioschisis calf",
+          "species": "bovine",
+          "anatomy_system": "skeletal",
+          "source": "Sketchfab / vetanatMunich",
+          "source_url": "https://sketchfab.com/3d-models/cranioschisis-calf-e6dafd32105649209ff403ee3f13980d",
+          "embed_url": "https://sketchfab.com/models/e6dafd32105649209ff403ee3f13980d/embed",
+          "sketchfab_uid": "e6dafd32105649209ff403ee3f13980d",
+          "local_glb_path": "/models/vetanatmunich/cranioschisis_calf.glb",
+          "license_usage_notes": "Sketchfab API metadata is available, but this model is not downloadable with the current access. If you obtain it manually, save it as /models/vetanatmunich/cranioschisis_calf.glb.",
+          "tags": [
+            "bovine",
+            "skeletal",
+            "veterinary_anatomy",
+            "vetanatmunich"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": [],
+          "api_is_downloadable": false,
+          "api_face_count": 59824,
+          "api_vertex_count": 30306,
+          "api_animation_count": 0,
+          "api_created_at": "2025-11-06T10:15:05.109717",
+          "api_published_at": "2025-11-06T10:44:09.957123",
+          "api_license": null,
+          "registry_notes": "Registry entry only. GLB is not bundled."
+        }
+      ]
+    },
+    {
+      "id": "horse--anatomy",
+      "chapter_number": 28,
+      "eyebrow": "Chapter 28",
+      "title": "Horse Anatomy",
+      "species": "horse",
+      "species_label": "Horse",
+      "system": "anatomy",
+      "system_label": "Anatomy",
+      "summary": "Study 1 lesson model, review 0 mapped structures, and work through 0 quiz prompts.",
+      "goals": [
+        "Learn the anatomy story for horse.",
+        "Compare available models and open one as the active lesson.",
+        "Use the study notes and quiz prompts to turn the chapter into revision material."
+      ],
+      "stats": {
+        "model_count": 1,
+        "local_model_count": 0,
+        "quiz_count": 0,
+        "structure_count": 0
+      },
+      "models": [
+        {
+          "id": "vetanatmunich_004_campylognathia_lateralis_foal",
+          "model_name": "campylognathia lateralis foal",
+          "species": "horse",
+          "anatomy_system": "anatomy",
+          "source": "Sketchfab / vetanatMunich",
+          "source_url": "https://sketchfab.com/3d-models/campylognathia-lateralis-foal-9be115f8d5ca46f0a4f1f8e8addf93dc",
+          "embed_url": "https://sketchfab.com/models/9be115f8d5ca46f0a4f1f8e8addf93dc/embed",
+          "sketchfab_uid": "9be115f8d5ca46f0a4f1f8e8addf93dc",
+          "local_glb_path": "/models/vetanatmunich/campylognathia_lateralis_foal.glb",
+          "license_usage_notes": "Sketchfab API metadata is available, but this model is not downloadable with the current access. If you obtain it manually, save it as /models/vetanatmunich/campylognathia_lateralis_foal.glb.",
+          "tags": [
+            "horse",
+            "anatomy",
+            "veterinary_anatomy",
+            "vetanatmunich"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": [],
+          "api_is_downloadable": false,
+          "api_face_count": 79865,
+          "api_vertex_count": 40133,
+          "api_animation_count": 0,
+          "api_created_at": "2025-11-04T14:31:05.466222",
+          "api_published_at": "2025-11-04T14:39:19.507332",
+          "api_license": null,
+          "registry_notes": "Registry entry only. GLB is not bundled."
+        }
+      ]
+    },
+    {
+      "id": "pig--joint_kinematics",
+      "chapter_number": 29,
+      "eyebrow": "Chapter 29",
+      "title": "Pig Joint Kinematics",
+      "species": "pig",
+      "species_label": "Pig",
+      "system": "joint_kinematics",
+      "system_label": "Joint Kinematics",
+      "summary": "Study 1 lesson model, review 0 mapped structures, and work through 0 quiz prompts.",
+      "goals": [
+        "Learn the joint kinematics story for pig.",
+        "Compare available models and open one as the active lesson.",
+        "Use the study notes and quiz prompts to turn the chapter into revision material."
+      ],
+      "stats": {
+        "model_count": 1,
+        "local_model_count": 0,
+        "quiz_count": 0,
+        "structure_count": 0
+      },
+      "models": [
+        {
+          "id": "vetanatmunich_005_congenital_joint_malformations_pig",
+          "model_name": "congenital joint malformations pig",
+          "species": "pig",
+          "anatomy_system": "joint_kinematics",
+          "source": "Sketchfab / vetanatMunich",
+          "source_url": "https://sketchfab.com/3d-models/congenital-joint-malformations-pig-11e4cb5f18d14394ac9c9021e0b6309d",
+          "embed_url": "https://sketchfab.com/models/11e4cb5f18d14394ac9c9021e0b6309d/embed",
+          "sketchfab_uid": "11e4cb5f18d14394ac9c9021e0b6309d",
+          "local_glb_path": "/models/vetanatmunich/congenital_joint_malformations_pig.glb",
+          "license_usage_notes": "Sketchfab API metadata is available, but this model is not downloadable with the current access. If you obtain it manually, save it as /models/vetanatmunich/congenital_joint_malformations_pig.glb.",
+          "tags": [
+            "pig",
+            "joint_kinematics",
+            "veterinary_anatomy",
+            "vetanatmunich"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": [],
+          "api_is_downloadable": false,
+          "api_face_count": 39194,
+          "api_vertex_count": 19592,
+          "api_animation_count": 0,
+          "api_created_at": "2025-11-04T12:21:18.107610",
+          "api_published_at": "2025-11-04T12:28:20.469310",
+          "api_license": null,
+          "registry_notes": "Registry entry only. GLB is not bundled."
+        }
+      ]
+    },
+    {
+      "id": "tiger--skeletal",
+      "chapter_number": 30,
+      "eyebrow": "Chapter 30",
+      "title": "Tiger Skeletal",
+      "species": "tiger",
+      "species_label": "Tiger",
+      "system": "skeletal",
+      "system_label": "Skeletal",
+      "summary": "Study 1 lesson model, review 0 mapped structures, and work through 0 quiz prompts.",
+      "goals": [
+        "Learn the skeletal story for tiger.",
+        "Compare available models and open one as the active lesson.",
+        "Use the study notes and quiz prompts to turn the chapter into revision material."
+      ],
+      "stats": {
+        "model_count": 1,
+        "local_model_count": 0,
+        "quiz_count": 0,
+        "structure_count": 0
+      },
+      "models": [
+        {
+          "id": "vetanatmunich_006_left_femur_tiger",
+          "model_name": "left femur tiger",
+          "species": "tiger",
+          "anatomy_system": "skeletal",
+          "source": "Sketchfab / vetanatMunich",
+          "source_url": "https://sketchfab.com/3d-models/left-femur-tiger-3e080855457c4bf5b9f60333f553301c",
+          "embed_url": "https://sketchfab.com/models/3e080855457c4bf5b9f60333f553301c/embed",
+          "sketchfab_uid": "3e080855457c4bf5b9f60333f553301c",
+          "local_glb_path": "/models/vetanatmunich/left_femur_tiger.glb",
+          "license_usage_notes": "Sketchfab API metadata is available, but this model is not downloadable with the current access. If you obtain it manually, save it as /models/vetanatmunich/left_femur_tiger.glb.",
+          "tags": [
+            "tiger",
+            "skeletal",
+            "veterinary_anatomy",
+            "vetanatmunich"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": [],
+          "api_is_downloadable": false,
+          "api_face_count": 39804,
+          "api_vertex_count": 19878,
+          "api_animation_count": 0,
+          "api_created_at": "2025-10-28T08:05:02.406427",
+          "api_published_at": "2025-10-28T08:26:57.367643",
+          "api_license": null,
+          "registry_notes": "Registry entry only. GLB is not bundled."
+        }
+      ]
+    },
+    {
+      "id": "alpaka--skeletal",
+      "chapter_number": 31,
+      "eyebrow": "Chapter 31",
+      "title": "Alpaka Skeletal",
+      "species": "alpaka",
+      "species_label": "Alpaka",
+      "system": "skeletal",
+      "system_label": "Skeletal",
+      "summary": "Study 1 lesson model, review 0 mapped structures, and work through 0 quiz prompts.",
+      "goals": [
+        "Learn the skeletal story for alpaka.",
+        "Compare available models and open one as the active lesson.",
+        "Use the study notes and quiz prompts to turn the chapter into revision material."
+      ],
+      "stats": {
+        "model_count": 1,
+        "local_model_count": 0,
+        "quiz_count": 0,
+        "structure_count": 0
+      },
+      "models": [
+        {
+          "id": "vetanatmunich_007_skeleton_alpaka",
+          "model_name": "skeleton alpaka",
+          "species": "alpaka",
+          "anatomy_system": "skeletal",
+          "source": "Sketchfab / vetanatMunich",
+          "source_url": "https://sketchfab.com/3d-models/skeleton-alpaka-b978333edf0946c7883d12abdcfc6a11",
+          "embed_url": "https://sketchfab.com/models/b978333edf0946c7883d12abdcfc6a11/embed",
+          "sketchfab_uid": "b978333edf0946c7883d12abdcfc6a11",
+          "local_glb_path": "/models/vetanatmunich/skeleton_alpaka.glb",
+          "license_usage_notes": "Sketchfab API metadata is available, but this model is not downloadable with the current access. If you obtain it manually, save it as /models/vetanatmunich/skeleton_alpaka.glb.",
+          "tags": [
+            "alpaka",
+            "skeletal",
+            "veterinary_anatomy",
+            "vetanatmunich"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": [],
+          "api_is_downloadable": false,
+          "api_face_count": 4908074,
+          "api_vertex_count": 2454009,
+          "api_animation_count": 0,
+          "api_created_at": "2025-10-09T08:15:07.813106",
+          "api_published_at": "2025-10-09T08:28:14.307514",
+          "api_license": null,
+          "registry_notes": "Registry entry only. GLB is not bundled."
+        }
+      ]
+    },
+    {
+      "id": "horse--pathology",
+      "chapter_number": 32,
+      "eyebrow": "Chapter 32",
+      "title": "Horse Pathology",
+      "species": "horse",
+      "species_label": "Horse",
+      "system": "pathology",
+      "system_label": "Pathology",
+      "summary": "Study 1 lesson model, review 0 mapped structures, and work through 0 quiz prompts.",
+      "goals": [
+        "Learn the pathology story for horse.",
+        "Compare available models and open one as the active lesson.",
+        "Use the study notes and quiz prompts to turn the chapter into revision material."
+      ],
+      "stats": {
+        "model_count": 1,
+        "local_model_count": 0,
+        "quiz_count": 0,
+        "structure_count": 0
+      },
+      "models": [
+        {
+          "id": "vetanatmunich_008_foreign_body_wire_horse",
+          "model_name": "foreign body (wire) horse",
+          "species": "horse",
+          "anatomy_system": "pathology",
+          "source": "Sketchfab / vetanatMunich",
+          "source_url": "https://sketchfab.com/3d-models/foreign-body-wire-horse-027e978342124a64be7a8fb3a686ad77",
+          "embed_url": "https://sketchfab.com/models/027e978342124a64be7a8fb3a686ad77/embed",
+          "sketchfab_uid": "027e978342124a64be7a8fb3a686ad77",
+          "local_glb_path": "/models/vetanatmunich/foreign_body_wire_horse.glb",
+          "license_usage_notes": "Sketchfab API metadata is available, but this model is not downloadable with the current access. If you obtain it manually, save it as /models/vetanatmunich/foreign_body_wire_horse.glb.",
+          "tags": [
+            "horse",
+            "pathology",
+            "veterinary_anatomy",
+            "vetanatmunich"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": [],
+          "api_is_downloadable": false,
+          "api_face_count": 932395,
+          "api_vertex_count": 467120,
+          "api_animation_count": 0,
+          "api_created_at": "2025-08-12T12:28:32.912293",
+          "api_published_at": "2025-08-12T13:24:13.917321",
+          "api_license": null,
+          "registry_notes": "Registry entry only. GLB is not bundled."
+        }
+      ]
+    },
+    {
+      "id": "pig--organ_pathology",
+      "chapter_number": 33,
+      "eyebrow": "Chapter 33",
+      "title": "Pig Organ Pathology",
+      "species": "pig",
+      "species_label": "Pig",
+      "system": "organ_pathology",
+      "system_label": "Organ Pathology",
+      "summary": "Study 1 lesson model, review 0 mapped structures, and work through 0 quiz prompts.",
+      "goals": [
+        "Learn the organ pathology story for pig.",
+        "Compare available models and open one as the active lesson.",
+        "Use the study notes and quiz prompts to turn the chapter into revision material."
+      ],
+      "stats": {
+        "model_count": 1,
+        "local_model_count": 0,
+        "quiz_count": 0,
+        "structure_count": 0
+      },
+      "models": [
+        {
+          "id": "vetanatmunich_009_hydronephrosis_pig",
+          "model_name": "hydronephrosis pig",
+          "species": "pig",
+          "anatomy_system": "organ_pathology",
+          "source": "Sketchfab / vetanatMunich",
+          "source_url": "https://sketchfab.com/3d-models/hydronephrosis-pig-48414046f8ad4c8ebff7f9e377691b21",
+          "embed_url": "https://sketchfab.com/models/48414046f8ad4c8ebff7f9e377691b21/embed",
+          "sketchfab_uid": "48414046f8ad4c8ebff7f9e377691b21",
+          "local_glb_path": "/models/vetanatmunich/hydronephrosis_pig.glb",
+          "license_usage_notes": "Sketchfab API metadata is available, but this model is not downloadable with the current access. If you obtain it manually, save it as /models/vetanatmunich/hydronephrosis_pig.glb.",
+          "tags": [
+            "pig",
+            "organ_pathology",
+            "veterinary_anatomy",
+            "vetanatmunich"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": [],
+          "api_is_downloadable": false,
+          "api_face_count": 2498036,
+          "api_vertex_count": 1248139,
+          "api_animation_count": 0,
+          "api_created_at": "2025-08-05T06:41:53.058635",
+          "api_published_at": "2025-08-05T08:10:38.462621",
+          "api_license": null,
+          "registry_notes": "Registry entry only. GLB is not bundled."
+        }
+      ]
+    },
+    {
+      "id": "dog--pathology",
+      "chapter_number": 34,
+      "eyebrow": "Chapter 34",
+      "title": "Dog Pathology",
+      "species": "dog",
+      "species_label": "Dog",
+      "system": "pathology",
+      "system_label": "Pathology",
+      "summary": "Study 1 lesson model, review 0 mapped structures, and work through 0 quiz prompts.",
+      "goals": [
+        "Learn the pathology story for dog.",
+        "Compare available models and open one as the active lesson.",
+        "Use the study notes and quiz prompts to turn the chapter into revision material."
+      ],
+      "stats": {
+        "model_count": 1,
+        "local_model_count": 0,
+        "quiz_count": 0,
+        "structure_count": 0
+      },
+      "models": [
+        {
+          "id": "vetanatmunich_012_lymphadenopathy_in_a_dog",
+          "model_name": "lymphadenopathy in a dog",
+          "species": "dog",
+          "anatomy_system": "pathology",
+          "source": "Sketchfab / vetanatMunich",
+          "source_url": "https://sketchfab.com/3d-models/lymphadenopathy-in-a-dog-171adadc742c4310928c425a1cb64aa3",
+          "embed_url": "https://sketchfab.com/models/171adadc742c4310928c425a1cb64aa3/embed",
+          "sketchfab_uid": "171adadc742c4310928c425a1cb64aa3",
+          "local_glb_path": "/models/vetanatmunich/lymphadenopathy_in_a_dog.glb",
+          "license_usage_notes": "Sketchfab API metadata is available, but this model is not downloadable with the current access. If you obtain it manually, save it as /models/vetanatmunich/lymphadenopathy_in_a_dog.glb.",
+          "tags": [
+            "dog",
+            "pathology",
+            "veterinary_anatomy",
+            "vetanatmunich"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": [],
+          "api_is_downloadable": false,
+          "api_face_count": 998953,
+          "api_vertex_count": 499056,
+          "api_animation_count": 0,
+          "api_created_at": "2025-07-01T10:10:54.545101",
+          "api_published_at": "2025-07-03T07:53:59.681030",
+          "api_license": null,
+          "registry_notes": "Registry entry only. GLB is not bundled."
+        }
+      ]
+    },
+    {
+      "id": "fox--pathology",
+      "chapter_number": 35,
+      "eyebrow": "Chapter 35",
+      "title": "Fox Pathology",
+      "species": "fox",
+      "species_label": "Fox",
+      "system": "pathology",
+      "system_label": "Pathology",
+      "summary": "Study 1 lesson model, review 0 mapped structures, and work through 0 quiz prompts.",
+      "goals": [
+        "Learn the pathology story for fox.",
+        "Compare available models and open one as the active lesson.",
+        "Use the study notes and quiz prompts to turn the chapter into revision material."
+      ],
+      "stats": {
+        "model_count": 1,
+        "local_model_count": 0,
+        "quiz_count": 0,
+        "structure_count": 0
+      },
+      "models": [
+        {
+          "id": "vetanatmunich_013_nodular_and_miliary_tuberculosis_fox",
+          "model_name": "nodular and miliary tuberculosis fox",
+          "species": "fox",
+          "anatomy_system": "pathology",
+          "source": "Sketchfab / vetanatMunich",
+          "source_url": "https://sketchfab.com/3d-models/nodular-and-miliary-tuberculosis-fox-dceec695325648ed9dd091a6d5d98e35",
+          "embed_url": "https://sketchfab.com/models/dceec695325648ed9dd091a6d5d98e35/embed",
+          "sketchfab_uid": "dceec695325648ed9dd091a6d5d98e35",
+          "local_glb_path": "/models/vetanatmunich/nodular_and_miliary_tuberculosis_fox.glb",
+          "license_usage_notes": "Sketchfab API metadata is available, but this model is not downloadable with the current access. If you obtain it manually, save it as /models/vetanatmunich/nodular_and_miliary_tuberculosis_fox.glb.",
+          "tags": [
+            "fox",
+            "pathology",
+            "veterinary_anatomy",
+            "vetanatmunich"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": [],
+          "api_is_downloadable": false,
+          "api_face_count": 994326,
+          "api_vertex_count": 497155,
+          "api_animation_count": 0,
+          "api_created_at": "2025-07-01T10:01:32.620053",
+          "api_published_at": "2025-07-01T10:04:30.029066",
+          "api_license": null,
+          "registry_notes": "Registry entry only. GLB is not bundled."
+        }
+      ]
+    },
+    {
+      "id": "chicken--pathology",
+      "chapter_number": 36,
+      "eyebrow": "Chapter 36",
+      "title": "Chicken Pathology",
+      "species": "chicken",
+      "species_label": "Chicken",
+      "system": "pathology",
+      "system_label": "Pathology",
+      "summary": "Study 1 lesson model, review 0 mapped structures, and work through 0 quiz prompts.",
+      "goals": [
+        "Learn the pathology story for chicken.",
+        "Compare available models and open one as the active lesson.",
+        "Use the study notes and quiz prompts to turn the chapter into revision material."
+      ],
+      "stats": {
+        "model_count": 1,
+        "local_model_count": 0,
+        "quiz_count": 0,
+        "structure_count": 0
+      },
+      "models": [
+        {
+          "id": "vetanatmunich_014_generalized_tuberculosis_chicken",
+          "model_name": "generalized tuberculosis chicken",
+          "species": "chicken",
+          "anatomy_system": "pathology",
+          "source": "Sketchfab / vetanatMunich",
+          "source_url": "https://sketchfab.com/3d-models/generalized-tuberculosis-chicken-1f5903bd3bb0480ea901056bf6978208",
+          "embed_url": "https://sketchfab.com/models/1f5903bd3bb0480ea901056bf6978208/embed",
+          "sketchfab_uid": "1f5903bd3bb0480ea901056bf6978208",
+          "local_glb_path": "/models/vetanatmunich/generalized_tuberculosis_chicken.glb",
+          "license_usage_notes": "Sketchfab API metadata is available, but this model is not downloadable with the current access. If you obtain it manually, save it as /models/vetanatmunich/generalized_tuberculosis_chicken.glb.",
+          "tags": [
+            "chicken",
+            "pathology",
+            "veterinary_anatomy",
+            "vetanatmunich"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": [],
+          "api_is_downloadable": false,
+          "api_face_count": 996870,
+          "api_vertex_count": 498205,
+          "api_animation_count": 0,
+          "api_created_at": "2025-07-01T09:49:08.355565",
+          "api_published_at": "2025-07-01T09:52:49.823376",
+          "api_license": null,
+          "registry_notes": "Registry entry only. GLB is not bundled."
+        }
+      ]
+    },
+    {
+      "id": "bovine--organ_pathology",
+      "chapter_number": 37,
+      "eyebrow": "Chapter 37",
+      "title": "Bovine Organ Pathology",
+      "species": "bovine",
+      "species_label": "Bovine",
+      "system": "organ_pathology",
+      "system_label": "Organ Pathology",
+      "summary": "Study 1 lesson model, review 0 mapped structures, and work through 0 quiz prompts.",
+      "goals": [
+        "Learn the organ pathology story for bovine.",
+        "Compare available models and open one as the active lesson.",
+        "Use the study notes and quiz prompts to turn the chapter into revision material."
+      ],
+      "stats": {
+        "model_count": 1,
+        "local_model_count": 0,
+        "quiz_count": 0,
+        "structure_count": 0
+      },
+      "models": [
+        {
+          "id": "vetanatmunich_015_foot_and_mouth_disease_in_a_bovine_tongue",
+          "model_name": "foot-and-mouth disease in a bovine tongue",
+          "species": "bovine",
+          "anatomy_system": "organ_pathology",
+          "source": "Sketchfab / vetanatMunich",
+          "source_url": "https://sketchfab.com/3d-models/foot-and-mouth-disease-in-a-bovine-tongue-963c86c26a794f12ad2894504ab240f9",
+          "embed_url": "https://sketchfab.com/models/963c86c26a794f12ad2894504ab240f9/embed",
+          "sketchfab_uid": "963c86c26a794f12ad2894504ab240f9",
+          "local_glb_path": "/models/vetanatmunich/foot_and_mouth_disease_in_a_bovine_tongue.glb",
+          "license_usage_notes": "Sketchfab API metadata is available, but this model is not downloadable with the current access. If you obtain it manually, save it as /models/vetanatmunich/foot_and_mouth_disease_in_a_bovine_tongue.glb.",
+          "tags": [
+            "bovine",
+            "organ_pathology",
+            "veterinary_anatomy",
+            "vetanatmunich"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": [],
+          "api_is_downloadable": false,
+          "api_face_count": 999602,
+          "api_vertex_count": 499801,
+          "api_animation_count": 0,
+          "api_created_at": "2025-07-01T08:37:25.189200",
+          "api_published_at": "2025-07-01T08:42:52.640725",
+          "api_license": null,
+          "registry_notes": "Registry entry only. GLB is not bundled."
+        }
+      ]
+    },
+    {
+      "id": "ape--pathology",
+      "chapter_number": 38,
+      "eyebrow": "Chapter 38",
+      "title": "Ape Pathology",
+      "species": "ape",
+      "species_label": "Ape",
+      "system": "pathology",
+      "system_label": "Pathology",
+      "summary": "Study 1 lesson model, review 0 mapped structures, and work through 0 quiz prompts.",
+      "goals": [
+        "Learn the pathology story for ape.",
+        "Compare available models and open one as the active lesson.",
+        "Use the study notes and quiz prompts to turn the chapter into revision material."
+      ],
+      "stats": {
+        "model_count": 1,
+        "local_model_count": 0,
+        "quiz_count": 0,
+        "structure_count": 0
+      },
+      "models": [
+        {
+          "id": "vetanatmunich_016_primary_syphilitic_lesion_ape",
+          "model_name": "primary syphilitic lesion ape",
+          "species": "ape",
+          "anatomy_system": "pathology",
+          "source": "Sketchfab / vetanatMunich",
+          "source_url": "https://sketchfab.com/3d-models/primary-syphilitic-lesion-ape-1b7371febcc442ca8ff5e0a60cec7bff",
+          "embed_url": "https://sketchfab.com/models/1b7371febcc442ca8ff5e0a60cec7bff/embed",
+          "sketchfab_uid": "1b7371febcc442ca8ff5e0a60cec7bff",
+          "local_glb_path": "/models/vetanatmunich/primary_syphilitic_lesion_ape.glb",
+          "license_usage_notes": "Sketchfab API metadata is available, but this model is not downloadable with the current access. If you obtain it manually, save it as /models/vetanatmunich/primary_syphilitic_lesion_ape.glb.",
+          "tags": [
+            "ape",
+            "pathology",
+            "veterinary_anatomy",
+            "vetanatmunich"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": [],
+          "api_is_downloadable": false,
+          "api_face_count": 995664,
+          "api_vertex_count": 497816,
+          "api_animation_count": 0,
+          "api_created_at": "2025-06-26T08:30:52.349771",
+          "api_published_at": "2025-06-26T08:38:40.189109",
+          "api_license": null,
+          "registry_notes": "Registry entry only. GLB is not bundled."
+        }
+      ]
+    },
+    {
+      "id": "human--pathology",
+      "chapter_number": 39,
+      "eyebrow": "Chapter 39",
+      "title": "Human Pathology",
+      "species": "human",
+      "species_label": "Human",
+      "system": "pathology",
+      "system_label": "Pathology",
+      "summary": "Study 1 lesson model, review 0 mapped structures, and work through 0 quiz prompts.",
+      "goals": [
+        "Learn the pathology story for human.",
+        "Compare available models and open one as the active lesson.",
+        "Use the study notes and quiz prompts to turn the chapter into revision material."
+      ],
+      "stats": {
+        "model_count": 1,
+        "local_model_count": 0,
+        "quiz_count": 0,
+        "structure_count": 0
+      },
+      "models": [
+        {
+          "id": "vetanatmunich_017_tuberculosis_cutis_verrucosa_in_a_human",
+          "model_name": "Tuberculosis cutis verrucosa in a human",
+          "species": "human",
+          "anatomy_system": "pathology",
+          "source": "Sketchfab / vetanatMunich",
+          "source_url": "https://sketchfab.com/3d-models/tuberculosis-cutis-verrucosa-in-a-human-d6948d75b0264d67848ac9635107d3bc",
+          "embed_url": "https://sketchfab.com/models/d6948d75b0264d67848ac9635107d3bc/embed",
+          "sketchfab_uid": "d6948d75b0264d67848ac9635107d3bc",
+          "local_glb_path": "/models/vetanatmunich/tuberculosis_cutis_verrucosa_in_a_human.glb",
+          "license_usage_notes": "Sketchfab API metadata is available, but this model is not downloadable with the current access. If you obtain it manually, save it as /models/vetanatmunich/tuberculosis_cutis_verrucosa_in_a_human.glb.",
+          "tags": [
+            "human",
+            "pathology",
+            "veterinary_anatomy",
+            "vetanatmunich"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": [],
+          "api_is_downloadable": false,
+          "api_face_count": 997143,
+          "api_vertex_count": 498067,
+          "api_animation_count": 0,
+          "api_created_at": "2025-06-26T06:20:00.430825",
+          "api_published_at": "2025-06-26T06:53:21.513858",
+          "api_license": null,
+          "registry_notes": "Registry entry only. GLB is not bundled."
+        }
+      ]
+    },
+    {
+      "id": "general--joint_kinematics",
+      "chapter_number": 40,
+      "eyebrow": "Chapter 40",
+      "title": "General Joint Kinematics",
+      "species": "general",
+      "species_label": "General",
+      "system": "joint_kinematics",
+      "system_label": "Joint Kinematics",
+      "summary": "Study 5 lesson models, review 0 mapped structures, and work through 0 quiz prompts.",
+      "goals": [
+        "Learn the joint kinematics story for general.",
+        "Compare available models and open one as the active lesson.",
+        "Use the study notes and quiz prompts to turn the chapter into revision material."
+      ],
+      "stats": {
+        "model_count": 5,
+        "local_model_count": 0,
+        "quiz_count": 0,
+        "structure_count": 0
+      },
+      "models": [
+        {
+          "id": "vetanatmunich_018_spheroid_joint_ball_and_socket_joint",
+          "model_name": "Spheroid joint, ball-and-socket joint",
+          "species": "general",
+          "anatomy_system": "joint_kinematics",
+          "source": "Sketchfab / vetanatMunich",
+          "source_url": "https://sketchfab.com/3d-models/spheroid-joint-ball-and-socket-joint-7920f5cca0a544ac9172730c5335148d",
+          "embed_url": "https://sketchfab.com/models/7920f5cca0a544ac9172730c5335148d/embed",
+          "sketchfab_uid": "7920f5cca0a544ac9172730c5335148d",
+          "local_glb_path": "/models/vetanatmunich/spheroid_joint_ball_and_socket_joint.glb",
+          "license_usage_notes": "Sketchfab API metadata is available, but this model is not downloadable with the current access. If you obtain it manually, save it as /models/vetanatmunich/spheroid_joint_ball_and_socket_joint.glb.",
+          "tags": [
+            "general",
+            "joint_kinematics",
+            "veterinary_anatomy",
+            "vetanatmunich"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": [],
+          "api_is_downloadable": false,
+          "api_face_count": 9818,
+          "api_vertex_count": 6876,
+          "api_animation_count": 1,
+          "api_created_at": "2025-03-30T10:48:49.376414",
+          "api_published_at": "2025-04-01T17:30:23.818470",
+          "api_license": null,
+          "registry_notes": "Registry entry only. GLB is not bundled."
+        },
+        {
+          "id": "vetanatmunich_019_condular_joint",
+          "model_name": "Condular joint",
+          "species": "general",
+          "anatomy_system": "joint_kinematics",
+          "source": "Sketchfab / vetanatMunich",
+          "source_url": "https://sketchfab.com/3d-models/condular-joint-d3207b53e1e246749b04137882b7f25d",
+          "embed_url": "https://sketchfab.com/models/d3207b53e1e246749b04137882b7f25d/embed",
+          "sketchfab_uid": "d3207b53e1e246749b04137882b7f25d",
+          "local_glb_path": "/models/vetanatmunich/condular_joint.glb",
+          "license_usage_notes": "Sketchfab API metadata is available, but this model is not downloadable with the current access. If you obtain it manually, save it as /models/vetanatmunich/condular_joint.glb.",
+          "tags": [
+            "general",
+            "joint_kinematics",
+            "veterinary_anatomy",
+            "vetanatmunich"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": [],
+          "api_is_downloadable": false,
+          "api_face_count": 6082,
+          "api_vertex_count": 4984,
+          "api_animation_count": 1,
+          "api_created_at": "2025-03-28T14:53:54.750637",
+          "api_published_at": "2025-04-01T17:30:18.953950",
+          "api_license": null,
+          "registry_notes": "Registry entry only. GLB is not bundled."
+        },
+        {
+          "id": "vetanatmunich_020_ellipsoid_joint",
+          "model_name": "Ellipsoid joint",
+          "species": "general",
+          "anatomy_system": "joint_kinematics",
+          "source": "Sketchfab / vetanatMunich",
+          "source_url": "https://sketchfab.com/3d-models/ellipsoid-joint-1eca7d7679874774822234f702b11e17",
+          "embed_url": "https://sketchfab.com/models/1eca7d7679874774822234f702b11e17/embed",
+          "sketchfab_uid": "1eca7d7679874774822234f702b11e17",
+          "local_glb_path": "/models/vetanatmunich/ellipsoid_joint.glb",
+          "license_usage_notes": "Sketchfab API metadata is available, but this model is not downloadable with the current access. If you obtain it manually, save it as /models/vetanatmunich/ellipsoid_joint.glb.",
+          "tags": [
+            "general",
+            "joint_kinematics",
+            "veterinary_anatomy",
+            "vetanatmunich"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": [],
+          "api_is_downloadable": false,
+          "api_face_count": 8820,
+          "api_vertex_count": 6366,
+          "api_animation_count": 1,
+          "api_created_at": "2025-03-30T17:13:02.413280",
+          "api_published_at": "2025-04-01T17:30:13.771764",
+          "api_license": null,
+          "registry_notes": "Registry entry only. GLB is not bundled."
+        },
+        {
+          "id": "vetanatmunich_021_saddle_joint",
+          "model_name": "Saddle joint",
+          "species": "general",
+          "anatomy_system": "joint_kinematics",
+          "source": "Sketchfab / vetanatMunich",
+          "source_url": "https://sketchfab.com/3d-models/saddle-joint-6c6b892a677243e1b664741d5b25482a",
+          "embed_url": "https://sketchfab.com/models/6c6b892a677243e1b664741d5b25482a/embed",
+          "sketchfab_uid": "6c6b892a677243e1b664741d5b25482a",
+          "local_glb_path": "/models/vetanatmunich/saddle_joint.glb",
+          "license_usage_notes": "Sketchfab API metadata is available, but this model is not downloadable with the current access. If you obtain it manually, save it as /models/vetanatmunich/saddle_joint.glb.",
+          "tags": [
+            "general",
+            "joint_kinematics",
+            "veterinary_anatomy",
+            "vetanatmunich"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": [],
+          "api_is_downloadable": false,
+          "api_face_count": 8744,
+          "api_vertex_count": 6326,
+          "api_animation_count": 1,
+          "api_created_at": "2025-03-30T18:21:25.858219",
+          "api_published_at": "2025-04-01T17:30:09.296516",
+          "api_license": null,
+          "registry_notes": "Registry entry only. GLB is not bundled."
+        },
+        {
+          "id": "vetanatmunich_022_pivot_joint",
+          "model_name": "Pivot joint",
+          "species": "general",
+          "anatomy_system": "joint_kinematics",
+          "source": "Sketchfab / vetanatMunich",
+          "source_url": "https://sketchfab.com/3d-models/pivot-joint-9bd1999c628b4411abc85de32ed52583",
+          "embed_url": "https://sketchfab.com/models/9bd1999c628b4411abc85de32ed52583/embed",
+          "sketchfab_uid": "9bd1999c628b4411abc85de32ed52583",
+          "local_glb_path": "/models/vetanatmunich/pivot_joint.glb",
+          "license_usage_notes": "Sketchfab API metadata is available, but this model is not downloadable with the current access. If you obtain it manually, save it as /models/vetanatmunich/pivot_joint.glb.",
+          "tags": [
+            "general",
+            "joint_kinematics",
+            "veterinary_anatomy",
+            "vetanatmunich"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": [],
+          "api_is_downloadable": false,
+          "api_face_count": 6400,
+          "api_vertex_count": 5147,
+          "api_animation_count": 1,
+          "api_created_at": "2025-03-31T06:44:45.392069",
+          "api_published_at": "2025-04-01T17:30:00.919397",
+          "api_license": null,
+          "registry_notes": "Registry entry only. GLB is not bundled."
+        }
+      ]
+    },
+    {
+      "id": "horse--joint_kinematics",
+      "chapter_number": 41,
+      "eyebrow": "Chapter 41",
+      "title": "Horse Joint Kinematics",
+      "species": "horse",
+      "species_label": "Horse",
+      "system": "joint_kinematics",
+      "system_label": "Joint Kinematics",
+      "summary": "Study 1 lesson model, review 0 mapped structures, and work through 0 quiz prompts.",
+      "goals": [
+        "Learn the joint kinematics story for horse.",
+        "Compare available models and open one as the active lesson.",
+        "Use the study notes and quiz prompts to turn the chapter into revision material."
+      ],
+      "stats": {
+        "model_count": 1,
+        "local_model_count": 0,
+        "quiz_count": 0,
+        "structure_count": 0
+      },
+      "models": [
+        {
+          "id": "vetanatmunich_023_equine_reciprocal_apparatus_animation",
+          "model_name": "Equine reciprocal apparatus - animation",
+          "species": "horse",
+          "anatomy_system": "joint_kinematics",
+          "source": "Sketchfab / vetanatMunich",
+          "source_url": "https://sketchfab.com/3d-models/equine-reciprocal-apparatus-animation-a46d36e702ba4f2d859f97bc2e76083f",
+          "embed_url": "https://sketchfab.com/models/a46d36e702ba4f2d859f97bc2e76083f/embed",
+          "sketchfab_uid": "a46d36e702ba4f2d859f97bc2e76083f",
+          "local_glb_path": "/models/vetanatmunich/equine_reciprocal_apparatus_animation.glb",
+          "license_usage_notes": "Sketchfab API metadata is available, but this model is not downloadable with the current access. If you obtain it manually, save it as /models/vetanatmunich/equine_reciprocal_apparatus_animation.glb.",
+          "tags": [
+            "horse",
+            "joint_kinematics",
+            "veterinary_anatomy",
+            "vetanatmunich"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": [],
+          "api_is_downloadable": false,
+          "api_face_count": 32480,
+          "api_vertex_count": 13616,
+          "api_animation_count": 1,
+          "api_created_at": "2025-03-27T13:59:39.522146",
+          "api_published_at": "2025-04-01T17:29:53.106555",
+          "api_license": null,
+          "registry_notes": "Registry entry only. GLB is not bundled."
+        }
+      ]
+    },
+    {
+      "id": "goat--skeletal",
+      "chapter_number": 42,
+      "eyebrow": "Chapter 42",
+      "title": "Goat Skeletal",
+      "species": "goat",
+      "species_label": "Goat",
+      "system": "skeletal",
+      "system_label": "Skeletal",
+      "summary": "Study 1 lesson model, review 0 mapped structures, and work through 0 quiz prompts.",
+      "goals": [
+        "Learn the skeletal story for goat.",
+        "Compare available models and open one as the active lesson.",
+        "Use the study notes and quiz prompts to turn the chapter into revision material."
+      ],
+      "stats": {
+        "model_count": 1,
+        "local_model_count": 0,
+        "quiz_count": 0,
+        "structure_count": 0
+      },
+      "models": [
+        {
+          "id": "vetanatmunich_024_skeleton_of_a_billy_goat_annotation_of_trunk",
+          "model_name": "skeleton of a billy-goat - annotation of trunk",
+          "species": "goat",
+          "anatomy_system": "skeletal",
+          "source": "Sketchfab / vetanatMunich",
+          "source_url": "https://sketchfab.com/3d-models/skeleton-of-a-billy-goat-annotation-of-trunk-db5f72277d0a48209629348b3a826340",
+          "embed_url": "https://sketchfab.com/models/db5f72277d0a48209629348b3a826340/embed",
+          "sketchfab_uid": "db5f72277d0a48209629348b3a826340",
+          "local_glb_path": "/models/vetanatmunich/skeleton_of_a_billy_goat_annotation_of_trunk.glb",
+          "license_usage_notes": "Sketchfab API metadata is available, but this model is not downloadable with the current access. If you obtain it manually, save it as /models/vetanatmunich/skeleton_of_a_billy_goat_annotation_of_trunk.glb.",
+          "tags": [
+            "goat",
+            "skeletal",
+            "veterinary_anatomy",
+            "vetanatmunich"
+          ],
+          "download_status": "external_only",
+          "mode": "external_until_downloaded",
+          "clickable_nodes": [],
+          "api_is_downloadable": false,
+          "api_face_count": 1158901,
+          "api_vertex_count": 587668,
+          "api_animation_count": 0,
+          "api_created_at": "2025-02-05T10:11:46.116296",
+          "api_published_at": "2025-02-08T12:02:04.681546",
+          "api_license": null,
+          "registry_notes": "Registry entry only. GLB is not bundled."
+        }
+      ]
+    }
+  ]
+};
