@@ -1,0 +1,27 @@
+[
+  {
+    "id": "dog",
+    "label": "Dog",
+    "scientific_name": "Canis lupus familiaris"
+  },
+  {
+    "id": "cat",
+    "label": "Cat",
+    "scientific_name": "Felis catus"
+  },
+  {
+    "id": "horse",
+    "label": "Horse",
+    "scientific_name": "Equus caballus"
+  },
+  {
+    "id": "pig",
+    "label": "Pig",
+    "scientific_name": "Sus scrofa domesticus"
+  },
+  {
+    "id": "cow",
+    "label": "Cow",
+    "scientific_name": "Bos taurus"
+  }
+]

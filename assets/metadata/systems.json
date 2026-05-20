@@ -1,0 +1,22 @@
+[
+  {
+    "id": "skeletal",
+    "label": "Skeletal"
+  },
+  {
+    "id": "muscular",
+    "label": "Muscular"
+  },
+  {
+    "id": "cardiovascular",
+    "label": "Cardiovascular"
+  },
+  {
+    "id": "nervous",
+    "label": "Nervous"
+  },
+  {
+    "id": "digestive",
+    "label": "Digestive"
+  }
+]
